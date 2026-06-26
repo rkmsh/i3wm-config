@@ -1,0 +1,14 @@
+2026-06-20 15:52:14.239 [info] Getting Manifest... meta.pyrefly
+2026-06-20 15:52:15.076 [info] Installing extension: meta.pyrefly {"productVersion":{"version":"1.107.0","date":"2026-06-02T00:22:56.234Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beast/.antigravity-ide/extensions/extensions.json","path":"/home/beast/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-06-20 15:52:22.639 [info] Extracted extension to file:///home/beast/.antigravity-ide/extensions/meta.pyrefly-1.1.1-linux-x64: meta.pyrefly
+2026-06-20 15:52:22.662 [info] Renamed to /home/beast/.antigravity-ide/extensions/meta.pyrefly-1.1.1-linux-x64
+2026-06-20 15:52:22.706 [info] Marked extension as removed meta.pyrefly-1.0.0-linux-x64
+2026-06-20 15:52:22.712 [info] Extension installed successfully: meta.pyrefly vscode-userdata:/home/beast/.antigravity-ide/extensions/extensions.json
+2026-06-20 15:52:22.713 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at fl.value (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:75078)
+    at z._deliver (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2894)
+    at z._deliverQueue (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2985)
+    at z.fire (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:3321)
+    at Y1.installExtensions (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:12772)
+    at async Y1.installGalleryExtensions (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:3360)
+    at async Y1.installFromGallery (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:2507)

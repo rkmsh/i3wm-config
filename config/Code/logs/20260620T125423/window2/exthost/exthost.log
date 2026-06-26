@@ -1,0 +1,79 @@
+2026-06-20 12:54:37.314 [info] Extension host with pid 75549 started
+2026-06-20 12:54:37.394 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-20 12:54:37.461 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-20 12:54:37.470 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-20 12:54:37.571 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-20 12:54:37.800 [info] Eager extensions activated
+2026-06-20 12:54:37.862 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-20 12:54:37.867 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-20 12:54:42.354 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-20 12:55:01.503 [info] ExtensionService#_doActivateExtension bruno-api-client.bruno, startup: false, activationEvent: 'onView:bruno.sidebarView'
+2026-06-20 12:55:37.130 [error] Error: Webview is disposed
+	at AY.c (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89957)
+	at get webview (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89124)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2759:6290)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at AY.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89023)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2759:6965)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at UZ.$onMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:104496)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123150)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-20 12:55:56.737 [error] Error: Webview is disposed
+	at AY.c (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89957)
+	at get webview (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89124)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:1001)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at AY.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89023)
+	at YN.$onDidDisposeWebviewPanel (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:90994)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123017)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-20 12:57:48.777 [error] Error: Webview is disposed
+	at AY.c (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89957)
+	at get webview (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89124)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:6369)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at AY.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89023)
+	at dea (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:9617)
+	at async _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:8744)
+2026-06-20 13:27:07.653 [error] Error: Webview is disposed
+	at AY.c (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89957)
+	at get webview (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89124)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:6369)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at AY.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:89023)
+	at dea (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:9617)
+	at async _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:8744)
+2026-06-20 14:54:27.768 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-20 14:54:27.826 [info] Extension host with pid 75549 exiting with code 0

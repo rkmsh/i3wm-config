@@ -1,0 +1,91 @@
+2026-06-24 02:52:18.717 [info] [main] Log level: Info
+2026-06-24 02:52:18.717 [info] [main] Validating found git in: "git"
+2026-06-24 02:52:18.717 [info] [main] Using git "2.53.0" from "git"
+2026-06-24 02:52:18.717 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-24 02:52:18.717 [info] > git rev-parse --show-toplevel [24ms]
+2026-06-24 02:52:18.717 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:52:18.717 [info] > git rev-parse --show-toplevel [94ms]
+2026-06-24 02:52:18.717 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:52:18.721 [info] > git rev-parse --show-toplevel [28ms]
+2026-06-24 02:52:18.721 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:52:18.783 [info] > git rev-parse --show-toplevel [7ms]
+2026-06-24 02:52:18.815 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [19ms]
+2026-06-24 02:52:18.839 [info] [Model][openRepository] Opened repository (path): /thm/web-app/jwt_tool
+2026-06-24 02:52:18.839 [info] [Model][openRepository] Opened repository (real path): /thm/web-app/jwt_tool
+2026-06-24 02:52:18.839 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-24 02:52:18.864 [info] > git rev-parse --show-toplevel [5ms]
+2026-06-24 02:52:18.864 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:52:18.865 [info] > git config --get commit.template [13ms]
+2026-06-24 02:52:18.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-06-24 02:52:18.886 [info] > git rev-parse --show-toplevel [15ms]
+2026-06-24 02:52:18.886 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:52:18.892 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-24 02:52:18.902 [info] > git rev-parse refs/remotes/origin/master [10ms]
+2026-06-24 02:52:18.926 [info] > git status -z -uall [15ms]
+2026-06-24 02:52:18.927 [info] > git rev-parse --show-toplevel [29ms]
+2026-06-24 02:52:18.934 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-06-24 02:52:18.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-06-24 02:52:18.970 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [37ms]
+2026-06-24 02:52:18.977 [info] [Model][openRepository] Opened repository (path): /thm/web-app/waybackurls
+2026-06-24 02:52:18.978 [info] [Model][openRepository] Opened repository (real path): /thm/web-app/waybackurls
+2026-06-24 02:52:18.978 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-24 02:52:18.980 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-24 02:52:18.992 [info] > git config --get --local branch.master.vscode-merge-base [21ms]
+2026-06-24 02:52:19.000 [info] > git config --get commit.template [37ms]
+2026-06-24 02:52:19.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [8ms]
+2026-06-24 02:52:19.016 [info] > git config --get commit.template [28ms]
+2026-06-24 02:52:19.048 [info] > git merge-base refs/heads/master refs/remotes/origin/master [33ms]
+2026-06-24 02:52:19.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [65ms]
+2026-06-24 02:52:19.137 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-24 02:52:19.139 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [53ms]
+2026-06-24 02:52:19.143 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3bc7407cf2222d6a821dcc19c776e5a1b1cb9a9b...refs/remotes/origin/master -- [80ms]
+2026-06-24 02:52:19.160 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-24 02:52:19.161 [info] > git rev-parse refs/remotes/origin/master [24ms]
+2026-06-24 02:52:19.181 [info] > git status -z -uall [12ms]
+2026-06-24 02:52:19.181 [info] > git rev-parse refs/remotes/origin/master [21ms]
+2026-06-24 02:52:19.194 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-06-24 02:52:19.202 [info] > git status -z -uall [15ms]
+2026-06-24 02:52:19.206 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-06-24 02:52:19.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2026-06-24 02:52:19.267 [info] > git config --get --local branch.master.vscode-merge-base [21ms]
+2026-06-24 02:52:19.278 [info] > git config --get commit.template [44ms]
+2026-06-24 02:52:19.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2026-06-24 02:52:19.306 [info] > git merge-base refs/heads/master refs/remotes/origin/master [16ms]
+2026-06-24 02:52:19.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2026-06-24 02:52:19.332 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-24 02:52:19.333 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 8d27cf3e3031de01179e8ba9127e968eb01008e9...refs/remotes/origin/master -- [10ms]
+2026-06-24 02:52:19.334 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2026-06-24 02:52:19.355 [info] > git status -z -uall [9ms]
+2026-06-24 02:52:19.356 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-24 02:52:19.534 [info] > git check-ignore -v -z --stdin [22ms]
+2026-06-24 02:52:19.534 [info] > git check-ignore -v -z --stdin [18ms]
+2026-06-24 02:52:23.308 [info] > git config --get commit.template [3ms]
+2026-06-24 02:52:23.308 [info] > git config --get commit.template [55ms]
+2026-06-24 02:52:23.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2026-06-24 02:52:23.391 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-24 02:52:23.391 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2026-06-24 02:52:23.408 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-24 02:52:23.409 [info] > git rev-parse refs/remotes/origin/master [18ms]
+2026-06-24 02:52:23.435 [info] > git status -z -uall [17ms]
+2026-06-24 02:52:23.436 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-06-24 02:52:23.438 [info] > git rev-parse refs/remotes/origin/master [30ms]
+2026-06-24 02:52:23.457 [info] > git status -z -uall [13ms]
+2026-06-24 02:52:23.465 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-06-24 02:52:26.244 [info] > git rev-parse --show-toplevel [22ms]
+2026-06-24 02:52:26.244 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:53:18.237 [info] > git rev-parse --show-toplevel [20ms]
+2026-06-24 02:53:18.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:53:20.238 [info] > git rev-parse --show-toplevel [5ms]
+2026-06-24 02:53:20.238 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-24 02:54:30.606 [info] > git config --get commit.template [9ms]
+2026-06-24 02:54:30.627 [info] > git config --get commit.template [21ms]
+2026-06-24 02:54:30.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2026-06-24 02:54:30.634 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-24 02:54:30.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-06-24 02:54:30.642 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-24 02:54:30.643 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2026-06-24 02:54:30.657 [info] > git status -z -uall [8ms]
+2026-06-24 02:54:30.657 [info] > git rev-parse refs/remotes/origin/master [15ms]
+2026-06-24 02:54:30.673 [info] > git status -z -uall [10ms]
+2026-06-24 02:54:30.675 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2026-06-24 02:54:30.680 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]

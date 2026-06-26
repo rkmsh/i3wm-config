@@ -1,0 +1,66 @@
+2026-04-12 11:42:22.460 [info] Started local extension host with pid 18640.
+2026-04-12 11:42:23.142 [info] MCP Registry configured: https://api.mcp.github.com
+2026-04-12 11:42:26.892 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-12 11:42:28.458 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///usr/share/code/resources/app/out/main.js:30:64420)
+    at new ld (file:///usr/share/code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///usr/share/code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///usr/share/code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///usr/share/code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///usr/share/code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///usr/share/code/resources/app/out/main.js:31:14405)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:31:13807)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2615)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5389)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5577)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at N (file:///usr/share/code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-04-12 11:42:28.906 [info] [perf] Render performance baseline is 35ms
+2026-04-12 11:42:30.492 [info] Auto updating outdated extensions. ms-python.python, ms-python.vscode-pylance, ms-python.vscode-python-envs
+2026-04-12 11:42:38.288 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-04-12 11:42:38.552 [info] Started local extension host with pid 19469.
+2026-04-12 11:42:39.370 [info] MCP Registry configured: https://api.mcp.github.com
+2026-04-12 11:42:39.910 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-12 11:42:41.149 [info] [perf] Render performance baseline is 23ms
+2026-04-12 11:42:42.754 [info] Auto updating outdated extensions. ms-python.python, ms-python.vscode-pylance
+2026-04-12 11:42:50.681 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-04-12 11:42:57.953 [error] Unknown error while installing extension ms-python.vscode-pylance: Unknown: Unknown error while installing extension ms-python.vscode-pylance
+    at Bh.installFromGallery (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1669)
+2026-04-12 11:43:02.419 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)
+    at async Hh.h (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:80564)
+2026-04-12 11:43:09.866 [info] Started local extension host with pid 20284.
+2026-04-12 11:43:10.079 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///usr/share/code/resources/app/out/main.js:30:64420)
+    at new ld (file:///usr/share/code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///usr/share/code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///usr/share/code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///usr/share/code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///usr/share/code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///usr/share/code/resources/app/out/main.js:31:14405)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:31:13807)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2615)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5389)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5577)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at N (file:///usr/share/code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-04-12 11:47:30.676 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-12 20:57:39.708 [warning] Failed to fetch chat participant registry Offline

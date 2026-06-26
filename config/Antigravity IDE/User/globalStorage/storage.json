@@ -1,0 +1,88 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "df980966347845a7191517b5eaa55aff3c5485d49d29ee5fbb52634c60c90f2c",
+    "telemetry.devDeviceId": "84e88750-e98d-4e65-81e0-bac09be9ddcf",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/beast/dev/my-zsh-aliases"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/beast/dev/my-zsh-aliases": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "unifiedStateSync.hasTrajectorySummariesMigrated": true,
+    "overrideStore.migratedSecureMode": true,
+    "antigravityUnifiedStateSync.browserPreferences.hasAddedLocalhostToAllowlist": true,
+    "unifiedStateSync.hasWindowPreferencesMigrated": true,
+    "antigravityUnifiedStateSync.oauthToken.hasLegacyMigrated": true,
+    "antigravityUnifiedStateSync.browserPreferences.hasBrowserAllowlistMigrated": true,
+    "unifiedStateSync.hasUserStatusMigrated": true,
+    "sidebarWorkspaces.migratedFromInitState": true,
+    "sidebarWorkspaces.cleanedUpEmptyScratchWorkspaces": true,
+    "antigravityUnifiedStateSync.seenNuxOneTimeMigration": true,
+    "artifactReviewState.migratedFromInitState": true,
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 42,
+            "sideBarWidth": 220,
+            "auxiliaryBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/beast/dev/my-zsh-aliases",
+            "backupPath": "/home/beast/.config/Antigravity IDE/Backups/194725d87991c7ba4221b02524f41629",
+            "uiState": {
+                "mode": 0,
+                "x": 40,
+                "y": 35,
+                "width": 1200,
+                "height": 685
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 220,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "92b6de106a16d13f60501cafde3c15b1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

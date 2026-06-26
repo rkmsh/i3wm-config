@@ -1,0 +1,30 @@
+{
+  "environment": {
+    "executable": "/usr/bin/python2",
+    "prefix": "/usr",
+    "version": "2.7.18.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/usr/bin/python2",
+      "/usr/bin/python2.7"
+    ]
+  },
+  "symlinks": [
+    [
+      "/usr/bin/python2",
+      {
+        "secs_since_epoch": 1659335035,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/usr/bin/python2.7",
+      {
+        "secs_since_epoch": 1659335035,
+        "nanos_since_epoch": 0
+      },
+      null
+    ]
+  ]
+}

@@ -1,0 +1,2 @@
+{"time":"2026-06-19T22:51:18.199872483-04:00","level":"INFO","msg":"Database connection established","dsn":"/home/beast/.config/amass/assetdb.db?_pragma=busy_timeout(30000)&_pragma=journal_mode(WAL)","session":"efaf08d9-2a04-4911-9b12-a4b5f0e671f1"}
+{"time":"2026-06-19T22:51:19.068815479-04:00","level":"INFO","msg":"TXT record discovered","session":"efaf08d9-2a04-4911-9b12-a4b5f0e671f1","fqdn":"tryhackme.com","txt":"zapier-domain-verification-challenge=267a6fd6-7041-48fe-ba4b-02d72fe60413","plugin":{"name":"DNS","handler":"DNS-TXT"}}

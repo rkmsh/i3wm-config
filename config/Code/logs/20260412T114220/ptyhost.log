@@ -1,0 +1,6 @@
+2026-04-12 11:42:23.141 [info] Revived process, old id fad14ed297635108b7557a4a190c024d-2 -> new id 1
+2026-04-12 11:42:23.674 [info] Expanding terminal instance, old id fad14ed297635108b7557a4a190c024d-2 -> new id 1
+2026-04-12 11:42:24.849 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2026-04-12 11:42:24.849 [info] Persistent process reconnection "1"
+2026-04-12 11:42:25.035 [error] Failed to set sticky bit on /tmp/beast-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/beast-code-zsh'
+2026-04-12 11:42:25.098 [info] Persistent process "1": Replaying 524 chars and 1 size events

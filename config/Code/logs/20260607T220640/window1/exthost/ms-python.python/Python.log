@@ -1,0 +1,116 @@
+2026-06-07 22:11:28.088 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-06-07 22:11:28.165 [info] [test-by-project] Activating project-based testing mode
+2026-06-07 22:11:28.165 [info] [test-by-project] Discovering projects for workspace: /home/beast/dev/my-zsh-aliases
+2026-06-07 22:11:28.165 [info] Native locator: Refresh started
+2026-06-07 22:11:28.165 [info] [test-by-project] Found 1 total Python projects from API
+2026-06-07 22:11:28.165 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-06-07 22:11:28.165 [info] [test-by-project] Creating adapter for: my-zsh-aliases at file:///home/beast/dev/my-zsh-aliases
+2026-06-07 22:11:28.168 [info] Native locator: Refresh started
+2026-06-07 22:11:28.805 [info] [test-by-project] Registered 1 project(s) for /home/beast/dev/my-zsh-aliases
+2026-06-07 22:11:28.816 [info] [test-by-project] Activated 1 project(s) for /home/beast/dev/my-zsh-aliases
+2026-06-07 22:11:28.816 [info] [test-by-project] Subscribed to Python project changes
+2026-06-07 22:11:29.230 [info] Native locator: Refresh finished in 1066 ms
+2026-06-07 22:11:29.241 [info] > ~/.pyenv/bin/pyenv which python
+2026-06-07 22:11:29.241 [info] cwd: .
+2026-06-07 22:11:29.318 [info] Active interpreter [/home/beast/dev/my-zsh-aliases]:  /usr/bin/python
+2026-06-07 22:11:31.710 [info] Starting Pylance language server.
+2026-06-07 22:23:02.880 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-06-07 22:23:03.185 [info] [test-by-project] Activating project-based testing mode
+2026-06-07 22:23:03.185 [info] [test-by-project] Discovering projects for workspace: /home/beast/dev/my-zsh-aliases
+2026-06-07 22:23:03.186 [info] Native locator: Refresh started
+2026-06-07 22:23:03.186 [info] [test-by-project] Found 1 total Python projects from API
+2026-06-07 22:23:03.186 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-06-07 22:23:03.186 [info] [test-by-project] Creating adapter for: my-zsh-aliases at file:///home/beast/dev/my-zsh-aliases
+2026-06-07 22:23:03.423 [info] > ~/.pyenv/bin/pyenv which python
+2026-06-07 22:23:03.423 [info] cwd: .
+2026-06-07 22:23:03.786 [info] Active interpreter [/home/beast/dev/my-zsh-aliases]:  /usr/bin/python
+2026-06-07 22:23:03.786 [info] [test-by-project] Registered 1 project(s) for /home/beast/dev/my-zsh-aliases
+2026-06-07 22:23:03.793 [info] [test-by-project] Activated 1 project(s) for /home/beast/dev/my-zsh-aliases
+2026-06-07 22:23:03.795 [info] [test-by-project] Subscribed to Python project changes
+2026-06-07 22:23:05.347 [info] Native locator: Refresh finished in 2164 ms
+2026-06-07 22:23:06.503 [info] Starting Pylance language server.
+2026-06-07 23:20:35.949 [info] Active interpreter [/home/beast/dev/my-zsh-aliases]:  /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-07 23:20:35.957 [info] Running installed packages checker:  {
+  id: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  displayName: '.venv (3.13.11)',
+  detailedDisplayName: '.venv (3.13.11)',
+  envType: 'Venv',
+  envPath: '/home/beast/dev/my-zsh-aliases/.venv',
+  type: 'Virtual',
+  path: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  version: {
+    raw: '3.13.11',
+    major: 3,
+    minor: 13,
+    patch: 11,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.13.11',
+  architecture: 3,
+  sysPrefix: '/home/beast/dev/my-zsh-aliases/.venv'
+} /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py /home/beast/dev/my-zsh-aliases/requirements.txt
+2026-06-07 23:20:35.957 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2026-06-07 23:22:14.800 [info] Running installed packages checker:  {
+  id: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  displayName: '.venv (3.13.11)',
+  detailedDisplayName: '.venv (3.13.11)',
+  envType: 'Venv',
+  envPath: '/home/beast/dev/my-zsh-aliases/.venv',
+  type: 'Virtual',
+  path: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  version: {
+    raw: '3.13.11',
+    major: 3,
+    minor: 13,
+    patch: 11,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.13.11',
+  architecture: 3,
+  sysPrefix: '/home/beast/dev/my-zsh-aliases/.venv'
+} /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py /home/beast/dev/my-zsh-aliases/requirements.txt
+2026-06-07 23:22:14.800 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2026-06-07 23:22:54.271 [info] Running installed packages checker:  {
+  id: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  displayName: '.venv (3.13.11)',
+  detailedDisplayName: '.venv (3.13.11)',
+  envType: 'Venv',
+  envPath: '/home/beast/dev/my-zsh-aliases/.venv',
+  type: 'Virtual',
+  path: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  version: {
+    raw: '3.13.11',
+    major: 3,
+    minor: 13,
+    patch: 11,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.13.11',
+  architecture: 3,
+  sysPrefix: '/home/beast/dev/my-zsh-aliases/.venv'
+} /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py /home/beast/dev/my-zsh-aliases/requirements.txt
+2026-06-07 23:22:54.271 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2026-06-07 23:24:00.203 [info] Running installed packages checker:  {
+  id: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  displayName: '.venv (3.13.11)',
+  detailedDisplayName: '.venv (3.13.11)',
+  envType: 'Venv',
+  envPath: '/home/beast/dev/my-zsh-aliases/.venv',
+  type: 'Virtual',
+  path: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  version: {
+    raw: '3.13.11',
+    major: 3,
+    minor: 13,
+    patch: 11,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.13.11',
+  architecture: 3,
+  sysPrefix: '/home/beast/dev/my-zsh-aliases/.venv'
+} /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py /home/beast/dev/my-zsh-aliases/requirements.txt
+2026-06-07 23:24:00.203 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py ./requirements.txt

@@ -1,0 +1,43 @@
+2026-06-24 02:52:12.254 [info] Started local extension host with pid 43521.
+2026-06-24 02:52:12.953 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-24 02:52:13.535 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-24 02:52:14.619 [info] MCP Registry configured: https://api.mcp.github.com
+2026-06-24 02:52:14.832 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-24 02:52:16.616 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-24 02:52:16.617 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-24 02:52:16.618 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-24 02:52:17.026 [info] [perf] Render performance baseline is 39ms
+2026-06-24 02:52:19.045 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///usr/share/code/resources/app/out/main.js:30:64420)
+    at new ld (file:///usr/share/code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///usr/share/code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///usr/share/code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///usr/share/code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///usr/share/code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///usr/share/code/resources/app/out/main.js:31:14405)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:31:13807)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2615)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5389)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5577)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at N (file:///usr/share/code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-06-24 02:52:26.179 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-24 02:52:39.776 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-06-24 02:52:39.939 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-06-24 02:52:41.576 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)
+2026-06-24 02:52:45.549 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-06-24 02:52:47.042 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)
+2026-06-24 02:53:00.930 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-06-24 02:53:02.213 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)

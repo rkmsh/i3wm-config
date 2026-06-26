@@ -1,0 +1,120 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "df980966347845a7191517b5eaa55aff3c5485d49d29ee5fbb52634c60c90f2c",
+    "telemetry.devDeviceId": "84e88750-e98d-4e65-81e0-bac09be9ddcf",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///thm/web-app"
+            },
+            {
+                "folderUri": "file:///home/beast/kali-clean"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/beast/HTB/Conversor/app-code": "__default__profile__",
+            "file:///home/beast/BB/Damn-Vulnerable-GraphQL-Application": "__default__profile__",
+            "file:///home/beast/HTB/Silentium/exploit": "__default__profile__",
+            "file:///home/beast/HTB/Silentium": "__default__profile__",
+            "file:///home/beast/nodejs-goof": "__default__profile__",
+            "file:///home/beast/dev/my-zsh-aliases": "__default__profile__",
+            "file:///thm/web-app/sample": "__default__profile__",
+            "file:///thm/web-app": "__default__profile__",
+            "file:///home/beast/kali-clean": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 203,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/beast/kali-clean",
+            "backupPath": "/home/beast/.config/Code/Backups/dc602b0965856c7f137d8605f69603c0",
+            "uiState": {
+                "mode": 1,
+                "x": 4,
+                "y": 13,
+                "width": 811,
+                "height": 443
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 203,
+            "auxiliaryBarWidth": 203,
+            "workspaces": {
+                "1649959065d554f6bebbde7d707b71b6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "fad14ed297635108b7557a4a190c024d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "bd79932438cc0bcbaa33e7783946ca7d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "101adba0dbe4579859f741e3bc696186": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "0535eac610864f89f5f164a3cd305096": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "92b6de106a16d13f60501cafde3c15b1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7763c8cbb0d19c0c3c1495cd5fbb4de3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "a3738bb3a76c01d03142ac0f41822ae8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "cdd77a4538efb3f16739cea7caf7b4b4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

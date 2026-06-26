@@ -1,0 +1,27 @@
+2026-06-08 00:06:02.666 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-06-08 00:06:02.832 [info] (8244): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-06-08 00:06:02.833 [info] (8244): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-06-08 00:06:02.843 [info] (8244): Starting service instance "my-zsh-aliases" for workspace "/home/beast/dev/my-zsh-aliases"
+2026-06-08 00:06:04.294 [info] (8244): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///home/beast/dev/my-zsh-aliases...
+2026-06-08 00:06:04.407 [info] (8244): FG(my-zsh-aliases): Setting environmentName for service "my-zsh-aliases": ".venv (3.13.11)"
+2026-06-08 00:06:04.407 [info] (8244): FG(my-zsh-aliases): Setting pythonPath for service "my-zsh-aliases": "/home/beast/dev/my-zsh-aliases/.venv/bin/python"
+2026-06-08 00:06:04.407 [info] (8244): FG(my-zsh-aliases): No include entries specified; assuming /home/beast/dev/my-zsh-aliases
+2026-06-08 00:06:04.408 [info] (8244): FG(my-zsh-aliases): Auto-excluding **/node_modules
+2026-06-08 00:06:04.408 [info] (8244): FG(my-zsh-aliases): Auto-excluding **/__pycache__
+2026-06-08 00:06:04.408 [info] (8244): FG(my-zsh-aliases): Auto-excluding **/.*
+2026-06-08 00:06:04.453 [info] (8244): FG(my-zsh-aliases): Assuming Python version 3.13.11.final.0
+2026-06-08 00:06:04.712 [info] (8244): [Editable Installs] Starting dynamic pth file resolution for Python: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-08 00:06:04.735 [info] (8244): [Editable Installs] No sandbox available for Python /home/beast/dev/my-zsh-aliases/.venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-06-08 00:06:04.784 [info] (8244): FG(my-zsh-aliases): Found 2 source files
+2026-06-08 00:06:04.805 [info] (8244): Settings have not changed. Skipping update.
+2026-06-08 00:06:04.827 [info] (8244): Settings have not changed. Skipping update.
+2026-06-08 00:06:05.447 [info] (8244): PQ(my-zsh-aliases): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-06-08 00:06:05.450 [info] (8244): PQ(my-zsh-aliases): Priority queue background worker(2) started
+2026-06-08 00:06:09.951 [info] (8244): Settings have not changed. Skipping update.
+2026-06-08 00:06:12.299 [info] (8244): Settings have not changed. Skipping update.
+2026-06-08 00:06:12.303 [info] (8244): Starting Mcp server id:34423 ...
+2026-06-08 00:12:57.945 [info] (8244): FG(my-zsh-aliases): IDX(my-zsh-aliases): Indexer background runner(3) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (index)
+2026-06-08 00:12:57.946 [info] (8244): FG(my-zsh-aliases): IDX(my-zsh-aliases): Indexing(3) started
+2026-06-08 00:12:58.816 [info] (8244): FG(my-zsh-aliases): IDX(my-zsh-aliases): scanned(3) 118 files over 1 exec env
+2026-06-08 00:12:59.784 [info] (8244): FG(my-zsh-aliases): IDX(my-zsh-aliases): indexed(3) 118 files over 1 exec env
+2026-06-08 00:12:59.797 [info] (8244): FG(my-zsh-aliases): IDX(my-zsh-aliases): Indexing finished(3).

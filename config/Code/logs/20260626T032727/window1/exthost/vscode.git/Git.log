@@ -1,0 +1,148 @@
+2026-06-26 03:27:32.226 [info] [main] Log level: Info
+2026-06-26 03:27:32.226 [info] [main] Validating found git in: "git"
+2026-06-26 03:27:32.226 [info] [main] Using git "2.53.0" from "git"
+2026-06-26 03:27:32.226 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-26 03:27:32.226 [info] > git rev-parse --show-toplevel [12ms]
+2026-06-26 03:27:32.226 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-26 03:27:32.226 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-26 03:27:32.226 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-26 03:27:32.226 [info] > git rev-parse --show-toplevel [47ms]
+2026-06-26 03:27:32.226 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [29ms]
+2026-06-26 03:27:32.226 [info] [Model][openRepository] Opened repository (path): /thm/web-app/jwt_tool
+2026-06-26 03:27:32.226 [info] [Model][openRepository] Opened repository (real path): /thm/web-app/jwt_tool
+2026-06-26 03:27:32.226 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-26 03:27:32.226 [info] > git rev-parse --show-toplevel [53ms]
+2026-06-26 03:27:32.226 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-26 03:27:32.226 [info] > git config --get commit.template [59ms]
+2026-06-26 03:27:32.227 [info] > git rev-parse --show-toplevel [12ms]
+2026-06-26 03:27:32.227 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-26 03:27:33.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1517ms]
+2026-06-26 03:27:33.819 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-26 03:27:33.841 [info] > git rev-parse --show-toplevel [111ms]
+2026-06-26 03:27:33.903 [info] > git rev-parse refs/remotes/origin/master [85ms]
+2026-06-26 03:27:34.016 [info] > git status -z -uall [105ms]
+2026-06-26 03:27:34.016 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [95ms]
+2026-06-26 03:27:34.050 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [147ms]
+2026-06-26 03:27:34.056 [info] [Model][openRepository] Opened repository (path): /thm/web-app/waybackurls
+2026-06-26 03:27:34.056 [info] [Model][openRepository] Opened repository (real path): /thm/web-app/waybackurls
+2026-06-26 03:27:34.056 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-26 03:27:34.059 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-26 03:27:34.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [74ms]
+2026-06-26 03:27:34.136 [info] > git config --get --local branch.master.vscode-merge-base [11ms]
+2026-06-26 03:27:34.145 [info] > git rev-parse --show-toplevel [30ms]
+2026-06-26 03:27:34.145 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-26 03:27:34.145 [info] > git config --get commit.template [36ms]
+2026-06-26 03:27:34.145 [info] > git config --get commit.template [42ms]
+2026-06-26 03:27:34.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [48ms]
+2026-06-26 03:27:34.237 [info] > git merge-base refs/heads/master refs/remotes/origin/master [35ms]
+2026-06-26 03:27:34.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2026-06-26 03:27:34.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [59ms]
+2026-06-26 03:27:34.291 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-26 03:27:34.297 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-26 03:27:34.304 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3bc7407cf2222d6a821dcc19c776e5a1b1cb9a9b...refs/remotes/origin/master -- [55ms]
+2026-06-26 03:27:34.404 [info] > git rev-parse refs/remotes/origin/master [107ms]
+2026-06-26 03:27:34.419 [info] > git rev-parse refs/remotes/origin/master [128ms]
+2026-06-26 03:27:34.448 [info] > git status -z -uall [35ms]
+2026-06-26 03:27:34.448 [info] > git status -z -uall [19ms]
+2026-06-26 03:27:34.448 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-06-26 03:27:34.470 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [51ms]
+2026-06-26 03:27:34.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2026-06-26 03:27:34.495 [info] > git config --get --local branch.master.vscode-merge-base [4ms]
+2026-06-26 03:27:34.503 [info] > git config --get commit.template [20ms]
+2026-06-26 03:27:34.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [22ms]
+2026-06-26 03:27:34.546 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2026-06-26 03:27:34.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2026-06-26 03:27:34.565 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-26 03:27:34.572 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 8d27cf3e3031de01179e8ba9127e968eb01008e9...refs/remotes/origin/master -- [18ms]
+2026-06-26 03:27:34.576 [info] > git rev-parse refs/remotes/origin/master [10ms]
+2026-06-26 03:27:34.610 [info] > git status -z -uall [24ms]
+2026-06-26 03:27:34.612 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-06-26 03:27:34.669 [info] > git check-ignore -v -z --stdin [19ms]
+2026-06-26 03:27:34.674 [info] > git check-ignore -v -z --stdin [19ms]
+2026-06-26 03:28:14.464 [info] [main] Log level: Info
+2026-06-26 03:28:14.464 [info] [main] Validating found git in: "git"
+2026-06-26 03:28:14.464 [info] [main] Using git "2.53.0" from "git"
+2026-06-26 03:28:14.464 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-26 03:28:14.464 [info] > git rev-parse --show-toplevel [5ms]
+2026-06-26 03:28:14.483 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [14ms]
+2026-06-26 03:28:14.501 [info] [Model][openRepository] Opened repository (path): /home/beast/kali-clean
+2026-06-26 03:28:14.501 [info] [Model][openRepository] Opened repository (real path): /home/beast/kali-clean
+2026-06-26 03:28:14.501 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-26 03:28:14.518 [info] > git config --get commit.template [8ms]
+2026-06-26 03:28:14.520 [info] > git rev-parse --show-toplevel [5ms]
+2026-06-26 03:28:14.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2026-06-26 03:28:14.543 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/kali-clean/.git/refs/remotes/origin/main'
+2026-06-26 03:28:14.543 [info] > git rev-parse --show-toplevel [8ms]
+2026-06-26 03:28:14.551 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2026-06-26 03:28:14.566 [info] > git rev-parse --show-toplevel [16ms]
+2026-06-26 03:28:14.572 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-06-26 03:28:14.578 [info] > git status -z -uall [22ms]
+2026-06-26 03:28:14.579 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-26 03:28:14.588 [info] [Model][openRepository] Opened repository (path): /home/beast/kali-clean/i3-gaps
+2026-06-26 03:28:14.588 [info] [Model][openRepository] Opened repository (real path): /home/beast/kali-clean/i3-gaps
+2026-06-26 03:28:14.588 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-26 03:28:14.591 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-26 03:28:14.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2026-06-26 03:28:14.632 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2026-06-26 03:28:14.632 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-26 03:28:14.639 [info] > git config --get commit.template [18ms]
+2026-06-26 03:28:14.639 [info] > git config --get commit.template [22ms]
+2026-06-26 03:28:14.655 [info] > git reflog main --grep-reflog=branch: Created from *. [17ms]
+2026-06-26 03:28:14.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-06-26 03:28:14.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gaps-next refs/remotes/gaps-next [16ms]
+2026-06-26 03:28:14.667 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/kali-clean/.git/refs/remotes/origin/main'
+2026-06-26 03:28:14.672 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/kali-clean/i3-gaps/.git/refs/remotes/origin/gaps-next'
+2026-06-26 03:28:14.673 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-06-26 03:28:14.681 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [19ms]
+2026-06-26 03:28:14.686 [info] > git status -z -uall [10ms]
+2026-06-26 03:28:14.686 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-06-26 03:28:14.693 [info] > git rev-parse refs/remotes/origin/gaps-next [22ms]
+2026-06-26 03:28:14.711 [info] > git status -z -uall [13ms]
+2026-06-26 03:28:14.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [31ms]
+2026-06-26 03:28:14.722 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2026-06-26 03:28:14.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gaps-next refs/remotes/gaps-next [10ms]
+2026-06-26 03:28:14.753 [info] > git config --add --local branch.main.vscode-merge-base origin/main [33ms]
+2026-06-26 03:28:14.769 [info] > git config --get --local branch.gaps-next.vscode-merge-base [16ms]
+2026-06-26 03:28:14.770 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-26 03:28:14.774 [info] > git config --get commit.template [27ms]
+2026-06-26 03:28:14.776 [info] > git config --get commit.template [13ms]
+2026-06-26 03:28:14.784 [info] > git reflog gaps-next --grep-reflog=branch: Created from *. [11ms]
+2026-06-26 03:28:14.792 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2026-06-26 03:28:14.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-06-26 03:28:14.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gaps-next refs/remotes/gaps-next [16ms]
+2026-06-26 03:28:14.800 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/kali-clean/.git/refs/remotes/origin/main'
+2026-06-26 03:28:14.804 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/kali-clean/i3-gaps/.git/refs/remotes/origin/gaps-next'
+2026-06-26 03:28:14.806 [info] > git rev-parse refs/remotes/origin/gaps-next [2ms]
+2026-06-26 03:28:14.814 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2026-06-26 03:28:14.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gaps-next refs/remotes/origin/gaps-next [28ms]
+2026-06-26 03:28:14.828 [info] > git status -z -uall [18ms]
+2026-06-26 03:28:14.828 [info] > git status -z -uall [9ms]
+2026-06-26 03:28:14.828 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-06-26 03:28:14.844 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2026-06-26 03:28:14.850 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2026-06-26 03:28:14.854 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2026-06-26 03:28:14.859 [info] > git config --add --local branch.gaps-next.vscode-merge-base origin/gaps-next [32ms]
+2026-06-26 03:28:14.865 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% fe66c7d47c1d351d517b75b6036bd8dae5d4fd75...refs/remotes/origin/main -- [10ms]
+2026-06-26 03:28:14.866 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% fe66c7d47c1d351d517b75b6036bd8dae5d4fd75...refs/remotes/origin/main -- [7ms]
+2026-06-26 03:28:14.868 [info] > git config --get commit.template [3ms]
+2026-06-26 03:28:14.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gaps-next refs/remotes/gaps-next [2ms]
+2026-06-26 03:28:14.878 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/kali-clean/i3-gaps/.git/refs/remotes/origin/gaps-next'
+2026-06-26 03:28:14.880 [info] > git rev-parse refs/remotes/origin/gaps-next [2ms]
+2026-06-26 03:28:14.887 [info] > git status -z -uall [4ms]
+2026-06-26 03:28:14.890 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-26 03:28:14.904 [info] > git merge-base refs/heads/gaps-next refs/remotes/origin/gaps-next [7ms]
+2026-06-26 03:28:14.909 [info] > git merge-base refs/heads/gaps-next refs/remotes/origin/gaps-next [6ms]
+2026-06-26 03:28:14.914 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 9f3e4157e66501fb3dc89abde5dc0d826193b77f...refs/remotes/origin/gaps-next -- [6ms]
+2026-06-26 03:28:14.915 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 9f3e4157e66501fb3dc89abde5dc0d826193b77f...refs/remotes/origin/gaps-next -- [2ms]
+2026-06-26 03:28:15.141 [info] > git check-ignore -v -z --stdin [6ms]
+2026-06-26 03:28:15.143 [info] > git check-ignore -v -z --stdin [3ms]
+2026-06-26 03:28:15.970 [info] > git config --get commit.template [5ms]
+2026-06-26 03:28:15.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gaps-next refs/remotes/gaps-next [2ms]
+2026-06-26 03:28:15.975 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/kali-clean/i3-gaps/.git/refs/remotes/origin/gaps-next'
+2026-06-26 03:28:15.977 [info] > git rev-parse refs/remotes/origin/gaps-next [2ms]
+2026-06-26 03:28:15.985 [info] > git status -z -uall [5ms]
+2026-06-26 03:28:15.988 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-06-26 03:28:28.889 [info] > git show --textconv :install.sh [11ms]
+2026-06-26 03:28:28.895 [info] > git ls-files --stage -- install.sh [7ms]
+2026-06-26 03:28:28.907 [info] > git cat-file -s a5b066b2904f788d7a26593babd97c3276c992cd [0ms]
+2026-06-26 03:28:58.680 [info] > git blame --root --incremental fe66c7d47c1d351d517b75b6036bd8dae5d4fd75 -- install.sh [2ms]

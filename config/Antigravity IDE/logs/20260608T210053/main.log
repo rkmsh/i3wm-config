@@ -1,0 +1,27 @@
+2026-06-08 21:00:53.444 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-06-08 21:00:53.458 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:46665
+2026-06-08 21:00:53.768 [info] update#setState idle
+2026-06-08 21:01:23.827 [info] update#setState checking for updates
+2026-06-08 21:01:24.283 [error] Error: Server returned 500
+    at BY (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/main.js:77:13536)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-06-08 21:01:24.284 [info] update#setState idle
+2026-06-08 22:01:23.761 [info] update#setState checking for updates
+2026-06-08 22:01:24.242 [error] Error: Server returned 500
+    at BY (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/main.js:77:13536)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-06-08 22:01:24.244 [info] update#setState idle
+2026-06-08 22:20:08.523 [info] [BrowserLauncherMain] Launching browser...
+2026-06-08 22:20:08.544 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-06-08 22:20:08.551 [info] [BrowserLauncherMain] Launching browser with command: "/usr/bin/chromium" --remote-debugging-port=9222 --user-data-dir=/home/beast/.gemini/antigravity-browser-profile --disable-fre --no-default-browser-check --no-first-run --auto-accept-browser-signin-for-tests --ash-no-nudges --disable-features=OfferMigrationToDiceUsers,OptGuideOnDeviceModel
+2026-06-08 22:20:08.573 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-06-08 22:20:09.092 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-06-08 22:20:09.734 [info] [BrowserLauncherMain] Chrome with CDP is already running on port 9222.
+2026-06-08 22:20:09.734 [info] [BrowserLauncherMain] Successfully launched browser.
+2026-06-08 22:21:59.750 [warning] [perf] profiling STARTED 919077b3-088e-40b9-9f1d-ad1bccf01472
+2026-06-08 22:22:11.400 [warning] [perf] profiling DONE 919077b3-088e-40b9-9f1d-ad1bccf01472
+2026-06-08 22:22:44.486 [warning] [perf] profiling STARTED 919077b3-088e-40b9-9f1d-ad1bccf01472
+2026-06-08 22:22:55.374 [warning] [perf] profiling DONE 919077b3-088e-40b9-9f1d-ad1bccf01472
+2026-06-08 22:23:19.648 [warning] [perf] profiling STARTED 919077b3-088e-40b9-9f1d-ad1bccf01472
+2026-06-08 22:23:25.425 [warning] [perf] profiling DONE 919077b3-088e-40b9-9f1d-ad1bccf01472
+2026-06-08 22:37:33.454 [info] Extension host with pid 2492 exited with code: 0, signal: unknown.

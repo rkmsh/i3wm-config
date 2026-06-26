@@ -1,0 +1,7 @@
+2026-06-11 06:05:17.562 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-06-11 06:05:17.562 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:39657
+2026-06-11 06:05:17.562 [info] update#setState idle
+2026-06-11 06:05:47.563 [info] update#setState checking for updates
+2026-06-11 06:05:48.015 [info] update#setState idle
+2026-06-11 06:54:34.756 [info] Extension host with pid 2535 exited with code: 0, signal: unknown.
+2026-06-11 06:54:34.944 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2549]: crashed with code 11 and reason 'crashed'

@@ -1,0 +1,148 @@
+2026-05-31 15:34:00.739 [info] [main] Log level: Info
+2026-05-31 15:34:00.739 [info] [main] Validating found git in: "git"
+2026-05-31 15:34:00.739 [info] [main] Using git "2.53.0" from "git"
+2026-05-31 15:34:00.739 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-31 15:34:00.739 [info] > git rev-parse --show-toplevel [24ms]
+2026-05-31 15:34:00.739 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:00.739 [info] > git rev-parse --show-toplevel [14ms]
+2026-05-31 15:34:00.739 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [21ms]
+2026-05-31 15:34:00.739 [info] [Model][openRepository] Opened repository (path): /home/beast/HTB/Silentium/CVE-2025-8110
+2026-05-31 15:34:00.739 [info] [Model][openRepository] Opened repository (real path): /home/beast/HTB/Silentium/CVE-2025-8110
+2026-05-31 15:34:00.739 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-31 15:34:00.739 [info] > git config --get commit.template [85ms]
+2026-05-31 15:34:00.739 [info] > git rev-parse --show-toplevel [153ms]
+2026-05-31 15:34:00.739 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:00.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-05-31 15:34:00.824 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/CVE-2025-8110/.git/refs/remotes/origin/main'
+2026-05-31 15:34:00.830 [info] > git rev-parse --show-toplevel [87ms]
+2026-05-31 15:34:00.862 [info] > git rev-parse refs/remotes/origin/main [39ms]
+2026-05-31 15:34:01.030 [info] > git status -z -uall [157ms]
+2026-05-31 15:34:01.032 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [132ms]
+2026-05-31 15:34:01.087 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [227ms]
+2026-05-31 15:34:01.094 [info] [Model][openRepository] Opened repository (path): /home/beast/HTB/Silentium/CVE-2025-58434-59528-htb-ctf
+2026-05-31 15:34:01.094 [info] [Model][openRepository] Opened repository (real path): /home/beast/HTB/Silentium/CVE-2025-58434-59528-htb-ctf
+2026-05-31 15:34:01.094 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-31 15:34:01.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2026-05-31 15:34:01.219 [info] > git config --get --local branch.main.vscode-merge-base [74ms]
+2026-05-31 15:34:01.227 [info] > git rev-parse --show-toplevel [116ms]
+2026-05-31 15:34:01.228 [info] > git config --get commit.template [122ms]
+2026-05-31 15:34:01.228 [info] > git config --get commit.template [128ms]
+2026-05-31 15:34:01.291 [info] > git check-ignore -v -z --stdin [40ms]
+2026-05-31 15:34:01.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [65ms]
+2026-05-31 15:34:01.347 [info] > git merge-base refs/heads/main refs/remotes/origin/main [32ms]
+2026-05-31 15:34:01.360 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [69ms]
+2026-05-31 15:34:01.374 [info] [Model][openRepository] Opened repository (path): /home/beast/HTB/Silentium/HTB
+2026-05-31 15:34:01.374 [info] [Model][openRepository] Opened repository (real path): /home/beast/HTB/Silentium/HTB
+2026-05-31 15:34:01.374 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-31 15:34:01.411 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3a4f97d7af47d8ed6c4263a3045202de84b5f62c...refs/remotes/origin/main -- [50ms]
+2026-05-31 15:34:01.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2026-05-31 15:34:01.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+2026-05-31 15:34:01.419 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/CVE-2025-58434-59528-htb-ctf/.git/refs/remotes/origin/main'
+2026-05-31 15:34:01.427 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/CVE-2025-8110/.git/refs/remotes/origin/main'
+2026-05-31 15:34:01.430 [info] > git rev-parse --show-toplevel [22ms]
+2026-05-31 15:34:01.430 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:01.430 [info] > git config --get commit.template [29ms]
+2026-05-31 15:34:01.439 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2026-05-31 15:34:01.457 [info] > git rev-parse refs/remotes/origin/main [38ms]
+2026-05-31 15:34:01.495 [info] > git status -z -uall [49ms]
+2026-05-31 15:34:01.496 [info] > git status -z -uall [32ms]
+2026-05-31 15:34:01.499 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [26ms]
+2026-05-31 15:34:01.518 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [60ms]
+2026-05-31 15:34:01.526 [info] > git rev-parse --show-toplevel [88ms]
+2026-05-31 15:34:01.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2026-05-31 15:34:01.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [74ms]
+2026-05-31 15:34:01.571 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/HTB/.git/refs/remotes/origin/main'
+2026-05-31 15:34:01.572 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2026-05-31 15:34:01.582 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [37ms]
+2026-05-31 15:34:01.588 [info] [Model][openRepository] Opened repository (path): /home/beast/HTB/Silentium/gogs-CVE-2025-8110
+2026-05-31 15:34:01.588 [info] [Model][openRepository] Opened repository (real path): /home/beast/HTB/Silentium/gogs-CVE-2025-8110
+2026-05-31 15:34:01.588 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-31 15:34:01.589 [info] > git config --get commit.template [50ms]
+2026-05-31 15:34:01.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [40ms]
+2026-05-31 15:34:01.650 [info] > git rev-parse refs/remotes/origin/main [80ms]
+2026-05-31 15:34:01.722 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [31ms]
+2026-05-31 15:34:01.722 [info] > git merge-base refs/heads/main refs/remotes/origin/main [73ms]
+2026-05-31 15:34:01.743 [info] > git rev-parse --show-toplevel [123ms]
+2026-05-31 15:34:01.743 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:01.743 [info] > git config --get commit.template [140ms]
+2026-05-31 15:34:01.869 [info] > git status -z -uall [199ms]
+2026-05-31 15:34:01.869 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 03b677be3cdf81bd408ac45685a200aed4beb446...refs/remotes/origin/main -- [126ms]
+2026-05-31 15:34:01.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [161ms]
+2026-05-31 15:34:01.943 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/CVE-2025-58434-59528-htb-ctf/.git/refs/remotes/origin/main'
+2026-05-31 15:34:01.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2026-05-31 15:34:01.968 [info] > git rev-parse --show-toplevel [135ms]
+2026-05-31 15:34:02.097 [info] > git config --get --local branch.main.vscode-merge-base [130ms]
+2026-05-31 15:34:02.112 [info] > git config --get commit.template [156ms]
+2026-05-31 15:34:02.113 [info] > git rev-parse refs/remotes/origin/main [170ms]
+2026-05-31 15:34:02.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [219ms]
+2026-05-31 15:34:02.167 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/gogs-CVE-2025-8110/.git/refs/remotes/origin/main'
+2026-05-31 15:34:02.168 [info] > git status -z -uall [43ms]
+2026-05-31 15:34:02.169 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [23ms]
+2026-05-31 15:34:02.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [81ms]
+2026-05-31 15:34:02.202 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [114ms]
+2026-05-31 15:34:02.218 [info] [Model][openRepository] Opened repository (path): /home/beast/HTB/Silentium/pwncat
+2026-05-31 15:34:02.218 [info] [Model][openRepository] Opened repository (real path): /home/beast/HTB/Silentium/pwncat
+2026-05-31 15:34:02.218 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-31 15:34:02.236 [info] > git merge-base refs/heads/main refs/remotes/origin/main [36ms]
+2026-05-31 15:34:02.242 [info] > git rev-parse refs/remotes/origin/main [75ms]
+2026-05-31 15:34:02.268 [info] > git status -z -uall [19ms]
+2026-05-31 15:34:02.269 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-05-31 15:34:02.282 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% a43d41744e83d3733b754af5e774ff0687e8173a...refs/remotes/origin/main -- [41ms]
+2026-05-31 15:34:02.284 [info] > git rev-parse --show-toplevel [49ms]
+2026-05-31 15:34:02.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:02.286 [info] [Model][doInitialScan] Initial repository scan completed - repositories (5), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-31 15:34:02.301 [info] > git config --get commit.template [70ms]
+2026-05-31 15:34:02.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [76ms]
+2026-05-31 15:34:02.350 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/HTB/.git/refs/remotes/origin/main'
+2026-05-31 15:34:02.355 [info] > git show --textconv :CVE-2025-8110-RCE.py [60ms]
+2026-05-31 15:34:02.355 [info] > git check-ignore -v -z --stdin [49ms]
+2026-05-31 15:34:02.356 [info] > git check-ignore -v -z --stdin [45ms]
+2026-05-31 15:34:02.357 [info] > git check-ignore -v -z --stdin [34ms]
+2026-05-31 15:34:02.357 [info] > git check-ignore -v -z --stdin [29ms]
+2026-05-31 15:34:02.359 [info] > git ls-files --stage -- CVE-2025-8110-RCE.py [59ms]
+2026-05-31 15:34:02.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [98ms]
+2026-05-31 15:34:02.398 [info] > git config --get --local branch.main.vscode-merge-base [13ms]
+2026-05-31 15:34:02.404 [info] > git cat-file -s e33982570fe9a8857f8b2dc6b021b13b3fe62b77 [27ms]
+2026-05-31 15:34:02.406 [info] > git rev-parse refs/remotes/origin/main [56ms]
+2026-05-31 15:34:02.421 [info] > git rev-parse --show-toplevel [76ms]
+2026-05-31 15:34:02.421 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:02.422 [info] > git config --get commit.template [83ms]
+2026-05-31 15:34:02.444 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2026-05-31 15:34:02.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [40ms]
+2026-05-31 15:34:02.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [61ms]
+2026-05-31 15:34:02.472 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/pwncat/.git/refs/remotes/origin/master'
+2026-05-31 15:34:02.473 [info] > git status -z -uall [63ms]
+2026-05-31 15:34:02.473 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2026-05-31 15:34:02.479 [info] > git rev-parse --show-toplevel [36ms]
+2026-05-31 15:34:02.479 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:02.485 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 78062e15f1b2baa5802d8e3d44ccb3563906e908...refs/remotes/origin/main -- [7ms]
+2026-05-31 15:34:02.485 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2026-05-31 15:34:02.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2026-05-31 15:34:02.513 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/gogs-CVE-2025-8110/.git/refs/remotes/origin/main'
+2026-05-31 15:34:02.514 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2026-05-31 15:34:02.516 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2026-05-31 15:34:02.540 [info] > git status -z -uall [16ms]
+2026-05-31 15:34:02.543 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-05-31 15:34:02.641 [info] > git blame --root --incremental 3a4f97d7af47d8ed6c4263a3045202de84b5f62c -- CVE-2025-8110-RCE.py [6ms]
+2026-05-31 15:34:02.683 [info] > git rev-parse --show-toplevel [6ms]
+2026-05-31 15:34:02.683 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:03.022 [info] > git status -z -uall [531ms]
+2026-05-31 15:34:03.022 [info] > git check-ignore -v -z --stdin [53ms]
+2026-05-31 15:34:03.022 [info] > git check-ignore -v -z --stdin [47ms]
+2026-05-31 15:34:03.022 [info] > git check-ignore -v -z --stdin [40ms]
+2026-05-31 15:34:03.023 [info] > git check-ignore -v -z --stdin [28ms]
+2026-05-31 15:34:03.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [36ms]
+2026-05-31 15:34:03.076 [info] > git config --get commit.template [15ms]
+2026-05-31 15:34:03.077 [info] > git rev-parse --show-toplevel [32ms]
+2026-05-31 15:34:03.077 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-31 15:34:03.077 [info] > git config --get --local branch.master.vscode-merge-base [3ms]
+2026-05-31 15:34:03.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2026-05-31 15:34:03.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [35ms]
+2026-05-31 15:34:03.170 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/HTB/Silentium/pwncat/.git/refs/remotes/origin/master'
+2026-05-31 15:34:03.324 [info] > git rev-parse refs/remotes/origin/master [154ms]
+2026-05-31 15:34:03.366 [info] > git merge-base refs/heads/master refs/remotes/origin/master [227ms]
+2026-05-31 15:34:03.455 [info] > git status -z -uall [108ms]
+2026-05-31 15:34:03.456 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 37f04d4e16ff47c7fd70e95162f9fccd327cca7e...refs/remotes/origin/master -- [71ms]
+2026-05-31 15:34:03.459 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [93ms]
+2026-05-31 15:34:03.470 [info] > git rev-parse --show-toplevel [18ms]
+2026-05-31 15:34:03.470 [info] fatal: not a git repository (or any of the parent directories): .git

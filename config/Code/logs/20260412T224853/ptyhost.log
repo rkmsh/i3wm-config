@@ -1,0 +1,1 @@
+2026-04-12 22:48:56.805 [error] Failed to set sticky bit on /tmp/beast-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/beast-code-zsh'

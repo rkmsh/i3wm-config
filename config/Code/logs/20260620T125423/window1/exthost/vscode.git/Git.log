@@ -1,0 +1,37 @@
+2026-06-20 12:54:28.641 [info] [main] Log level: Info
+2026-06-20 12:54:28.641 [info] [main] Validating found git in: "git"
+2026-06-20 12:54:28.641 [info] [main] Using git "2.53.0" from "git"
+2026-06-20 12:54:28.641 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-20 12:54:28.641 [info] > git rev-parse --show-toplevel [17ms]
+2026-06-20 12:54:28.641 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [48ms]
+2026-06-20 12:54:28.641 [info] [Model][openRepository] Opened repository (path): /home/beast/dev/my-zsh-aliases
+2026-06-20 12:54:28.641 [info] [Model][openRepository] Opened repository (real path): /home/beast/dev/my-zsh-aliases
+2026-06-20 12:54:28.641 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-20 12:54:28.641 [info] > git rev-parse --show-toplevel [9ms]
+2026-06-20 12:54:28.641 [info] > git config --get commit.template [18ms]
+2026-06-20 12:54:28.643 [info] > git rev-parse --show-toplevel [129ms]
+2026-06-20 12:54:28.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2026-06-20 12:54:28.703 [info] > git rev-parse --show-toplevel [12ms]
+2026-06-20 12:54:28.795 [info] > git rev-parse --show-toplevel [67ms]
+2026-06-20 12:54:28.795 [info] > git status -z -uall [36ms]
+2026-06-20 12:54:28.827 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
+2026-06-20 12:54:29.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [267ms]
+2026-06-20 12:54:29.355 [info] > git check-ignore -v -z --stdin [81ms]
+2026-06-20 12:54:29.356 [info] > git config --get --local branch.main.vscode-merge-base [95ms]
+2026-06-20 12:54:29.356 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-20 12:54:29.361 [info] > git config --get commit.template [143ms]
+2026-06-20 12:54:29.361 [info] > git rev-parse --show-toplevel [167ms]
+2026-06-20 12:54:29.363 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-20 12:54:29.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-06-20 12:54:29.394 [info] > git reflog main --grep-reflog=branch: Created from *. [33ms]
+2026-06-20 12:54:29.413 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2026-06-20 12:54:29.413 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-06-20 12:54:29.413 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-06-20 12:54:29.448 [info] > git show --textconv :exploit_finder.py [17ms]
+2026-06-20 12:54:29.449 [info] > git ls-files --stage -- exploit_finder.py [7ms]
+2026-06-20 12:54:29.462 [info] > git merge-base refs/heads/main refs/remotes/origin/main [40ms]
+2026-06-20 12:54:29.492 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 51438de88d22a9d838b4db67738491b200dea57c...refs/remotes/origin/main -- [17ms]
+2026-06-20 12:54:29.495 [info] > git cat-file -s 867bb70d139f313a35d8c3963521a6d3c0e98456 [37ms]
+2026-06-20 12:54:29.583 [info] > git status -z -uall [52ms]
+2026-06-20 12:54:29.592 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [39ms]
+2026-06-20 12:54:29.839 [info] > git blame --root --incremental 51438de88d22a9d838b4db67738491b200dea57c -- exploit_finder.py [26ms]

@@ -1,0 +1,24 @@
+2026-04-14 19:11:37.940 [info] Starting Python Locator /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python-env-tools/bin/pet server
+2026-04-14 19:11:37.940 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-04-14 19:11:37.940 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-14 19:11:37.940 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:11:37.940 [info] Discovered env: /usr/bin/python
+2026-04-14 19:11:37.940 [info] Discovered env: /usr/bin/python2
+2026-04-14 19:11:38.043 [info] Refresh completed in 491ms
+2026-04-14 19:11:39.671 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-04-14 19:11:39.779 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:11:39.887 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-14 19:11:40.043 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-14 19:11:40.096 [info] Discovered env: /usr/bin/python
+2026-04-14 19:11:40.126 [info] Discovered env: /usr/bin/python2
+2026-04-14 19:11:40.168 [info] Refresh completed in 228ms
+2026-04-14 19:11:40.500 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:16:00.350 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:17:10.946 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:17:40.991 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:18:26.619 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:20:12.933 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:21:51.403 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:23:36.924 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:24:21.144 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-14 19:26:01.066 [info] Resolved Python Environment /home/beast/.pyenv/versions/pwncat-cs/bin/python

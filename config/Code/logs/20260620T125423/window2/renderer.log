@@ -1,0 +1,160 @@
+2026-06-20 12:54:35.869 [info] Started local extension host with pid 75549.
+2026-06-20 12:54:36.279 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-20 12:54:36.817 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-20 12:54:37.431 [info] MCP Registry configured: https://api.mcp.github.com
+2026-06-20 12:54:37.807 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-20 12:54:38.924 [info] [perf] Render performance baseline is 21ms
+2026-06-20 12:54:39.238 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-20 12:54:39.239 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-20 12:54:54.541 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-06-20 12:55:00.876 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)
+    at async Hh.h (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:80564)
+2026-06-20 12:55:37.107 [error] [Extension Host] [Collection IPC] Error adding collection to workspace: Error: EXDEV: cross-device link not permitted, rename '/tmp/workspace-1781974537103-f8ce0ff1cde5cb22feda13b714bfb265.yml' -> '/home/beast/.config/Code/User/globalStorage/bruno-api-client.bruno/default-workspace/workspace.yml'
+	at Object.renameSync (node:fs:1021:11)
+	at J9 (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:31601)
+	at async /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:1019
+	at async fz (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:31145)
+	at async /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2080:27003
+	at async px (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1784)
+	at async _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2759:6471)
+2026-06-20 12:55:37.135 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-20 12:55:40.796 [error] [Extension Host] [Workspace] Error replaying workspace /home/beast/.config/Code/User/globalStorage/bruno-api-client.bruno/default-workspace: Error: Invalid workspace: workspace.yml not found
+	at Yf (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:33120)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:10739
+	at XR (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1648)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:28049
+	at px (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1790)
+	at yC._handleMessage (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:2364)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:1155)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at UZ.$onMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:104496)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123150)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-20 12:55:56.755 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-20 12:56:02.879 [error] [Extension Host] [Workspace] Error replaying workspace /home/beast/.config/Code/User/globalStorage/bruno-api-client.bruno/default-workspace: Error: Invalid workspace: workspace.yml not found
+	at Yf (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:33120)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:10739
+	at XR (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1648)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:28049
+	at px (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1790)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:7477)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at UZ.$onMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:104496)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123150)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-20 12:56:02.886 [error] [Extension Host] [Collections] Error adding collection to workspace: Error: Invalid workspace: workspace.yml not found
+	at Yf (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:33120)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:754
+	at fz (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:31151)
+2026-06-20 12:57:48.779 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-20 12:57:49.180 [error] [Extension Host] [Workspace] Error replaying workspace /home/beast/.config/Code/User/globalStorage/bruno-api-client.bruno/default-workspace: Error: Invalid workspace: workspace.yml not found
+	at Yf (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:33120)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:10739
+	at XR (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1648)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:28049
+	at px (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1790)
+	at yC._handleMessage (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:2364)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:1155)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at UZ.$onMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:104496)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123150)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-20 12:58:08.065 [error] [Extension Host] [Workspace] Error replaying workspace /home/beast/.config/Code/User/globalStorage/bruno-api-client.bruno/default-workspace: Error: Invalid workspace: workspace.yml not found
+	at Yf (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:33120)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:10739
+	at XR (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1648)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:28049
+	at px (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1790)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:7477)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at UZ.$onMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:104496)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123150)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-20 12:58:08.068 [error] [Extension Host] [Collections] Error adding collection to workspace: Error: Invalid workspace: workspace.yml not found
+	at Yf (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:33120)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:754
+	at fz (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:31151)
+2026-06-20 13:27:07.656 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-20 13:27:08.168 [error] [Extension Host] [Workspace] Error replaying workspace /home/beast/.config/Code/User/globalStorage/bruno-api-client.bruno/default-workspace: Error: Invalid workspace: workspace.yml not found
+	at Yf (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:33120)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:10739
+	at XR (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1648)
+	at /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:28049
+	at px (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:1:1790)
+	at yC._handleMessage (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:2364)
+	at _d.value (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2357:1155)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at UZ.$onMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:104496)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123150)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)

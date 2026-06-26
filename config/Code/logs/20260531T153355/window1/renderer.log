@@ -1,0 +1,20 @@
+2026-05-31 15:33:57.332 [info] Started local extension host with pid 11358.
+2026-05-31 15:33:57.877 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-05-31 15:33:58.251 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-05-31 15:33:58.393 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-05-31 15:34:02.415 [info] MCP Registry configured: https://api.mcp.github.com
+2026-05-31 15:34:02.589 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-05-31 15:34:03.645 [info] [perf] Render performance baseline is 63ms
+2026-05-31 15:34:04.705 [info] Auto updating outdated extensions. ms-python.debugpy
+2026-05-31 15:34:08.234 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-05-31 15:34:08.563 [info] Started local extension host with pid 13084.
+2026-05-31 15:34:08.980 [info] MCP Registry configured: https://api.mcp.github.com
+2026-05-31 15:34:09.674 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-05-31 15:34:09.771 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-05-31 15:34:10.121 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-05-31 15:34:11.218 [info] [perf] Render performance baseline is 22ms
+2026-05-31 15:34:11.586 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-05-31 15:34:26.331 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-05-31 15:34:29.963 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)
+    at async Hh.h (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:80564)

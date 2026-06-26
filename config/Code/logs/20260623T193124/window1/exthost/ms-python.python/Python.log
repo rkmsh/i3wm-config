@@ -1,0 +1,17 @@
+2026-06-23 19:32:28.344 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-06-23 19:32:28.388 [info] [test-by-project] Activating project-based testing mode
+2026-06-23 19:32:28.388 [info] [test-by-project] Discovering projects for workspace: /thm/web-app
+2026-06-23 19:32:28.388 [info] Native locator: Refresh started
+2026-06-23 19:32:28.388 [info] [test-by-project] Found 1 total Python projects from API
+2026-06-23 19:32:28.388 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-06-23 19:32:28.388 [info] [test-by-project] Creating adapter for: web-app at file:///thm/web-app
+2026-06-23 19:32:28.389 [info] Native locator: Refresh started
+2026-06-23 19:32:29.063 [info] [test-by-project] Registered 1 project(s) for /thm/web-app
+2026-06-23 19:32:29.067 [info] [test-by-project] Activated 1 project(s) for /thm/web-app
+2026-06-23 19:32:29.067 [info] [test-by-project] Subscribed to Python project changes
+2026-06-23 19:32:29.093 [info] Send text to terminal:  source /thm/web-app/jwt_tool/.venv/bin/activate
+2026-06-23 19:32:29.373 [info] Native locator: Refresh finished in 985 ms
+2026-06-23 19:32:29.383 [info] > ~/.pyenv/bin/pyenv which python
+2026-06-23 19:32:29.383 [info] cwd: .
+2026-06-23 19:32:29.436 [info] Active interpreter [/thm/web-app]:  /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:31.435 [info] Starting Pylance language server.

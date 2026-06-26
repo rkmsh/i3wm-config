@@ -1,0 +1,11 @@
+2026-04-12 22:48:58.759 [info] Native locator: Refresh started
+2026-04-12 22:48:58.759 [info] Pyenv environment manager found at: /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:48:59.092 [info] Native locator: Refresh finished in 624 ms
+2026-04-12 22:48:59.970 [info] Native locator: Refresh started
+2026-04-12 22:48:59.984 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-12 22:49:00.001 [info] Pyenv environment manager found at: /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:49:00.199 [info] > ~/.pyenv/bin/pyenv which python
+2026-04-12 22:49:00.199 [info] cwd: .
+2026-04-12 22:49:00.207 [info] Python interpreter path: /usr/bin/python
+2026-04-12 22:49:00.238 [info] Native locator: Refresh finished in 268 ms
+2026-04-12 22:50:27.438 [info] Starting Pylance language server.

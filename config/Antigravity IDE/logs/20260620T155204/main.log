@@ -1,0 +1,10 @@
+2026-06-20 15:52:04.161 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-06-20 15:52:04.161 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:42261
+2026-06-20 15:52:04.375 [info] update#setState idle
+2026-06-20 15:52:34.377 [info] update#setState checking for updates
+2026-06-20 15:52:34.791 [info] update#setState idle
+2026-06-20 16:52:34.379 [info] update#setState checking for updates
+2026-06-20 16:52:34.868 [info] update#setState idle
+2026-06-20 17:52:34.382 [info] update#setState checking for updates
+2026-06-20 17:52:34.805 [info] update#setState idle
+2026-06-20 17:58:44.359 [info] Extension host with pid 174948 exited with code: 0, signal: unknown.

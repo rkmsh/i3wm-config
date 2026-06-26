@@ -1,0 +1,28 @@
+2026-04-12 22:49:01.266 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-04-12 22:49:04.859 [info] (87451): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-12 22:49:04.861 [info] (87451): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-04-12 22:49:04.867 [info] (87451): Starting service instance "exploit" for workspace "/home/beast/HTB/Silentium/exploit"
+2026-04-12 22:49:15.387 [info] (87451): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///home/beast/HTB/Silentium/exploit...
+2026-04-12 22:50:39.756 [info] (87451): Starting Mcp server id:54488 ...
+2026-04-12 22:50:43.946 [info] (87451): FG(exploit): Setting environmentName for service "exploit": "3.11.0 (3.11.0 venv)"
+2026-04-12 22:50:44.952 [info] (87451): FG(exploit): Setting pythonPath for service "exploit": "/home/beast/.pyenv/versions/3.11.0/bin/python"
+2026-04-12 22:50:47.564 [info] (87451): FG(exploit): No include entries specified; assuming /home/beast/HTB/Silentium/exploit
+2026-04-12 22:50:47.631 [info] (87451): FG(exploit): Auto-excluding **/node_modules
+2026-04-12 22:50:47.631 [info] (87451): FG(exploit): Auto-excluding **/__pycache__
+2026-04-12 22:50:47.632 [info] (87451): FG(exploit): Auto-excluding **/.*
+2026-04-12 22:50:47.632 [info] (87451): FG(exploit): Assuming Python version 3.11.0.final.0
+2026-04-12 22:50:55.618 [info] (87451): [Editable Installs] Starting dynamic pth file resolution for Python: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:50:56.277 [info] (87451): [Editable Installs] No sandbox available for Python /home/beast/.pyenv/versions/3.11.0/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-04-12 22:51:03.015 [info] (87451): FG(exploit): Found 1 source file
+2026-04-12 22:51:32.520 [info] (87451): Settings have not changed. Skipping update.
+2026-04-12 22:52:27.861 [info] (87451): FG(exploit): Long operation: parsing: file:///home/beast/HTB/Silentium/exploit/exploit.py (16162ms)
+2026-04-12 22:52:34.145 [info] (87451): FG(exploit): Long operation: parsing: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/typeshed-fallback/stdlib/builtins.pyi (4751ms)
+2026-04-12 22:53:00.557 [info] (87451): FG(exploit): Long operation: binding: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/typeshed-fallback/stdlib/builtins.pyi (27756ms)
+2026-04-12 22:54:55.316 [info] (87451): PQ(exploit): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-12 22:54:58.856 [info] (87451): PQ(exploit): Priority queue background worker(2) started
+2026-04-12 22:55:22.637 [info] (87451): FG(exploit): IDX(exploit): Indexer background runner(3) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (index)
+2026-04-12 22:55:22.763 [info] (87451): FG(exploit): IDX(exploit): Indexing(3) started
+2026-04-12 22:56:35.057 [info] (87451): FG(exploit): IDX(exploit): Long operation: read stdlib indices (15682ms)
+2026-04-12 22:57:02.048 [info] (87451): BG(exploit): Long operation: parsing: file:///home/beast/HTB/Silentium/exploit/exploit.py (31342ms)
+2026-04-12 22:58:39.312 [info] (87451): BG(exploit): Long operation: parsing: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/typeshed-fallback/stdlib/builtins.pyi (103023ms)
+2026-04-12 22:58:39.668 [info] (87451): BG(exploit): Long operation: analyzing: file:///home/beast/HTB/Silentium/exploit/exploit.py (138325ms)

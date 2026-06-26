@@ -1,0 +1,2 @@
+2026-06-20 12:54:27.489 [info] Revived process, old id 92b6de106a16d13f60501cafde3c15b1-1 -> new id 1
+2026-06-20 12:54:29.391 [error] Failed to set sticky bit on /tmp/beast-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/beast-code-zsh'

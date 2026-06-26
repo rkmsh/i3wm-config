@@ -1,0 +1,9 @@
+2026-04-12 11:42:20.584 [info] update#setState idle
+2026-04-12 11:42:37.390 [info] Extension host with pid 18640 exited with code: 0, signal: unknown.
+2026-04-12 11:42:50.487 [info] update#setState checking for updates
+2026-04-12 11:42:50.629 [info] update#setState available for download
+2026-04-12 11:43:09.630 [info] Extension host with pid 19469 exited with code: 0, signal: unknown.
+2026-04-12 11:43:21.742 [info] update#setState idle
+2026-04-12 12:42:50.494 [info] update#setState checking for updates
+2026-04-12 12:42:51.784 [info] update#setState available for download
+2026-04-12 21:00:01.284 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

@@ -1,0 +1,68 @@
+2026-06-11 06:05:23.792 [info] [main] Log level: Info
+2026-06-11 06:05:23.792 [info] [main] Validating found git in: "git"
+2026-06-11 06:05:23.792 [info] [main] Using git "2.53.0" from "git"
+2026-06-11 06:05:23.792 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-11 06:05:23.792 [info] > git rev-parse --show-toplevel [13ms]
+2026-06-11 06:05:23.792 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [146ms]
+2026-06-11 06:05:23.792 [info] [Model][openRepository] Opened repository (path): /home/beast/dev/my-zsh-aliases
+2026-06-11 06:05:23.792 [info] [Model][openRepository] Opened repository (real path): /home/beast/dev/my-zsh-aliases
+2026-06-11 06:05:23.792 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-11 06:05:23.792 [info] > git rev-parse --show-toplevel [209ms]
+2026-06-11 06:05:23.792 [info] > git config --get commit.template [222ms]
+2026-06-11 06:05:24.330 [info] > git check-ignore -v -z --stdin [30ms]
+2026-06-11 06:05:24.333 [info] > git rev-parse --show-toplevel [537ms]
+2026-06-11 06:05:24.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [113ms]
+2026-06-11 06:05:24.452 [info] > git rev-parse --show-toplevel [23ms]
+2026-06-11 06:05:24.483 [info] > git status -z -uall [8ms]
+2026-06-11 06:05:24.483 [info] > git rev-parse --show-toplevel [25ms]
+2026-06-11 06:05:24.487 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-11 06:05:24.497 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-06-11 06:05:24.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-06-11 06:05:24.545 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2026-06-11 06:05:24.545 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-11 06:05:24.553 [info] > git config --get commit.template [20ms]
+2026-06-11 06:05:24.569 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2026-06-11 06:05:24.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2026-06-11 06:05:24.601 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [24ms]
+2026-06-11 06:05:24.601 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-06-11 06:05:24.601 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-06-11 06:05:24.611 [info] > git show --textconv :ad_enum.py [20ms]
+2026-06-11 06:05:24.611 [info] > git ls-files --stage -- ad_enum.py [13ms]
+2026-06-11 06:05:24.623 [info] > git cat-file -s ea7f65eeb83d82339825e228181becf1d4d318ec [8ms]
+2026-06-11 06:05:24.624 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2026-06-11 06:05:24.643 [info] > git status -z -uall [7ms]
+2026-06-11 06:05:24.643 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% f286bc782be5d00506a51f1d84bea2a790c6b39b...refs/remotes/origin/main -- [14ms]
+2026-06-11 06:05:24.653 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-06-11 06:05:25.006 [info] > git blame --root --incremental f286bc782be5d00506a51f1d84bea2a790c6b39b -- ad_enum.py [5ms]
+2026-06-11 06:05:31.535 [info] > git check-ignore -v -z --stdin [4ms]
+2026-06-11 06:07:34.465 [info] > git check-ignore -v -z --stdin [10ms]
+2026-06-11 06:14:33.739 [info] > git check-ignore -v -z --stdin [5ms]
+2026-06-11 06:14:33.841 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-11 06:14:33.946 [info] > git show --textconv :ad_enum1.py [9ms]
+2026-06-11 06:14:33.953 [info] > git ls-files --stage -- ad_enum1.py [8ms]
+2026-06-11 06:14:33.958 [info] > git hash-object -t tree /dev/null [6ms]
+2026-06-11 06:14:33.958 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/beast/dev/my-zsh-aliases/ad_enum1.py.git?%7B%22path%22%3A%22%2Fhome%2Fbeast%2Fdev%2Fmy-zsh-aliases%2Fad_enum1.py%22%2C%22ref%22%3A%22%22%7D
+2026-06-11 06:14:33.960 [info] > git hash-object -t tree /dev/null [2ms]
+2026-06-11 06:14:33.960 [warning] [GitFileSystemProvider][stat] File not found - git:/home/beast/dev/my-zsh-aliases/ad_enum1.py.git?%7B%22path%22%3A%22%2Fhome%2Fbeast%2Fdev%2Fmy-zsh-aliases%2Fad_enum1.py%22%2C%22ref%22%3A%22%22%7D
+2026-06-11 06:14:34.207 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-11 06:14:34.772 [info] > git config --get commit.template [2ms]
+2026-06-11 06:14:34.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-06-11 06:14:34.795 [info] > git status -z -uall [7ms]
+2026-06-11 06:14:34.796 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-11 06:15:00.000 [info] > git config --get commit.template [6ms]
+2026-06-11 06:15:00.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-06-11 06:15:00.011 [info] > git status -z -uall [5ms]
+2026-06-11 06:15:00.012 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-06-11 06:31:24.884 [info] > git config --get commit.template [1ms]
+2026-06-11 06:31:24.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-11 06:31:24.901 [info] > git status -z -uall [6ms]
+2026-06-11 06:31:24.903 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-11 06:31:25.025 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-11 06:33:05.935 [info] > git config --get commit.template [2ms]
+2026-06-11 06:33:05.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-11 06:33:05.952 [info] > git status -z -uall [6ms]
+2026-06-11 06:33:05.953 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-11 06:34:23.726 [info] > git config --get commit.template [6ms]
+2026-06-11 06:34:23.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-06-11 06:34:23.738 [info] > git status -z -uall [6ms]
+2026-06-11 06:34:23.739 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]

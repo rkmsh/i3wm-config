@@ -1,0 +1,42 @@
+2026-04-12 22:59:10.186 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-04-12 22:59:10.623 [info] (89993): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-12 22:59:10.623 [info] (89993): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-04-12 22:59:10.633 [info] (89993): Starting service instance "Silentium" for workspace "/home/beast/HTB/Silentium"
+2026-04-12 22:59:11.631 [info] (89993): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///home/beast/HTB/Silentium...
+2026-04-12 22:59:11.711 [info] (89993): FG(Silentium): Setting environmentName for service "Silentium": "3.11.0 (3.11.0 venv)"
+2026-04-12 22:59:11.712 [info] (89993): FG(Silentium): Setting pythonPath for service "Silentium": "/home/beast/.pyenv/versions/3.11.0/bin/python"
+2026-04-12 22:59:11.713 [info] (89993): FG(Silentium): No include entries specified; assuming /home/beast/HTB/Silentium
+2026-04-12 22:59:11.718 [info] (89993): FG(Silentium): Auto-excluding **/node_modules
+2026-04-12 22:59:11.719 [info] (89993): FG(Silentium): Auto-excluding **/__pycache__
+2026-04-12 22:59:11.722 [info] (89993): FG(Silentium): Auto-excluding **/.*
+2026-04-12 22:59:11.755 [info] (89993): FG(Silentium): Assuming Python version 3.11.0.final.0
+2026-04-12 22:59:11.959 [info] (89993): [Editable Installs] Starting dynamic pth file resolution for Python: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:59:11.975 [info] (89993): [Editable Installs] No sandbox available for Python /home/beast/.pyenv/versions/3.11.0/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-04-12 22:59:12.027 [info] (89993): FG(Silentium): Found 150 source files
+2026-04-12 22:59:12.046 [info] (89993): Settings have not changed. Skipping update.
+2026-04-12 22:59:12.519 [info] (89993): Starting Mcp server id:45071 ...
+2026-04-12 22:59:12.544 [info] (89993): PQ(Silentium): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-12 22:59:12.544 [info] (89993): PQ(Silentium): Priority queue background worker(2) started
+2026-04-12 22:59:12.826 [info] (89993): FG(Silentium): IDX(Silentium): Indexer background runner(3) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (index)
+2026-04-12 22:59:12.827 [info] (89993): FG(Silentium): IDX(Silentium): Indexing(3) started
+2026-04-12 22:59:13.470 [info] (89993): FG(Silentium): IDX(Silentium): scanned(3) 14 files over 1 exec env
+2026-04-12 22:59:13.914 [info] (89993): FG(Silentium): IDX(Silentium): indexed(3) 14 files over 1 exec env
+2026-04-12 22:59:13.920 [info] (89993): FG(Silentium): IDX(Silentium): Indexing finished(3).
+2026-04-12 23:14:13.594 [info] (89993): Starting service instance "<default>" for workspace ""
+2026-04-12 23:14:13.595 [info] (89993): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into ...
+2026-04-12 23:14:13.633 [info] (89993): FG(<default>): Setting environmentName for service "<default>": "3.11.0 (3.11.0 venv)"
+2026-04-12 23:14:13.633 [info] (89993): FG(<default>): Setting pythonPath for service "<default>": "/home/beast/.pyenv/versions/3.11.0/bin/python"
+2026-04-12 23:14:13.633 [info] (89993): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-04-12 23:14:13.633 [info] (89993): FG(<default>): Auto-excluding **/node_modules
+2026-04-12 23:14:13.633 [info] (89993): FG(<default>): Auto-excluding **/__pycache__
+2026-04-12 23:14:13.633 [info] (89993): FG(<default>): Auto-excluding **/.*
+2026-04-12 23:14:13.675 [info] (89993): FG(<default>): Assuming Python version 3.11.0.final.0
+2026-04-12 23:14:13.770 [error] (89993): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-04-12 23:14:13.770 [info] (89993): FG(<default>): No source files found.
+2026-04-12 23:14:14.168 [info] (89993): PQ(<default>): Priority queue background worker(5) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-12 23:14:14.169 [info] (89993): PQ(<default>): Priority queue background worker(5) started
+2026-04-12 23:25:43.233 [info] (89993): FG(Silentium): Found 151 source files
+2026-04-12 23:29:05.792 [info] (89993): 
+*Warning*: Pylance failed to parse docstring at offset 215
+
+ Outputting literal text instead.

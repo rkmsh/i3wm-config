@@ -1,0 +1,132 @@
+2025-12-26 16:59:14 Loading main app package /opt/Obsidian/resources/obsidian.asar
+2025-12-26 16:59:14 Checking for update using Github
+2025-12-26 16:59:14 Success.
+2025-12-26 16:59:14 Latest version is 1.10.6
+2025-12-26 16:59:14 App is up to date.
+2025-12-26 17:59:14 Checking for update using Github
+2025-12-26 17:59:14 Success.
+2025-12-26 17:59:14 Latest version is 1.10.6
+2025-12-26 17:59:14 App is up to date.
+2026-01-24 17:15:18 Loading main app package /opt/Obsidian/resources/obsidian.asar
+2026-01-24 17:15:18 Checking for update using Github
+2026-01-24 17:15:18 Success.
+2026-01-24 17:15:18 Latest version is 1.11.5
+2026-01-24 17:15:18 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/obsidian-1.11.5.asar.gz
+2026-01-24 17:15:20 Verifying hash & signature. Size= 8771203
+2026-01-24 17:15:20 Saving file
+2026-01-24 17:15:21 Update complete.
+2026-01-24 18:15:18 Checking for update using Github
+2026-01-24 18:15:18 Success.
+2026-01-24 18:15:18 Latest version is 1.11.5
+2026-01-24 18:15:18 An update is already downloaded.
+2026-03-15 09:37:30 Loading updated app package /home/beast/.config/obsidian/obsidian-1.11.5.asar
+2026-03-15 09:37:30 Checking for update using Github
+2026-03-15 09:37:30 Success.
+2026-03-15 09:37:30 Latest version is 1.12.4
+2026-03-15 09:37:30 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.4/obsidian-1.12.4.asar.gz
+2026-03-15 09:37:34 Verifying hash & signature. Size= 8322418
+2026-03-15 09:37:34 Saving file
+2026-03-15 09:37:35 Update complete.
+2026-04-08 23:35:26 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.4.asar
+2026-04-08 23:35:27 Checking for update using Github
+2026-04-08 23:35:27 Success.
+2026-04-08 23:35:27 Latest version is 1.12.7
+2026-04-08 23:35:27 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/obsidian-1.12.7.asar.gz
+2026-04-08 23:35:30 Verifying hash & signature. Size= 8323080
+2026-04-08 23:35:30 Saving file
+2026-04-08 23:35:30 Update complete.
+2026-04-22 23:50:45 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-04-22 23:50:45 Checking for update using Github
+2026-04-22 23:50:49 Success.
+2026-04-22 23:50:49 Latest version is 1.12.7
+2026-04-22 23:50:49 App is up to date.
+2026-06-19 23:22:12 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-19 23:22:12 Checking for update using Github
+2026-06-19 23:22:13 Success.
+2026-06-19 23:22:13 Latest version is 1.12.7
+2026-06-19 23:22:13 App is up to date.
+2026-06-20 00:22:12 Checking for update using Github
+2026-06-20 00:22:12 Success.
+2026-06-20 00:22:12 Latest version is 1.12.7
+2026-06-20 00:22:12 App is up to date.
+2026-06-20 01:22:12 Checking for update using Github
+2026-06-20 01:22:58 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2026-06-20 01:22:58 Checking for update using obsidian.md
+2026-06-20 01:23:21 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2026-06-20 04:58:19 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-20 04:58:20 Checking for update using Github
+2026-06-20 04:58:20 Success.
+2026-06-20 04:58:20 Latest version is 1.12.7
+2026-06-20 04:58:20 App is up to date.
+2026-06-20 14:50:10 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-20 14:50:11 Checking for update using Github
+2026-06-20 14:50:12 Success.
+2026-06-20 14:50:12 Latest version is 1.12.7
+2026-06-20 14:50:12 App is up to date.
+2026-06-20 15:50:10 Checking for update using Github
+2026-06-20 15:50:11 Success.
+2026-06-20 15:50:11 Latest version is 1.12.7
+2026-06-20 15:50:11 App is up to date.
+2026-06-20 16:50:11 Checking for update using Github
+2026-06-20 16:50:11 Success.
+2026-06-20 16:50:11 Latest version is 1.12.7
+2026-06-20 16:50:11 App is up to date.
+2026-06-20 17:50:11 Checking for update using Github
+2026-06-20 17:50:11 Success.
+2026-06-20 17:50:11 Latest version is 1.12.7
+2026-06-20 17:50:11 App is up to date.
+2026-06-20 18:50:11 Checking for update using Github
+2026-06-20 18:50:11 Success.
+2026-06-20 18:50:11 Latest version is 1.12.7
+2026-06-20 18:50:11 App is up to date.
+2026-06-22 03:18:35 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-22 03:18:35 Checking for update using Github
+2026-06-22 03:18:35 Success.
+2026-06-22 03:18:35 Latest version is 1.12.7
+2026-06-22 03:18:35 App is up to date.
+2026-06-22 22:18:38 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-22 22:18:38 Checking for update using Github
+2026-06-22 22:18:38 Success.
+2026-06-22 22:18:38 Latest version is 1.12.7
+2026-06-22 22:18:38 App is up to date.
+2026-06-22 23:18:37 Checking for update using Github
+2026-06-22 23:18:38 Success.
+2026-06-22 23:18:38 Latest version is 1.12.7
+2026-06-22 23:18:38 App is up to date.
+2026-06-23 00:18:37 Checking for update using Github
+2026-06-23 00:18:38 Success.
+2026-06-23 00:18:38 Latest version is 1.12.7
+2026-06-23 00:18:38 App is up to date.
+2026-06-23 04:12:47 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-23 04:12:48 Checking for update using Github
+2026-06-23 04:12:48 Success.
+2026-06-23 04:12:48 Latest version is 1.12.7
+2026-06-23 04:12:48 App is up to date.
+2026-06-23 22:56:33 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-23 22:56:33 Checking for update using Github
+2026-06-23 22:56:34 Success.
+2026-06-23 22:56:34 Latest version is 1.12.7
+2026-06-23 22:56:34 App is up to date.
+2026-06-24 05:44:03 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-24 05:44:04 Checking for update using Github
+2026-06-24 05:44:04 Success.
+2026-06-24 05:44:04 Latest version is 1.12.7
+2026-06-24 05:44:04 App is up to date.
+2026-06-24 06:44:03 Checking for update using Github
+2026-06-24 06:44:03 Success.
+2026-06-24 06:44:03 Latest version is 1.12.7
+2026-06-24 06:44:03 App is up to date.
+2026-06-24 11:54:00 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-24 11:54:00 Checking for update using Github
+2026-06-24 11:54:01 Success.
+2026-06-24 11:54:01 Latest version is 1.12.7
+2026-06-24 11:54:01 App is up to date.
+2026-06-24 12:54:00 Checking for update using Github
+2026-06-24 12:54:00 Success.
+2026-06-24 12:54:00 Latest version is 1.12.7
+2026-06-24 12:54:00 App is up to date.
+2026-06-25 23:38:38 Loading updated app package /home/beast/.config/obsidian/obsidian-1.12.7.asar
+2026-06-25 23:38:38 Checking for update using Github
+2026-06-25 23:38:39 Success.
+2026-06-25 23:38:39 Latest version is 1.12.7
+2026-06-25 23:38:39 App is up to date.

@@ -1,0 +1,7 @@
+2026-04-12 22:58:50.769 [info] Started local extension host with pid 88955.
+2026-04-12 22:58:50.938 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-12 22:58:51.234 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-12 22:58:51.855 [info] MCP Registry configured: https://api.mcp.github.com
+2026-04-12 22:58:51.940 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-12 22:58:53.317 [info] [perf] Render performance baseline is 26ms
+2026-04-12 22:58:53.834 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.

@@ -1,0 +1,14 @@
+2026-04-12 22:59:09.170 [info] Native locator: Refresh started
+2026-04-12 22:59:09.170 [info] Pyenv environment manager found at: /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:59:09.182 [info] Native locator: Refresh finished in 283 ms
+2026-04-12 22:59:09.238 [info] Native locator: Refresh started
+2026-04-12 22:59:09.238 [info] Native locator: Refresh started
+2026-04-12 22:59:09.251 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-12 22:59:09.251 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-12 22:59:09.274 [info] Pyenv environment manager found at: /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:59:09.519 [info] Native locator: Refresh finished in 283 ms
+2026-04-12 22:59:09.541 [info] > ~/.pyenv/bin/pyenv which python
+2026-04-12 22:59:09.541 [info] cwd: .
+2026-04-12 22:59:09.685 [info] Python interpreter path: ~/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:59:09.819 [info] Send text to terminal:  source /home/beast/HTB/Silentium/CVE-2025-8110/.venv/bin/activate
+2026-04-12 22:59:11.643 [info] Starting Pylance language server.

@@ -1,0 +1,295 @@
+2026-06-20 15:52:04.566 [info] [LS Main] Starting language server from: /home/beast/Downloads/Antigravity IDE/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-06-20 15:52:04.663 [info] [LS Main] Args: --csrf_token c6b5772f-6edf-41c9-b170-14ccca83ae6e --extension_server_port 39077 --extension_server_csrf_token 6a587f29-b23f-45c4-9a85-b58f09fe6714 --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-06-20 15:52:05.922 [info] [LS Main] Process spawned with PID: 174880
+2026-06-20 15:52:07.003 [error] [LS Main stderr] I0620 15:52:06.931102 174880 server.go:1293] Starting language server process with pid 174880
+I0620 15:52:06.931277 174880 server.go:330] Setting GOMAXPROCS to 4
+I0620 15:52:06.942034 174880 server.go:473] Language server will attempt to listen on host localhost
+I0620 15:52:06.943216 174880 server.go:487] Language server listening on random port at 32987 for HTTPS (gRPC)
+I0620 15:52:06.943545 174880 server.go:494] Language server listening on random port at 44915 for HTTP
+
+2026-06-20 15:52:07.906 [error] [LS Main stderr] I0620 15:52:07.899137 174880 server.go:466] Created extension server client at port 39077
+
+2026-06-20 15:52:09.256 [error] No LS client info found for local authority
+2026-06-20 15:52:10.939 [error] [LS Main stderr] E0620 15:52:10.939171 174880 log.go:398] WaitForReady failed: context deadline exceeded
+
+2026-06-20 15:52:10.944 [error] [LS Main stderr] I0620 15:52:10.943884 174880 server.go:2234] Auth succeeded, refreshing features and managers
+
+2026-06-20 15:52:11.596 [error] [LS Main stderr] I0620 15:52:11.596083 174880 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x774fe5926a8e577e
+
+2026-06-20 15:52:13.230 [error] [LS Main stderr] I0620 15:52:13.220365 174880 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcd07078a2dc93f09
+
+2026-06-20 15:52:13.230 [error] [LS Main stderr] I0620 15:52:13.227136 174880 server.go:2240] State refresh took 2283ms
+
+2026-06-20 15:52:13.305 [info] [LS Main] LS started on port 32987
+2026-06-20 15:52:13.447 [error] [LS Main stderr] I0620 15:52:13.390166 174880 server.go:1898] initialized server successfully in 6.458901733s
+
+2026-06-20 15:52:13.494 [error] [LS Main stderr] 2026/06/20 15:52:13 http: TLS handshake error from 127.0.0.1:41880: remote error: tls: unknown certificate
+
+2026-06-20 15:52:13.496 [error] [LS Main stderr] 2026/06/20 15:52:13 http: TLS handshake error from 127.0.0.1:41916: remote error: tls: unknown certificate
+
+2026-06-20 15:52:16.698 [error] [LS Main stderr] I0620 15:52:16.475637 174880 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x80528e9e84101ce0
+
+2026-06-20 15:52:17.443 [error] [LS Main stderr] I0620 15:52:17.442967 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x660f468a78d17ece
+
+2026-06-20 15:52:19.203 [error] [LS Main stderr] I0620 15:52:19.203148 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6a10f6cc9fdabac6
+
+2026-06-20 15:52:24.209 [error] [LS Main stderr] I0620 15:52:24.209256 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdd776440b6589eab
+
+2026-06-20 15:52:25.787 [error] [LS Main stderr] I0620 15:52:25.786751 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x84caf5d0958b5b72
+
+2026-06-20 15:54:07.443 [error] [LS Main stderr] E0620 15:54:07.442883 174880 log_context.go:117] Failed to load trajectory c43f3731-de22-416c-9422-5dfe1f14baaa on-demand: failed to load trajectory c43f3731-de22-416c-9422-5dfe1f14baaa: open /home/beast/.gemini/antigravity-ide/conversations/c43f3731-de22-416c-9422-5dfe1f14baaa.pb: no such file or directory
+
+2026-06-20 15:54:07.444 [error] [LS Main stderr] E0620 15:54:07.444627 174880 interceptor.go:74] /exa.language_server_pb.LanguageServerService/StreamAgentStateUpdates (unknown): agent state for conversation c43f3731-de22-416c-9422-5dfe1f14baaa not found
+
+2026-06-20 15:54:07.465 [error] [LS Main stderr] E0620 15:54:07.465727 174880 repo.go:340] failed to create patch for untracked file __pycache__/exploit_finder.cpython-313.pyc: bytes are not valid utf8
+
+2026-06-20 15:54:07.515 [error] [LS Main stderr] E0620 15:54:07.514938 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 15:54:07.523 [error] [LS Main stderr] E0620 15:54:07.523185 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 15:54:11.032 [error] [LS Main stderr] I0620 15:54:11.032331 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe64500280bc98620
+
+2026-06-20 15:54:33.104 [error] [LS Main stderr] I0620 15:54:33.104215 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x898e6d7b9ef6ba18
+
+2026-06-20 15:56:42.653 [error] [LS Main stderr] E0620 15:56:42.651684 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 15:56:42.655 [error] [LS Main stderr] E0620 15:56:42.654845 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 15:56:45.697 [error] [LS Main stderr] I0620 15:56:45.697379 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9f7cad22f383dfe1
+
+2026-06-20 15:57:09.415 [error] [LS Main stderr] I0620 15:57:09.415375 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x65c0f84ebb0d3934
+
+2026-06-20 15:57:10.086 [error] [LS Main stderr] I0620 15:57:10.086279 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc1f01af2affd5824
+
+2026-06-20 16:00:50.810 [error] [LS Main stderr] E0620 16:00:50.809606 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:00:50.813 [error] [LS Main stderr] E0620 16:00:50.813109 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:00:53.079 [error] [LS Main stderr] I0620 16:00:53.079535 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x559fe4e0af24e122
+
+2026-06-20 16:02:09.094 [error] [LS Main stderr] I0620 16:02:09.094195 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x74b3fbd850eb2dd7
+
+2026-06-20 16:02:10.441 [error] [LS Main stderr] I0620 16:02:10.441201 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x559d3419b86129c1
+
+2026-06-20 16:05:01.141 [error] [LS Main stderr] E0620 16:05:01.141281 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:05:01.145 [error] [LS Main stderr] E0620 16:05:01.144723 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:05:04.198 [error] [LS Main stderr] I0620 16:05:04.198373 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3320d1b2a4bf646b
+
+2026-06-20 16:06:41.335 [error] [LS Main stderr] E0620 16:06:41.335349 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:06:41.337 [error] [LS Main stderr] E0620 16:06:41.337420 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:06:45.017 [error] [LS Main stderr] I0620 16:06:45.017052 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc6f28689b72fe3ba
+
+2026-06-20 16:07:09.340 [error] [LS Main stderr] I0620 16:07:09.340038 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x18f43cd6edbde1a3
+
+2026-06-20 16:07:10.552 [error] [LS Main stderr] I0620 16:07:10.552483 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4157031ee96935f2
+
+2026-06-20 16:07:57.635 [error] [LS Main stderr] E0620 16:07:57.634740 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:07:57.637 [error] [LS Main stderr] E0620 16:07:57.637233 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:07:59.862 [error] [LS Main stderr] I0620 16:07:59.861747 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x63b9c413506dc617
+
+2026-06-20 16:10:26.638 [error] [LS Main stderr] E0620 16:10:26.637374 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:10:26.639 [error] [LS Main stderr] E0620 16:10:26.639363 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:10:28.976 [error] [LS Main stderr] I0620 16:10:28.976447 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa402a3d1eb9d7fc
+
+2026-06-20 16:12:09.847 [error] [LS Main stderr] I0620 16:12:09.847257 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb97ee3bfe93d9980
+
+2026-06-20 16:12:10.960 [error] [LS Main stderr] I0620 16:12:10.960177 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf4fd41fcf1a1a858
+
+2026-06-20 16:13:59.657 [error] [LS Main stderr] E0620 16:13:59.657082 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:13:59.659 [error] [LS Main stderr] E0620 16:13:59.659306 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:14:02.054 [error] [LS Main stderr] I0620 16:14:02.053723 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfbfe0a8fbd869a20
+
+2026-06-20 16:16:20.755 [error] [LS Main stderr] E0620 16:16:20.755380 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:16:20.758 [error] [LS Main stderr] E0620 16:16:20.757728 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:16:23.243 [error] [LS Main stderr] I0620 16:16:23.243276 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdbc27b9714f34b67
+
+2026-06-20 16:17:09.642 [error] [LS Main stderr] I0620 16:17:09.641785 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xaa3531b27dea5264
+
+2026-06-20 16:17:10.731 [error] [LS Main stderr] I0620 16:17:10.730607 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9f14ef31c04f1a34
+
+2026-06-20 16:22:09.423 [error] [LS Main stderr] I0620 16:22:09.423118 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9afc6526f9468edd
+
+2026-06-20 16:22:09.961 [error] [LS Main stderr] I0620 16:22:09.960815 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9237b6986e397b10
+
+2026-06-20 16:23:37.505 [error] [LS Main stderr] E0620 16:23:37.504555 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:23:37.507 [error] [LS Main stderr] E0620 16:23:37.507246 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:23:40.693 [error] [LS Main stderr] I0620 16:23:40.693417 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7bab49fe3b9f9030
+
+2026-06-20 16:24:17.283 [error] [LS Main stderr] E0620 16:24:17.282428 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:24:17.285 [error] [LS Main stderr] E0620 16:24:17.285164 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:24:19.604 [error] [LS Main stderr] I0620 16:24:19.603956 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa91f9a9f1b515a96
+
+2026-06-20 16:27:09.634 [error] [LS Main stderr] I0620 16:27:09.633005 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9d41c072bba02104
+
+2026-06-20 16:27:10.645 [error] [LS Main stderr] I0620 16:27:10.644996 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcd6f154abf6a7bbd
+
+2026-06-20 16:32:08.835 [error] [LS Main stderr] I0620 16:32:08.835084 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xeeed94d4d3bdde41
+
+2026-06-20 16:32:09.796 [error] [LS Main stderr] I0620 16:32:09.796630 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3338c54631b83705
+
+2026-06-20 16:32:32.924 [error] [LS Main stderr] E0620 16:32:32.923282 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:32:32.927 [error] [LS Main stderr] E0620 16:32:32.926797 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:32:36.101 [error] [LS Main stderr] I0620 16:32:36.101638 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe812058c23c5d914
+
+2026-06-20 16:37:09.269 [error] [LS Main stderr] I0620 16:37:09.269260 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9bf8b99083237904
+
+2026-06-20 16:37:10.246 [error] [LS Main stderr] I0620 16:37:10.245806 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9fbed1c03a1436a
+
+2026-06-20 16:38:58.798 [error] [LS Main stderr] E0620 16:38:58.795506 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:38:58.801 [error] [LS Main stderr] E0620 16:38:58.800751 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:39:01.401 [error] [LS Main stderr] I0620 16:39:01.401422 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbf8047e348755a9a
+
+2026-06-20 16:40:17.001 [error] [LS Main stderr] E0620 16:40:16.998445 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:40:17.004 [error] [LS Main stderr] E0620 16:40:17.003187 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:40:19.653 [error] [LS Main stderr] I0620 16:40:19.653223 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3f2e78f4a82d1cbd
+
+2026-06-20 16:42:09.025 [error] [LS Main stderr] I0620 16:42:09.025624 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5360b0ed26b30179
+
+2026-06-20 16:42:09.777 [error] [LS Main stderr] I0620 16:42:09.777141 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x60b8efc200b9797a
+
+2026-06-20 16:43:19.754 [error] [LS Main stderr] E0620 16:43:19.753216 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:43:19.761 [error] [LS Main stderr] E0620 16:43:19.759045 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:43:22.039 [error] [LS Main stderr] I0620 16:43:22.039290 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1c75b6d03cd134c
+
+2026-06-20 16:46:30.341 [error] [LS Main stderr] E0620 16:46:30.341405 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:46:30.344 [error] [LS Main stderr] E0620 16:46:30.344275 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:46:32.517 [error] [LS Main stderr] I0620 16:46:32.517197 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9d1e5bdcad9993ac
+
+2026-06-20 16:47:09.611 [error] [LS Main stderr] I0620 16:47:09.611295 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5f2b8b5decc004d
+
+2026-06-20 16:47:10.946 [error] [LS Main stderr] I0620 16:47:10.946348 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdd353535efc7cdb7
+
+2026-06-20 16:51:11.739 [error] [LS Main stderr] E0620 16:51:11.739539 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 16:51:11.744 [error] [LS Main stderr] E0620 16:51:11.744078 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 16:51:14.032 [error] [LS Main stderr] I0620 16:51:14.031548 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe3d68aba1e0116
+
+2026-06-20 16:52:09.166 [error] [LS Main stderr] I0620 16:52:09.166346 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfe8600833562bb31
+
+2026-06-20 16:52:10.263 [error] [LS Main stderr] I0620 16:52:10.262867 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe1d51c8fd65c557d
+
+2026-06-20 16:57:09.682 [error] [LS Main stderr] I0620 16:57:09.681935 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4088467e2699c134
+
+2026-06-20 16:57:10.452 [error] [LS Main stderr] I0620 16:57:10.451910 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8d5e24407403703
+
+2026-06-20 17:00:33.484 [error] [LS Main stderr] E0620 17:00:33.484176 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 17:00:33.494 [error] [LS Main stderr] E0620 17:00:33.494423 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 17:00:36.214 [error] [LS Main stderr] I0620 17:00:36.213804 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcafd496872d3b936
+
+2026-06-20 17:02:09.089 [error] [LS Main stderr] I0620 17:02:09.089366 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x49ac95b913ae00c3
+
+2026-06-20 17:02:10.386 [error] [LS Main stderr] I0620 17:02:10.386400 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x52ba7780d396a29
+
+2026-06-20 17:02:48.954 [error] [LS Main stderr] E0620 17:02:48.953455 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 17:02:48.956 [error] [LS Main stderr] E0620 17:02:48.956686 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 17:02:52.023 [error] [LS Main stderr] I0620 17:02:52.023499 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcf1666625e811edb
+
+2026-06-20 17:07:09.699 [error] [LS Main stderr] I0620 17:07:09.699056 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc0933f1bc2a97c86
+
+2026-06-20 17:07:10.945 [error] [LS Main stderr] I0620 17:07:10.945395 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4b0954717a78f18d
+
+2026-06-20 17:12:09.465 [error] [LS Main stderr] I0620 17:12:09.464903 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbeb6ad9730597285
+
+2026-06-20 17:12:10.752 [error] [LS Main stderr] I0620 17:12:10.752262 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x87140b32232d6fbc
+
+2026-06-20 17:17:09.137 [error] [LS Main stderr] I0620 17:17:09.137126 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc9f5e38ef78fa46a
+
+2026-06-20 17:17:10.264 [error] [LS Main stderr] I0620 17:17:10.264422 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf1c4ac1219451d74
+
+2026-06-20 17:17:54.713 [error] [LS Main stderr] E0620 17:17:54.713649 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 17:17:54.728 [error] [LS Main stderr] E0620 17:17:54.727859 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 17:17:57.064 [error] [LS Main stderr] I0620 17:17:57.063743 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3aace2396199a602
+
+2026-06-20 17:22:09.540 [error] [LS Main stderr] I0620 17:22:09.540296 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc41531e04ed3e0b8
+
+2026-06-20 17:22:10.385 [error] [LS Main stderr] I0620 17:22:10.385133 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb8a8cab49e6132f2
+
+2026-06-20 17:27:08.909 [error] [LS Main stderr] I0620 17:27:08.909459 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x232f4fec5e114a3e
+
+2026-06-20 17:27:10.327 [error] [LS Main stderr] I0620 17:27:10.326804 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa8ae2b59a1447471
+
+2026-06-20 17:32:06.993 [error] [LS Main stderr] W0620 17:32:06.993340 174880 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+
+2026-06-20 17:32:06.994 [error] [LS Main stderr] W0620 17:32:06.993793 174880 log_context.go:117] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+W0620 17:32:06.993894 174880 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+W0620 17:32:06.993667 174880 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+W0620 17:32:06.993911 174880 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+W0620 17:32:06.993742 174880 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+W0620 17:32:06.993926 174880 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+W0620 17:32:06.993916 174880 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.224.164:38548->216.239.34.223:443: read: connection reset by peer
+
+2026-06-20 17:32:10.872 [error] [LS Main stderr] I0620 17:32:10.871747 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1f7a4026f39f32e7
+
+2026-06-20 17:32:11.967 [error] [LS Main stderr] I0620 17:32:11.967428 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x710e1b8d9c2973e
+
+2026-06-20 17:37:09.941 [error] [LS Main stderr] I0620 17:37:09.941538 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xae26881446147d57
+
+2026-06-20 17:37:11.916 [error] [LS Main stderr] I0620 17:37:11.915896 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xffd329523c381d76
+
+2026-06-20 17:40:18.265 [error] [LS Main stderr] E0620 17:40:18.263602 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 17:40:18.275 [error] [LS Main stderr] E0620 17:40:18.274899 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 17:40:21.625 [error] [LS Main stderr] I0620 17:40:21.624836 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc49babc9e45d93a0
+
+2026-06-20 17:42:09.460 [error] [LS Main stderr] I0620 17:42:09.460356 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x43af49003ee851f3
+
+2026-06-20 17:42:10.739 [error] [LS Main stderr] I0620 17:42:10.739029 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf76fa6c0a2845cd3
+
+2026-06-20 17:47:09.266 [error] [LS Main stderr] I0620 17:47:09.265651 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfe0be9a16fe2d24c
+
+2026-06-20 17:47:10.378 [error] [LS Main stderr] I0620 17:47:10.378219 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5d91366fb3f3ae52
+
+2026-06-20 17:49:02.858 [error] [LS Main stderr] E0620 17:49:02.858169 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 17:49:02.863 [error] [LS Main stderr] E0620 17:49:02.863479 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 17:49:06.059 [error] [LS Main stderr] I0620 17:49:06.058899 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7cd01677e83a2919
+
+2026-06-20 17:52:10.169 [error] [LS Main stderr] I0620 17:52:10.168875 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3d05a109a4c9b01c
+
+2026-06-20 17:52:11.769 [error] [LS Main stderr] I0620 17:52:11.769090 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7ab1ae81cd32b0be
+
+2026-06-20 17:54:57.248 [error] [LS Main stderr] E0620 17:54:57.246956 174880 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-20 17:54:57.264 [error] [LS Main stderr] E0620 17:54:57.264643 174880 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-20 17:55:01.165 [error] [LS Main stderr] I0620 17:55:01.164854 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x805a89e582280f96
+
+2026-06-20 17:57:10.150 [error] [LS Main stderr] I0620 17:57:10.142822 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x46ab9a9e53e49d2c
+
+2026-06-20 17:57:11.923 [error] [LS Main stderr] I0620 17:57:11.922134 174880 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfd34d27c01aa0586
+

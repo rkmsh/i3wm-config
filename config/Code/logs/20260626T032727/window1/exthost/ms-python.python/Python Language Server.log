@@ -1,0 +1,26 @@
+2026-06-26 03:27:35.648 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-06-26 03:27:35.946 [info] (12811): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-06-26 03:27:35.947 [info] (12811): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-06-26 03:27:35.953 [info] (12811): Starting service instance "web-app" for workspace "/thm/web-app"
+2026-06-26 03:27:37.833 [info] (12811): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///thm/web-app...
+2026-06-26 03:27:38.059 [info] (12811): FG(web-app): Setting environmentName for service "web-app": ".venv (3.13.11)"
+2026-06-26 03:27:38.060 [info] (12811): FG(web-app): Setting pythonPath for service "web-app": "/thm/web-app/jwt_tool/.venv/bin/python"
+2026-06-26 03:27:38.060 [info] (12811): FG(web-app): No include entries specified; assuming /thm/web-app
+2026-06-26 03:27:38.062 [info] (12811): FG(web-app): Auto-excluding **/node_modules
+2026-06-26 03:27:38.063 [info] (12811): FG(web-app): Auto-excluding **/__pycache__
+2026-06-26 03:27:38.064 [info] (12811): FG(web-app): Auto-excluding **/.*
+2026-06-26 03:27:38.133 [info] (12811): FG(web-app): Assuming Python version 3.13.11.final.0
+2026-06-26 03:27:38.288 [info] (12811): [Editable Installs] Starting dynamic pth file resolution for Python: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-26 03:27:38.304 [info] (12811): [Editable Installs] No sandbox available for Python /thm/web-app/jwt_tool/.venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-06-26 03:27:38.334 [info] (12811): FG(web-app): Found 4 source files
+2026-06-26 03:27:38.353 [info] (12811): Settings have not changed. Skipping update.
+2026-06-26 03:27:38.358 [info] (12811): Starting Mcp server id:51982 ...
+2026-06-26 03:27:38.389 [info] (12811): Settings have not changed. Skipping update.
+2026-06-26 03:27:38.395 [info] (12811): Settings have not changed. Skipping update.
+2026-06-26 03:27:39.305 [info] (12811): PQ(web-app): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-06-26 03:27:39.306 [info] (12811): PQ(web-app): Priority queue background worker(2) started
+2026-06-26 03:27:39.721 [info] (12811): FG(web-app): IDX(web-app): Indexer background runner(3) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (index)
+2026-06-26 03:27:39.721 [info] (12811): FG(web-app): IDX(web-app): Indexing(3) started
+2026-06-26 03:27:40.932 [info] (12811): FG(web-app): IDX(web-app): scanned(3) 17 files over 1 exec env
+2026-06-26 03:27:41.288 [info] (12811): FG(web-app): IDX(web-app): indexed(3) 17 files over 1 exec env
+2026-06-26 03:27:41.301 [info] (12811): FG(web-app): IDX(web-app): Indexing finished(3).

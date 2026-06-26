@@ -1,0 +1,12 @@
+2026-06-20 15:52:04.567 [info] [Auth] Auth state changed to: uninitialized
+2026-06-20 15:52:04.706 [info] [Auth] Auth state changed to: validatingLogin
+2026-06-20 15:52:04.706 [info] [Auth] Auth state changed to: validatingLogin
+2026-06-20 15:52:16.144 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-20 15:52:17.700 [info] [Auth] Auth state changed to: signedIn
+2026-06-20 15:52:17.701 [info] [Auth] Auth state changed to: signedIn
+2026-06-20 15:52:17.702 [info] [Auth] AntigravityAuthMainService initialized
+2026-06-20 15:52:17.766 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-20 15:57:04.485 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-20 15:57:07.190 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-20 16:52:07.161 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-20 17:47:06.895 [info] OAuth token changed, executing antigravity.handleAuthRefresh

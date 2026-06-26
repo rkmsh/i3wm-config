@@ -1,0 +1,69 @@
+2026-04-14 19:16:00.346 [info] resolveDebugConfigurationWithSubstitutedVariables: resolving interpreter for program='/home/beast/HTB/Silentium/HTB/Silentium/exploit.py'
+2026-04-14 19:16:00.350 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium/HTB/Silentium/exploit.py'
+2026-04-14 19:16:00.351 [info] resolveDebugConfigurationWithSubstitutedVariables: setting debugConfiguration.python='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:16:00.351 [info] Resolving launch configuration with substituted variables
+2026-04-14 19:16:00.362 [info] createDebugAdapterDescriptor: request='launch' name='Python Debugger: Current File'
+2026-04-14 19:16:00.364 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium'
+2026-04-14 19:16:00.365 [info] legacyResolveEnvironment: Resolving environment '/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:16:00.365 [info] legacyResolveEnvironment: Resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:16:00.366 [info] resolveEnvironment: legacy resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:16:00.366 [info] getExecutableCommand: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:16:00.367 [info] createDebugAdapterDescriptor: python command parts='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:16:00.367 [info] DAP Server launched with command: /home/beast/.pyenv/versions/pwncat-cs/bin/python /home/beast/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter
+2026-04-14 19:16:00.708 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:16:00.718 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:16:00.719 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:16:07.096 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:17:35.520 [info] resolveDebugConfigurationWithSubstitutedVariables: resolving interpreter for program='/home/beast/HTB/Silentium/.vscode/launch.json'
+2026-04-14 19:17:35.523 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium/.vscode/launch.json'
+2026-04-14 19:17:35.525 [info] resolveDebugConfigurationWithSubstitutedVariables: setting debugConfiguration.python='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:17:35.525 [info] Resolving launch configuration with substituted variables
+2026-04-14 19:17:35.548 [info] createDebugAdapterDescriptor: request='launch' name='Python Debugger: Current File with Arguments'
+2026-04-14 19:17:35.550 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium'
+2026-04-14 19:17:35.551 [info] legacyResolveEnvironment: Resolving environment '/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:17:35.552 [info] legacyResolveEnvironment: Resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:17:35.552 [info] resolveEnvironment: legacy resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:17:35.552 [info] getExecutableCommand: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:17:35.552 [info] createDebugAdapterDescriptor: python command parts='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:17:35.552 [info] DAP Server launched with command: /home/beast/.pyenv/versions/pwncat-cs/bin/python /home/beast/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter
+2026-04-14 19:17:35.679 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:17:35.681 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:17:35.681 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:09.181 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:09.185 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:26.616 [info] resolveDebugConfigurationWithSubstitutedVariables: resolving interpreter for program='/home/beast/HTB/Silentium/.vscode/launch.json'
+2026-04-14 19:18:26.619 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium/.vscode/launch.json'
+2026-04-14 19:18:26.620 [info] resolveDebugConfigurationWithSubstitutedVariables: setting debugConfiguration.python='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:18:26.620 [info] Resolving launch configuration with substituted variables
+2026-04-14 19:18:26.631 [info] createDebugAdapterDescriptor: request='launch' name='Python Debugger: Current File with Arguments'
+2026-04-14 19:18:26.632 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium'
+2026-04-14 19:18:26.633 [info] legacyResolveEnvironment: Resolving environment '/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:18:26.633 [info] legacyResolveEnvironment: Resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:18:26.633 [info] resolveEnvironment: legacy resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:18:26.633 [info] getExecutableCommand: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:18:26.634 [info] createDebugAdapterDescriptor: python command parts='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:18:26.634 [info] DAP Server launched with command: /home/beast/.pyenv/versions/pwncat-cs/bin/python /home/beast/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter
+2026-04-14 19:18:26.766 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:26.768 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:26.769 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:27.891 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:28.937 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:18:28.941 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:20:12.930 [info] resolveDebugConfigurationWithSubstitutedVariables: resolving interpreter for program='/home/beast/HTB/Silentium/.vscode/launch.json'
+2026-04-14 19:20:12.934 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium/.vscode/launch.json'
+2026-04-14 19:20:12.934 [info] resolveDebugConfigurationWithSubstitutedVariables: setting debugConfiguration.python='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:20:12.934 [info] Resolving launch configuration with substituted variables
+2026-04-14 19:20:12.947 [info] createDebugAdapterDescriptor: request='launch' name='Python Debugger: Current File with Arguments'
+2026-04-14 19:20:12.948 [info] legacyGetInterpreterDetails: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' resource='/home/beast/HTB/Silentium'
+2026-04-14 19:20:12.948 [info] legacyResolveEnvironment: Resolving environment '/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:20:12.948 [info] legacyResolveEnvironment: Resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:20:12.948 [info] resolveEnvironment: legacy resolved executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:20:12.948 [info] getExecutableCommand: executable='/home/beast/.pyenv/versions/pwncat-cs/bin/python' version='3.11.0'
+2026-04-14 19:20:12.949 [info] createDebugAdapterDescriptor: python command parts='/home/beast/.pyenv/versions/pwncat-cs/bin/python'
+2026-04-14 19:20:12.949 [info] DAP Server launched with command: /home/beast/.pyenv/versions/pwncat-cs/bin/python /home/beast/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter
+2026-04-14 19:20:13.094 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:20:13.097 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:20:13.098 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:20:14.151 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:20:15.200 [info] Received 'debugpySockets' event from debugpy.
+2026-04-14 19:20:15.203 [info] Received 'debugpySockets' event from debugpy.

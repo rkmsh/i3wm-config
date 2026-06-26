@@ -1,0 +1,40 @@
+2026-06-14 12:07:59.155 [info] [main] Log level: Info
+2026-06-14 12:07:59.155 [info] [main] Validating found git in: "git"
+2026-06-14 12:07:59.155 [info] [main] Using git "2.53.0" from "git"
+2026-06-14 12:07:59.155 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-14 12:07:59.155 [info] > git rev-parse --show-toplevel [11ms]
+2026-06-14 12:07:59.155 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [13ms]
+2026-06-14 12:07:59.155 [info] [Model][openRepository] Opened repository (path): /home/beast/dev/my-zsh-aliases
+2026-06-14 12:07:59.155 [info] [Model][openRepository] Opened repository (real path): /home/beast/dev/my-zsh-aliases
+2026-06-14 12:07:59.155 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-14 12:07:59.155 [info] > git rev-parse --show-toplevel [9ms]
+2026-06-14 12:07:59.155 [info] > git config --get commit.template [13ms]
+2026-06-14 12:07:59.155 [info] > git rev-parse --show-toplevel [6ms]
+2026-06-14 12:07:59.155 [info] > git rev-parse --show-toplevel [42ms]
+2026-06-14 12:07:59.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [102ms]
+2026-06-14 12:07:59.208 [info] > git rev-parse --show-toplevel [47ms]
+2026-06-14 12:07:59.706 [info] > git rev-parse --show-toplevel [484ms]
+2026-06-14 12:07:59.709 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-14 12:07:59.766 [info] > git check-ignore -v -z --stdin [49ms]
+2026-06-14 12:07:59.767 [info] > git status -z -uall [44ms]
+2026-06-14 12:07:59.769 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [40ms]
+2026-06-14 12:07:59.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-06-14 12:07:59.816 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2026-06-14 12:07:59.816 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-14 12:07:59.822 [info] > git config --get commit.template [23ms]
+2026-06-14 12:07:59.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-06-14 12:07:59.841 [info] > git reflog main --grep-reflog=branch: Created from *. [19ms]
+2026-06-14 12:07:59.861 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2026-06-14 12:07:59.861 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-06-14 12:07:59.861 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-06-14 12:07:59.869 [info] > git status -z -uall [17ms]
+2026-06-14 12:07:59.869 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-06-14 12:07:59.892 [info] > git show --textconv :ad_enum1.py [7ms]
+2026-06-14 12:07:59.893 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2026-06-14 12:07:59.903 [info] > git merge-base refs/heads/main refs/remotes/origin/main [35ms]
+2026-06-14 12:07:59.915 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 51438de88d22a9d838b4db67738491b200dea57c...refs/remotes/origin/main -- [6ms]
+2026-06-14 12:07:59.916 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 51438de88d22a9d838b4db67738491b200dea57c...refs/remotes/origin/main -- [14ms]
+2026-06-14 12:07:59.917 [info] > git ls-files --stage -- ad_enum1.py [25ms]
+2026-06-14 12:07:59.925 [info] > git cat-file -s be3d4f5c595c33641a66404d424e66de86786e80 [4ms]
+2026-06-14 12:08:00.245 [info] > git blame --root --incremental 51438de88d22a9d838b4db67738491b200dea57c -- ad_enum1.py [12ms]
+2026-06-14 12:08:08.369 [info] > git check-ignore -v -z --stdin [2ms]

@@ -1,0 +1,40 @@
+2026-04-12 11:42:23.644 [info] Marked extension as removed ms-python.python-2025.20.1-linux-x64
+2026-04-12 11:42:23.645 [info] Marked extension as removed ms-python.vscode-python-envs-1.14.0-linux-x64
+2026-04-12 11:42:23.793 [info] Deleted marked for removal extension from disk ms-python.vscode-python-envs /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-linux-x64
+2026-04-12 11:42:24.161 [info] Deleted marked for removal extension from disk ms-python.python /home/beast/.vscode/extensions/ms-python.python-2025.20.1-linux-x64
+2026-04-12 11:42:28.261 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms
+2026-04-12 11:42:31.500 [info] Getting Manifest... ms-python.python
+2026-04-12 11:42:31.502 [info] Getting Manifest... ms-python.vscode-pylance
+2026-04-12 11:42:31.506 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-04-12 11:42:31.993 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.107.1","date":"2025-12-17T14:15:14.850Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beast/.vscode/extensions/extensions.json","path":"/home/beast/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-04-12 11:42:32.002 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.107.1","date":"2025-12-17T14:15:14.850Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beast/.vscode/extensions/extensions.json","path":"/home/beast/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-04-12 11:42:32.007 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.107.1","date":"2025-12-17T14:15:14.850Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beast/.vscode/extensions/extensions.json","path":"/home/beast/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-04-12 11:42:36.892 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 2035ms.
+2026-04-12 11:42:37.802 [info] Extracted extension to file:///home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64: ms-python.vscode-python-envs
+2026-04-12 11:42:37.840 [info] Renamed to /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64
+2026-04-12 11:42:37.867 [info] Marked extension as removed ms-python.vscode-python-envs-1.16.0-linux-x64
+2026-04-12 11:42:37.875 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/beast/.vscode/extensions/extensions.json
+2026-04-12 11:42:39.408 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 1455ms.
+2026-04-12 11:42:43.363 [info] Extracted extension to file:///home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64: ms-python.python
+2026-04-12 11:42:43.470 [info] Renamed to /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64
+2026-04-12 11:42:43.490 [info] Marked extension as removed ms-python.python-2026.0.0-linux-x64
+2026-04-12 11:42:43.497 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/beast/.vscode/extensions/extensions.json
+2026-04-12 11:42:43.552 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 1006ms.
+2026-04-12 11:42:43.756 [info] Getting Manifest... ms-python.vscode-pylance
+2026-04-12 11:42:43.822 [info] Extension is already requested to install ms-python.vscode-pylance vscode-userdata:/home/beast/.vscode/extensions/extensions.json
+2026-04-12 11:42:57.586 [info] Extracted extension to file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1: ms-python.vscode-pylance
+2026-04-12 11:42:57.866 [info] Renamed to /home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1
+2026-04-12 11:42:57.903 [info] Marked extension as removed ms-python.vscode-pylance-2025.10.4
+2026-04-12 11:42:57.933 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/beast/.vscode/extensions/extensions.json
+2026-04-12 11:42:57.946 [info] Getting Manifest... ms-python.vscode-pylance
+2026-04-12 11:42:57.951 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-04-12 11:42:58.026 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.114.0","date":"2026-04-01T09:35:57.883Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beast/.vscode/extensions/extensions.json","path":"/home/beast/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-04-12 11:42:58.028 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.114.0","date":"2026-04-01T09:35:57.883Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beast/.vscode/extensions/extensions.json","path":"/home/beast/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-04-12 11:42:58.258 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/beast/.vscode/extensions/extensions.json
+2026-04-12 11:43:01.684 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 996ms.
+2026-04-12 11:43:02.358 [info] Extracted extension to file:///home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64: ms-python.vscode-python-envs
+2026-04-12 11:43:02.374 [info] Renamed to /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64
+2026-04-12 11:43:02.378 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-04-12 11:43:02.398 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-04-12 11:43:02.403 [error] Error while installing the extension ms-python.vscode-python-envs Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64 vscode-userdata:/home/beast/.vscode/extensions/extensions.json
+2026-04-12 11:43:02.428 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.

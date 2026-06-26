@@ -1,0 +1,503 @@
+2026-06-16 03:39:42.685 [info] [LS Main] Starting language server from: /home/beast/Downloads/Antigravity IDE/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-06-16 03:39:42.793 [info] [LS Main] Args: --csrf_token 1b8e2022-9377-43fe-8fe0-f27cdb51ce40 --extension_server_port 43983 --extension_server_csrf_token 38e75b32-ffca-4b6e-ae32-905339340fb6 --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-06-16 03:39:42.980 [info] [LS Main] Process spawned with PID: 30914
+2026-06-16 03:39:43.338 [error] [LS Main stderr] I0616 03:39:43.337958 30914 server.go:1293] Starting language server process with pid 30914
+I0616 03:39:43.338235 30914 server.go:330] Setting GOMAXPROCS to 4
+
+2026-06-16 03:39:43.341 [error] [LS Main stderr] I0616 03:39:43.340888 30914 server.go:473] Language server will attempt to listen on host localhost
+
+2026-06-16 03:39:43.341 [error] [LS Main stderr] I0616 03:39:43.341650 30914 server.go:487] Language server listening on random port at 46083 for HTTPS (gRPC)
+
+2026-06-16 03:39:43.343 [error] [LS Main stderr] I0616 03:39:43.341894 30914 server.go:494] Language server listening on random port at 33089 for HTTP
+
+2026-06-16 03:39:44.303 [error] [LS Main stderr] I0616 03:39:44.303055 30914 server.go:466] Created extension server client at port 43983
+
+2026-06-16 03:39:44.773 [error] No LS client info found for local authority
+2026-06-16 03:39:47.322 [error] [LS Main stderr] E0616 03:39:47.321885 30914 log.go:398] WaitForReady failed: context deadline exceeded
+
+2026-06-16 03:39:47.324 [error] [LS Main stderr] I0616 03:39:47.322448 30914 server.go:2234] Auth succeeded, refreshing features and managers
+
+2026-06-16 03:39:48.013 [error] [LS Main stderr] I0616 03:39:48.013579 30914 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x666556eabc25a453
+
+2026-06-16 03:39:50.589 [error] [LS Main stderr] I0616 03:39:50.588995 30914 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x619c7e7aeedb2334
+
+2026-06-16 03:39:50.605 [error] [LS Main stderr] I0616 03:39:50.605673 30914 server.go:2240] State refresh took 3283ms
+
+2026-06-16 03:39:50.621 [info] [LS Main] LS started on port 46083
+2026-06-16 03:39:50.632 [error] [LS Main stderr] I0616 03:39:50.629977 30914 server.go:1898] initialized server successfully in 7.291720299s
+
+2026-06-16 03:39:51.943 [error] [LS Main stderr] I0616 03:39:51.943678 30914 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x86020cb1f3559e1e
+
+2026-06-16 03:39:58.276 [error] [LS Main stderr] I0616 03:39:58.275751 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7208543aa48e212c
+
+2026-06-16 03:40:00.719 [error] [LS Main stderr] I0616 03:40:00.718789 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcbf3c0fbd41e3f84
+
+2026-06-16 03:40:48.120 [error] [LS Main stderr] I0616 03:40:48.120305 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1104c72b4ea08a48
+
+2026-06-16 03:40:50.352 [error] [LS Main stderr] I0616 03:40:50.351776 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa169d5da0ff19b1c
+
+2026-06-16 03:43:47.209 [error] [LS Main stderr] E0616 03:43:47.208641 30914 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": Post "https://oauth2.googleapis.com/token": read tcp 192.168.224.164:43754->192.178.158.95:443: read: connection reset by peer
+
+2026-06-16 03:44:44.811 [error] [LS Main stderr] W0616 03:44:44.811502 30914 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.224.164:47146->216.239.32.223:443: read: connection reset by peer
+W0616 03:44:44.811547 30914 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.224.164:47146->216.239.32.223:443: read: connection reset by peer
+E0616 03:44:44.811591 30914 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:47138->216.239.32.223:443: read: connection reset by peer
+
+2026-06-16 03:44:48.458 [error] [LS Main stderr] I0616 03:44:48.458599 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x68e8678e35260a60
+
+2026-06-16 03:44:50.127 [error] [LS Main stderr] I0616 03:44:50.126861 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xac006f015e34c565
+
+2026-06-16 03:44:51.720 [error] [LS Main stderr] I0616 03:44:51.720092 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x901d03619985af33
+
+2026-06-16 03:47:37.270 [error] [LS Main stderr] E0616 03:47:37.264267 30914 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-16 03:47:37.273 [error] [LS Main stderr] E0616 03:47:37.272762 30914 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-16 03:47:52.745 [error] [LS Main stderr] I0616 03:47:52.745507 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf743c2a2b02a18d0
+
+2026-06-16 03:49:08.191 [error] [LS Main stderr] E0616 03:49:08.190965 30914 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-16 03:49:08.194 [error] [LS Main stderr] E0616 03:49:08.193986 30914 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-16 03:49:11.481 [error] [LS Main stderr] I0616 03:49:11.481660 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x69580715517af9b
+
+2026-06-16 03:49:48.896 [error] [LS Main stderr] I0616 03:49:48.896107 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x99b64431e4427feb
+
+2026-06-16 03:49:50.142 [error] [LS Main stderr] I0616 03:49:50.142541 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xce57984f83608739
+
+2026-06-16 03:50:01.605 [error] [LS Main stderr] E0616 03:50:01.605362 30914 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-16 03:50:01.608 [error] [LS Main stderr] E0616 03:50:01.608222 30914 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-16 03:50:04.633 [error] [LS Main stderr] I0616 03:50:04.632865 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x97640c8d844fcef
+
+2026-06-16 03:50:12.230 [error] [LS Main stderr] I0616 03:50:12.230361 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ed28cc37a8c5ca9
+
+2026-06-16 03:50:18.107 [error] [LS Main stderr] I0616 03:50:18.107642 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc4ce83ecd81a97e7
+
+2026-06-16 03:52:13.878 [error] [LS Main stderr] I0616 03:52:13.878423 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8a959abf7f9cb2a5
+
+2026-06-16 03:54:16.442 [error] [LS Main stderr] I0616 03:54:16.442401 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5213f68d3b14a01d
+
+2026-06-16 03:54:48.524 [error] [LS Main stderr] I0616 03:54:48.524288 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8124caca3e00c5fd
+
+2026-06-16 03:54:49.835 [error] [LS Main stderr] I0616 03:54:49.835515 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8b1edb7900dd0254
+
+2026-06-16 03:55:22.826 [error] [LS Main stderr] E0616 03:55:22.826583 30914 log.go:398] invalid offset 11181
+
+2026-06-16 03:55:35.222 [error] [LS Main stderr] E0616 03:55:35.222439 30914 log.go:398] invalid offset 15684
+
+2026-06-16 03:59:48.012 [error] [LS Main stderr] I0616 03:59:48.011739 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x879680e7418e3412
+
+2026-06-16 03:59:49.573 [error] [LS Main stderr] I0616 03:59:49.573637 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2a7190dc9852e8c7
+
+2026-06-16 04:00:23.137 [error] [LS Main stderr] E0616 04:00:23.136893 30914 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-16 04:00:23.140 [error] [LS Main stderr] E0616 04:00:23.139729 30914 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-16 04:00:27.231 [error] [LS Main stderr] I0616 04:00:27.231193 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3ea2e5fabdd88461
+
+2026-06-16 04:00:40.161 [error] [LS Main stderr] I0616 04:00:40.160780 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:00:48.092 [error] [LS Main stderr] I0616 04:00:48.092042 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:00:48.923 [error] [LS Main stderr] E0616 04:00:48.922979 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_READ_URL_CONTENT: Failed to fetch document content at https://swisskyrepo.github.io/InternalAllTheThings/active-directory/ad-methodology/: failed to get URL https://swisskyrepo.github.io/InternalAllTheThings/active-directory/ad-methodology/: status code 404
+
+2026-06-16 04:00:50.944 [error] [LS Main stderr] I0616 04:00:50.943986 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc3f92f334c153269
+
+2026-06-16 04:00:54.344 [error] [LS Main stderr] I0616 04:00:54.344342 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa4116d9fa9f3f94b
+
+2026-06-16 04:01:00.297 [error] [LS Main stderr] I0616 04:01:00.297062 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:01:02.559 [error] [LS Main stderr] I0616 04:01:02.559200 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:01:22.263 [error] [LS Main stderr] E0616 04:01:22.263070 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_READ_URL_CONTENT: Failed to fetch document content at https://swisskyrepo.github.io/InternalAllTheThings/active-directory/: failed to get URL https://swisskyrepo.github.io/InternalAllTheThings/active-directory/: status code 404
+
+2026-06-16 04:01:27.128 [error] [LS Main stderr] I0616 04:01:27.128188 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2a17a57e492ed0d4
+
+2026-06-16 04:01:36.662 [error] [LS Main stderr] I0616 04:01:36.662576 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:01:42.871 [error] [LS Main stderr] I0616 04:01:42.871239 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:01:46.493 [error] [LS Main stderr] I0616 04:01:46.493086 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:01:51.028 [error] [LS Main stderr] I0616 04:01:51.028028 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbba94a1659e95020
+
+2026-06-16 04:01:56.272 [error] [LS Main stderr] I0616 04:01:56.271849 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfca617a410d09ba3
+
+2026-06-16 04:04:48.001 [error] [LS Main stderr] I0616 04:04:48.000795 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xec5eae07ed4556f
+
+2026-06-16 04:04:49.495 [error] [LS Main stderr] I0616 04:04:49.495394 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9f9066f52a55d134
+
+2026-06-16 04:05:53.330 [error] [LS Main stderr] I0616 04:05:53.330219 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2080f61de2400a0a
+
+2026-06-16 04:06:03.846 [error] [LS Main stderr] I0616 04:06:03.846440 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xad14414a5ee16364
+
+2026-06-16 04:06:23.744 [error] [LS Main stderr] E0616 04:06:23.743929 30914 log.go:398] invalid offset 1935
+
+2026-06-16 04:06:25.626 [error] [LS Main stderr] E0616 04:06:25.626021 30914 log.go:398] invalid offset 2787
+
+2026-06-16 04:08:05.647 [error] [LS Main stderr] E0616 04:08:05.647264 30914 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-16 04:08:05.651 [error] [LS Main stderr] E0616 04:08:05.650992 30914 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-16 04:08:10.586 [error] [LS Main stderr] I0616 04:08:10.585907 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x182eba08e462bc8a
+
+2026-06-16 04:08:24.289 [error] [LS Main stderr] I0616 04:08:24.274160 30914 browser_context.go:852] Connecting to browser via CDP: http://127.0.0.1:9222
+
+2026-06-16 04:08:24.347 [error] [LS Main stderr] (node:46222) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+2026-06-16 04:08:24.721 [error] [LS Main stderr] I0616 04:08:24.720647 30914 secure_credentials.go:21] No extension worker available, skipping secure credentials setup
+
+2026-06-16 04:08:29.886 [error] [LS Main stderr] I0616 04:08:29.885716 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x90dd9f58cb3b1b7c
+
+2026-06-16 04:08:34.162 [error] [LS Main stderr] E0616 04:08:34.161775 30914 log.go:398] failed to remove actuation overlay: no matching page found for CDP page ID 
+
+2026-06-16 04:08:37.777 [error] [LS Main stderr] I0616 04:08:37.777172 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9122844e77a1c6d1
+
+2026-06-16 04:08:44.040 [error] [LS Main stderr] I0616 04:08:44.039923 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x41eadaa807185314
+
+2026-06-16 04:09:48.671 [error] [LS Main stderr] I0616 04:09:48.670947 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdd73c9e4eff618ed
+
+2026-06-16 04:09:49.954 [error] [LS Main stderr] I0616 04:09:49.953818 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1705bf14e61a8e93
+
+2026-06-16 04:10:39.959 [error] [LS Main stderr] E0616 04:10:39.958271 30914 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-16 04:10:39.960 [error] [LS Main stderr] E0616 04:10:39.960721 30914 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-16 04:10:43.149 [error] [LS Main stderr] I0616 04:10:43.148491 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc36fbcf714a4ea63
+
+2026-06-16 04:10:48.152 [error] [LS Main stderr] I0616 04:10:48.151826 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x517adedca9bd7ae0
+
+2026-06-16 04:11:28.316 [error] [LS Main stderr] I0616 04:11:28.315907 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:11:31.214 [error] [LS Main stderr] I0616 04:11:31.213982 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:11:33.366 [error] [LS Main stderr] E0616 04:11:33.365822 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_READ_URL_CONTENT: Failed to fetch document content at https://swisskyrepo.github.io/InternalAllTheThings/active-directory/ad-recon/: failed to get URL https://swisskyrepo.github.io/InternalAllTheThings/active-directory/ad-recon/: status code 404
+
+2026-06-16 04:11:35.216 [error] [LS Main stderr] I0616 04:11:35.215809 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:11:38.397 [error] [LS Main stderr] I0616 04:11:38.396802 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:11:38.968 [error] [LS Main stderr] E0616 04:11:38.968137 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_READ_URL_CONTENT: Failed to fetch document content at https://swisskyrepo.github.io/InternalAllTheThings/active-directory/ad-ldap/: failed to get URL https://swisskyrepo.github.io/InternalAllTheThings/active-directory/ad-ldap/: status code 404
+
+2026-06-16 04:11:41.276 [error] [LS Main stderr] I0616 04:11:41.276367 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb7971fd74f68c823
+
+2026-06-16 04:11:53.675 [error] [LS Main stderr] I0616 04:11:53.675317 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf4350db90da01d18
+
+2026-06-16 04:11:57.542 [error] [LS Main stderr] I0616 04:11:57.542035 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6c02925d9a9672a9
+
+2026-06-16 04:11:57.612 [error] [LS Main stderr] E0616 04:11:57.612516 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_CODE_ACTION: Could not successfully apply any edits. Please review the file and try smaller edits that you are more confident about.: chunk 0: cannot have nonempty target content in empty file
+
+2026-06-16 04:12:00.141 [error] [LS Main stderr] I0616 04:12:00.140901 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5b6c8ecbc52c3c62
+
+2026-06-16 04:12:03.345 [error] [LS Main stderr] I0616 04:12:03.345027 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x75b928f94761aa8f
+
+2026-06-16 04:12:03.604 [error] [LS Main stderr] E0616 04:12:03.604164 30914 common_browser_handler.go:434] No browser pages are currently open.
+
+2026-06-16 04:12:09.701 [error] [LS Main stderr] I0616 04:12:09.700782 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:09.700837 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Opening URL...","passthroughEnabled":false})
+
+2026-06-16 04:12:09.704 [error] [LS Main stderr] I0616 04:12:09.702951 30914 operator.go:902] Actuation overlay not injected yet for page A5107B417E19AD96759F869596CC6978
+
+2026-06-16 04:12:11.817 [error] [LS Main stderr] I0616 04:12:11.810817 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2d4128a031e085a9
+
+2026-06-16 04:12:12.083 [error] [LS Main stderr] I0616 04:12:12.082939 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:12.083016 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Getting DOM...","passthroughEnabled":true})
+
+2026-06-16 04:12:12.301 [error] [LS Main stderr] I0616 04:12:12.300725 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+
+2026-06-16 04:12:12.302 [error] [LS Main stderr] I0616 04:12:12.301949 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Getting DOM...","passthroughEnabled":false})
+
+2026-06-16 04:12:17.128 [error] [LS Main stderr] I0616 04:12:17.128665 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6f2ec7cdb06ac9a1
+
+2026-06-16 04:12:17.139 [error] [LS Main stderr] I0616 04:12:17.139165 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:17.139222 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Taking screenshot...","passthroughEnabled":true})
+
+2026-06-16 04:12:17.142 [error] [LS Main stderr] I0616 04:12:17.142255 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:17.142305 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+
+2026-06-16 04:12:18.214 [error] [LS Main stderr] I0616 04:12:18.214178 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:18.214251 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+
+2026-06-16 04:12:18.272 [error] [LS Main stderr] I0616 04:12:18.272033 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:18.272111 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Taking screenshot...","passthroughEnabled":false})
+
+2026-06-16 04:12:22.145 [error] [LS Main stderr] I0616 04:12:22.144926 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x529a4a1e47c80c3a
+
+2026-06-16 04:12:22.235 [error] [LS Main stderr] I0616 04:12:22.235419 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:22.235469 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Clicking...","passthroughEnabled":true})
+
+2026-06-16 04:12:22.239 [error] [LS Main stderr] I0616 04:12:22.239325 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:22.239378 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+
+2026-06-16 04:12:23.294 [error] [LS Main stderr] I0616 04:12:23.293767 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:23.293869 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+
+2026-06-16 04:12:24.836 [error] [LS Main stderr] I0616 04:12:24.832934 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:24.833006 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Clicking...","passthroughEnabled":false})
+
+2026-06-16 04:12:28.918 [error] [LS Main stderr] I0616 04:12:28.918080 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3fb5dc370c316fc7
+
+2026-06-16 04:12:29.019 [error] [LS Main stderr] I0616 04:12:29.018783 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+
+2026-06-16 04:12:29.019 [error] [LS Main stderr] I0616 04:12:29.019198 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Getting DOM...","passthroughEnabled":true})
+
+2026-06-16 04:12:29.134 [error] [LS Main stderr] I0616 04:12:29.134625 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:29.134711 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Getting DOM...","passthroughEnabled":false})
+
+2026-06-16 04:12:32.993 [error] [LS Main stderr] I0616 04:12:32.993071 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x540d7bcdd07f59f2
+
+2026-06-16 04:12:33.127 [error] [LS Main stderr] I0616 04:12:33.127555 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:33.127605 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Taking screenshot...","passthroughEnabled":true})
+
+2026-06-16 04:12:33.131 [error] [LS Main stderr] I0616 04:12:33.131453 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:33.131513 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+
+2026-06-16 04:12:34.101 [error] [LS Main stderr] I0616 04:12:34.100539 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:34.100655 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+
+2026-06-16 04:12:34.123 [error] [LS Main stderr] I0616 04:12:34.122834 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:34.122900 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Taking screenshot...","passthroughEnabled":false})
+
+2026-06-16 04:12:38.887 [error] [LS Main stderr] I0616 04:12:38.887131 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe5be10ffa9f426d9
+
+2026-06-16 04:12:38.963 [error] [LS Main stderr] I0616 04:12:38.963306 30914 log_context.go:117] Model output error: Width and Height should not be specified or be set to 0 when WindowState is 'maximized'
+E0616 04:12:38.963347 30914 log.go:398] model output error: invalid tool call error (invalid_signature) Width and Height should not be specified or be set to 0 when WindowState is 'maximized'
+
+2026-06-16 04:12:46.350 [error] [LS Main stderr] I0616 04:12:46.349803 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e86150d7d9edc48
+
+2026-06-16 04:12:46.363 [error] [LS Main stderr] I0616 04:12:46.363126 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:46.363183 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"","passthroughEnabled":true})
+
+2026-06-16 04:12:46.367 [error] [LS Main stderr] I0616 04:12:46.366858 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+
+2026-06-16 04:12:46.413 [error] [LS Main stderr] I0616 04:12:46.367449 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"","passthroughEnabled":false})
+
+2026-06-16 04:12:56.855 [error] [LS Main stderr] I0616 04:12:56.855085 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd73b4dc4a29e6425
+
+2026-06-16 04:12:56.877 [error] [LS Main stderr] I0616 04:12:56.877647 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:56.877697 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Getting DOM...","passthroughEnabled":true})
+
+2026-06-16 04:12:57.116 [error] [LS Main stderr] I0616 04:12:57.116584 30914 operator.go:870] Updating actuation overlay for page A5107B417E19AD96759F869596CC6978
+I0616 04:12:57.116651 30914 operator.go:899] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"17716d9b-864a-49fe-ad02-86554464425a","displayString":"Getting DOM...","passthroughEnabled":false})
+
+2026-06-16 04:13:20.769 [error] [LS Main stderr] I0616 04:13:20.768528 30914 log_context.go:117] Encountered retryable api error. retrying in 1s. Error (): request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:43986->216.239.38.223:443: read: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:43986 -> 216.239.38.223:443: read: connection reset by peer
+
+2026-06-16 04:13:21.228 [error] [LS Main stderr] E0616 04:13:21.228145 30914 client.go:58] Post "https://play.googleapis.com/log": read tcp 192.168.224.164:32840->216.239.34.223:443: read: connection reset by peer
+
+2026-06-16 04:13:21.769 [error] [LS Main stderr] E0616 04:13:21.769168 30914 log.go:398] request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:43986->216.239.38.223:443: read: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:43986->216.239.38.223:443: read: connection reset by peer
+
+2026-06-16 04:13:43.227 [error] [LS Main stderr] E0616 04:13:43.226906 30914 client.go:58] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 192.168.224.2:53: read udp 192.168.224.164:55096->192.168.224.2:53: i/o timeout
+
+2026-06-16 04:13:47.306 [error] [LS Main stderr] I0616 04:13:47.305918 30914 log_context.go:117] Encountered retryable api error. retrying in 1.782685397s. Error (): request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.224.164:36302->216.239.36.223:443: write: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.224.164:36302 -> 216.239.36.223:443: write: connection reset by peer
+
+2026-06-16 04:13:49.089 [error] [LS Main stderr] E0616 04:13:49.089137 30914 log.go:398] request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.224.164:36302->216.239.36.223:443: write: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.224.164:36302->216.239.36.223:443: write: connection reset by peer
+
+2026-06-16 04:15:02.209 [error] [LS Main stderr] I0616 04:15:02.208675 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe8fae14decc67366
+
+2026-06-16 04:15:03.606 [error] [LS Main stderr] I0616 04:15:03.605825 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x99972cd85294d4af
+
+2026-06-16 04:15:44.774 [error] [LS Main stderr] E0616 04:15:44.774124 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_BROWSER_SUBAGENT: model unreachable: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.224.164:60236->216.239.38.223:443: write: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.224.164:60236 -> 216.239.38.223:443: write: connection reset by peer
+
+2026-06-16 04:15:46.949 [error] [LS Main stderr] E0616 04:15:46.949436 30914 client.go:58] Post "https://play.googleapis.com/log": read tcp 192.168.224.164:36256->216.239.38.223:443: read: connection reset by peer
+
+2026-06-16 04:15:47.726 [error] [LS Main stderr] I0616 04:15:47.726481 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9b0d9126c53c0095
+
+2026-06-16 04:15:51.451 [error] [LS Main stderr] I0616 04:15:51.450724 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:15:52.147 [error] [LS Main stderr] I0616 04:15:52.147156 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:15:52.668 [error] [LS Main stderr] E0616 04:15:52.668409 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_READ_URL_CONTENT: Failed to fetch document content at https://swisskyrepo.github.io/InternalAllTheThings/active-directory/: failed to get URL https://swisskyrepo.github.io/InternalAllTheThings/active-directory/: status code 404
+
+2026-06-16 04:15:56.308 [error] [LS Main stderr] I0616 04:15:56.308335 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0xa6caee97edd332fc
+
+2026-06-16 04:16:00.821 [error] [LS Main stderr] I0616 04:16:00.820929 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xef6253754adb44d4
+
+2026-06-16 04:16:11.474 [error] [LS Main stderr] I0616 04:16:11.474367 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0x41b16e15ac1f5736
+
+2026-06-16 04:16:16.035 [error] [LS Main stderr] I0616 04:16:16.034810 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:16:16.748 [error] [LS Main stderr] I0616 04:16:16.748002 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:16:17.503 [error] [LS Main stderr] E0616 04:16:17.503672 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_READ_URL_CONTENT: Failed to fetch document content at https://raw.githubusercontent.com/swisskyrepo/InternalAllTheThings/main/docs/active-directory/ad-recon.md: failed to get URL https://raw.githubusercontent.com/swisskyrepo/InternalAllTheThings/main/docs/active-directory/ad-recon.md: status code 404
+
+2026-06-16 04:16:20.338 [error] [LS Main stderr] I0616 04:16:20.338476 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6bb52086abe3883d
+
+2026-06-16 04:16:26.387 [error] [LS Main stderr] I0616 04:16:26.386956 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2026-06-16 04:16:27.013 [error] [LS Main stderr] I0616 04:16:27.013126 30914 http_helpers.go:228] Failed to make code assist backend request (fetchFromTrawlerCache): {
+  "error": {
+    "code": 500,
+    "message": "Internal error encountered.",
+    "status": "INTERNAL"
+  }
+}
+
+
+2026-06-16 04:16:27.638 [error] [LS Main stderr] E0616 04:16:27.638234 30914 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_READ_URL_CONTENT: Failed to fetch document content at https://raw.githubusercontent.com/swisskyrepo/InternalAllTheThings/main/docs/active-directory/ad-enumeration.md: failed to get URL https://raw.githubusercontent.com/swisskyrepo/InternalAllTheThings/main/docs/active-directory/ad-enumeration.md: status code 404
+
+2026-06-16 04:16:40.287 [error] [LS Main stderr] I0616 04:16:40.286676 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa353cfc330f1894e
+
+2026-06-16 04:16:42.150 [error] [LS Main stderr] I0616 04:16:42.149899 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf41e3c4b983e1041
+
+2026-06-16 04:17:01.945 [error] [LS Main stderr] ERROR: logging before google.Init: E0616 04:17:01.945230      66 g3syslog.go:23] [Post "https://play.googleapis.com/log": read tcp 192.168.224.164:45320->216.239.38.223:443: read: connection reset by peer]
+
+2026-06-16 04:17:02.344 [error] [LS Main stderr] I0616 04:17:02.343796 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x651b66386c92c17e
+
+2026-06-16 04:18:01.220 [error] [LS Main stderr] I0616 04:18:01.220159 30914 log_context.go:117] Encountered retryable api error. retrying in 1s. Error (): request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:37940->216.239.34.223:443: read: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:37940 -> 216.239.34.223:443: read: connection reset by peer
+
+2026-06-16 04:18:02.058 [error] [LS Main stderr] I0616 04:18:02.057653 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x27f80bc30ca56fa7
+
+2026-06-16 04:18:02.221 [error] [LS Main stderr] E0616 04:18:02.221235 30914 log.go:398] request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:37940->216.239.34.223:443: read: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:37940->216.239.34.223:443: read: connection reset by peer
+
+2026-06-16 04:18:04.499 [error] [LS Main stderr] E0616 04:18:04.499196 30914 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:54670->216.239.32.223:443: read: connection reset by peer
+
+2026-06-16 04:19:25.322 [error] [LS Main stderr] I0616 04:19:25.321663 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x81fdbdc670e2bfec
+
+2026-06-16 04:19:49.482 [error] [LS Main stderr] E0616 04:19:49.481736 30914 client.go:58] Post "https://play.googleapis.com/log": read tcp 192.168.224.164:60240->216.239.34.223:443: read: connection reset by peer
+
+2026-06-16 04:19:53.910 [error] [LS Main stderr] I0616 04:19:53.910198 30914 log_context.go:117] Encountered retryable api error. retrying in 1s. Error (): request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:34306->216.239.34.223:443: read: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:34306 -> 216.239.34.223:443: read: connection reset by peer
+
+2026-06-16 04:19:54.911 [error] [LS Main stderr] E0616 04:19:54.911027 30914 log.go:398] request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:34306->216.239.34.223:443: read: connection reset by peer: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": read tcp 192.168.224.164:34306->216.239.34.223:443: read: connection reset by peer
+
+2026-06-16 04:20:04.472 [error] [LS Main stderr] E0616 04:20:04.472180 30914 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:33726->216.239.34.223:443: read: connection reset by peer
+
+2026-06-16 04:20:06.858 [error] [LS Main stderr] I0616 04:20:06.858447 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x83115f1e7187bfce
+
+2026-06-16 04:20:08.600 [error] [LS Main stderr] I0616 04:20:08.599742 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xba351275ce001d67
+
+2026-06-16 04:20:10.112 [error] [LS Main stderr] I0616 04:20:10.111787 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1de59b3c387115e9
+
+2026-06-16 04:20:23.418 [error] [LS Main stderr] I0616 04:20:23.417667 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x379370c9f6ff7207
+
+2026-06-16 04:20:32.109 [error] [LS Main stderr] I0616 04:20:32.108984 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf3922a0cbbedf29
+
+2026-06-16 04:22:50.680 [error] [LS Main stderr] I0616 04:22:50.680059 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6cc11e5135dd3c88
+
+2026-06-16 04:23:11.761 [error] [LS Main stderr] I0616 04:23:11.760840 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd6f0901cf303d9d4
+
+2026-06-16 04:24:49.514 [error] [LS Main stderr] I0616 04:24:49.514091 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x98f1531978caa71c
+
+2026-06-16 04:24:50.769 [error] [LS Main stderr] I0616 04:24:50.769640 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8444ad7f7c3c4331
+
+2026-06-16 04:29:48.981 [error] [LS Main stderr] I0616 04:29:48.978351 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8b445415024e8ccd
+
+2026-06-16 04:29:50.477 [error] [LS Main stderr] I0616 04:29:50.477281 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x287ff3b6d5c3e1be
+
+2026-06-16 04:34:50.260 [error] [LS Main stderr] I0616 04:34:50.258103 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x972d2605eaaa2028
+
+2026-06-16 04:34:51.555 [error] [LS Main stderr] I0616 04:34:51.555259 30914 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbe3a8cb1b9e0f6c0
+

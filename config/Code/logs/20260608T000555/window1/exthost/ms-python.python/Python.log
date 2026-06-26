@@ -1,0 +1,37 @@
+2026-06-08 00:05:59.543 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-06-08 00:05:59.892 [info] [test-by-project] Activating project-based testing mode
+2026-06-08 00:05:59.892 [info] [test-by-project] Discovering projects for workspace: /home/beast/dev/my-zsh-aliases
+2026-06-08 00:05:59.892 [info] Native locator: Refresh started
+2026-06-08 00:05:59.892 [info] [test-by-project] Found 1 total Python projects from API
+2026-06-08 00:05:59.892 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-06-08 00:05:59.892 [info] [test-by-project] Creating adapter for: my-zsh-aliases at file:///home/beast/dev/my-zsh-aliases
+2026-06-08 00:06:00.089 [info] > ~/.pyenv/bin/pyenv which python
+2026-06-08 00:06:00.089 [info] cwd: .
+2026-06-08 00:06:01.108 [info] Active interpreter [/home/beast/dev/my-zsh-aliases]:  /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-08 00:06:01.108 [info] [test-by-project] Registered 1 project(s) for /home/beast/dev/my-zsh-aliases
+2026-06-08 00:06:01.116 [info] Running installed packages checker:  {
+  id: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  displayName: '.venv (3.13.11)',
+  detailedDisplayName: '.venv (3.13.11)',
+  envType: 'Venv',
+  envPath: '/home/beast/dev/my-zsh-aliases/.venv',
+  type: 'Virtual',
+  path: '/home/beast/dev/my-zsh-aliases/.venv/bin/python',
+  version: {
+    raw: '3.13.11',
+    major: 3,
+    minor: 13,
+    patch: 11,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.13.11',
+  architecture: 3,
+  sysPrefix: '/home/beast/dev/my-zsh-aliases/.venv'
+} /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py /home/beast/dev/my-zsh-aliases/requirements.txt
+2026-06-08 00:06:01.116 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2026-06-08 00:06:01.118 [info] [test-by-project] Activated 1 project(s) for /home/beast/dev/my-zsh-aliases
+2026-06-08 00:06:01.119 [info] [test-by-project] Subscribed to Python project changes
+2026-06-08 00:06:02.047 [info] Send text to terminal:  source /home/beast/dev/my-zsh-aliases/.venv/bin/activate
+2026-06-08 00:06:02.272 [info] Native locator: Refresh finished in 2380 ms
+2026-06-08 00:06:04.311 [info] Starting Pylance language server.

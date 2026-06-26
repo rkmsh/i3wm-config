@@ -1,0 +1,70 @@
+2026-06-08 21:00:56.214 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.216 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.219 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.220 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.221 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.222 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.223 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.223 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.224 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.225 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.225 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.226 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.227 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.228 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-08 21:00:56.468 [error] [createInstance] oae depends on UNKNOWN service agentSessions.: Error: [createInstance] oae depends on UNKNOWN service agentSessions.
+    at Jcr._throwIfStrict (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:5510)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1818)
+    at Jcr.createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1611)
+    at new Mni (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:6510:9884)
+    at new ZOn (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:6510:18977)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:2181)
+    at Jcr.createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1611)
+    at new Oni (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:6510:22191)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:2181)
+    at Jcr.createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1611)
+2026-06-08 21:00:57.158 [info] Started local extension host with pid 2492.
+2026-06-08 21:00:58.350 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-06-08 21:00:58.352 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-06-08 21:00:58.354 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-06-08 21:00:58.356 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-06-08 21:00:58.360 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-06-08 21:01:04.735 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541275
+	at async UC._executeContributedCommand (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:52301)
+2026-06-08 21:01:04.739 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async kR.value (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541355)
+2026-06-08 21:01:06.242 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541275
+	at async UC._executeContributedCommand (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:52301)
+2026-06-08 21:01:06.243 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async kR.value (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541355)
+2026-06-08 21:09:33.531 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 21:10:41.542 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 21:10:59.484 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 21:12:59.500 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 21:13:16.376 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 21:18:38.769 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 21:19:55.289 [error] [Extension Host] (node:2492) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-08 21:26:58.569 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 22:14:11.044 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 22:24:29.915 [info] Extension host (LocalProcess pid: 2492) is unresponsive.
+2026-06-08 22:24:30.199 [info] Extension host (LocalProcess pid: 2492) is responsive.
+2026-06-08 22:24:30.544 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-06-08 22:24:41.175 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-06-08 22:27:12.279 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-08 22:27:14.553 [error] An unknown error occurred. Please consult the log for more details.

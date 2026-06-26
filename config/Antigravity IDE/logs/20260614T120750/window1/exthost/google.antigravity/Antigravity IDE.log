@@ -1,0 +1,18 @@
+2026-06-14 12:08:00.633 [info] (Antigravity IDE) 2026-06-14 12:08:00.633 [ERROR]: Failed to show status message: LanguageServerClient must be initialized first!
+2026-06-14 12:08:00.635 [info] (Antigravity IDE) 2026-06-14 12:08:00.634 [ERROR]: Failed to show status message: LanguageServerClient must be initialized first!
+2026-06-14 12:08:01.008 [info] I0614 12:08:01.007515 22408 server.go:1293] Starting language server process with pid 22408
+2026-06-14 12:08:01.008 [info] I0614 12:08:01.007645 22408 server.go:330] Setting GOMAXPROCS to 4
+2026-06-14 12:08:01.010 [info] I0614 12:08:01.009280 22408 server.go:473] Language server will attempt to listen on host localhost
+2026-06-14 12:08:01.011 [info] I0614 12:08:01.011232 22408 server.go:487] Language server listening on random port at 45381 for HTTPS (gRPC)
+2026-06-14 12:08:01.013 [info] I0614 12:08:01.012411 22408 server.go:494] Language server listening on random port at 35657 for HTTP
+2026-06-14 12:08:01.787 [info] I0614 12:08:01.787346 22408 server.go:466] Created extension server client at port 33697
+2026-06-14 12:08:04.826 [info] E0614 12:08:04.826066 22408 log.go:398] WaitForReady failed: context deadline exceeded
+2026-06-14 12:08:04.826 [info] I0614 12:08:04.826676 22408 server.go:2234] Auth succeeded, refreshing features and managers
+2026-06-14 12:08:05.782 [info] I0614 12:08:05.782109 22408 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb1db687168a95a4
+2026-06-14 12:08:07.784 [info] I0614 12:08:07.783794 22408 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3f37870bafefba16
+2026-06-14 12:08:07.787 [info] I0614 12:08:07.787066 22408 server.go:2240] State refresh took 2960ms
+2026-06-14 12:08:07.797 [info] (Antigravity IDE) 2026-06-14 12:08:07.796 [INFO]: Language server started
+2026-06-14 12:08:07.812 [info] I0614 12:08:07.809936 22408 server.go:1898] initialized server successfully in 6.802255347s
+2026-06-14 12:08:07.831 [info] (Antigravity IDE) 2026-06-14 12:08:07.831 [INFO]: LS lspClient started successfully
+2026-06-14 12:08:11.561 [info] I0614 12:08:11.560753 22408 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa84fbaaed95222ab
+2026-06-14 12:08:14.294 [info] I0614 12:08:14.293296 22408 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1a5ccd148b6b6bdd

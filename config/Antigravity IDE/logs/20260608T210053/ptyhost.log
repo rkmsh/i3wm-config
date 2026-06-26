@@ -1,0 +1,2 @@
+2026-06-08 21:00:58.112 [info] Revived process, old id 92b6de106a16d13f60501cafde3c15b1-3 -> new id 1
+2026-06-08 21:01:01.645 [error] Failed to set sticky bit on /tmp/beast-antigravity-ide-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/beast-antigravity-ide-zsh'

@@ -1,0 +1,48 @@
+2026-06-14 12:07:50.950 [info] [LS Main] Starting language server from: /home/beast/Downloads/Antigravity IDE/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-06-14 12:07:51.128 [info] [LS Main] Args: --csrf_token 70f19e41-5308-47f0-8ef0-a349f58899dd --extension_server_port 41731 --extension_server_csrf_token f95fedb8-9257-486d-a311-11391746f1f4 --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-06-14 12:07:51.889 [info] [LS Main] Process spawned with PID: 21835
+2026-06-14 12:07:54.363 [error] [LS Main stderr] I0614 12:07:54.324793 21835 server.go:1293] Starting language server process with pid 21835
+I0614 12:07:54.324910 21835 server.go:330] Setting GOMAXPROCS to 4
+I0614 12:07:54.327021 21835 server.go:473] Language server will attempt to listen on host localhost
+I0614 12:07:54.328417 21835 server.go:487] Language server listening on random port at 40745 for HTTPS (gRPC)
+I0614 12:07:54.328528 21835 server.go:494] Language server listening on random port at 36201 for HTTP
+
+2026-06-14 12:07:55.363 [error] [LS Main stderr] I0614 12:07:55.362966 21835 server.go:466] Created extension server client at port 41731
+
+2026-06-14 12:07:56.344 [error] No LS client info found for local authority
+2026-06-14 12:07:58.384 [error] [LS Main stderr] E0614 12:07:58.383038 21835 log.go:398] WaitForReady failed: context deadline exceeded
+I0614 12:07:58.383569 21835 server.go:2234] Auth succeeded, refreshing features and managers
+
+2026-06-14 12:07:59.285 [error] [LS Main stderr] I0614 12:07:59.283855 21835 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x16427d781886c90a
+
+2026-06-14 12:08:01.663 [error] [LS Main stderr] I0614 12:08:01.663241 21835 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x11c090d94900a389
+
+2026-06-14 12:08:01.665 [error] [LS Main stderr] I0614 12:08:01.664837 21835 server.go:2240] State refresh took 3281ms
+
+2026-06-14 12:08:01.681 [info] [LS Main] LS started on port 40745
+2026-06-14 12:08:01.687 [error] [LS Main stderr] I0614 12:08:01.687125 21835 server.go:1898] initialized server successfully in 7.362191684s
+
+2026-06-14 12:08:01.698 [error] [LS Main stderr] 2026/06/14 12:08:01 http: TLS handshake error from 127.0.0.1:59398: remote error: tls: unknown certificate
+
+2026-06-14 12:08:01.704 [error] [LS Main stderr] 2026/06/14 12:08:01 http: TLS handshake error from 127.0.0.1:59436: EOF
+2026/06/14 12:08:01 http: TLS handshake error from 127.0.0.1:59410: EOF
+
+2026-06-14 12:08:05.242 [error] [LS Main stderr] I0614 12:08:05.242487 21835 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6472f85bb6c3c734
+
+2026-06-14 12:08:07.332 [error] [LS Main stderr] I0614 12:08:07.332424 21835 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfe4330fc103816fc
+
+2026-06-14 12:08:08.346 [error] [LS Main stderr] I0614 12:08:08.346494 21835 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4a455ad2e8d0e933
+
+2026-06-14 12:08:11.959 [error] [LS Main stderr] I0614 12:08:11.958870 21835 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfea161dfa5bed2f2
+
+2026-06-14 12:08:13.715 [error] [LS Main stderr] I0614 12:08:13.715390 21835 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbcab489d8d6db259
+
+2026-06-14 12:08:25.267 [error] [LS Main stderr] E0614 12:08:25.266482 21835 repo.go:340] failed to create patch for untracked file __pycache__/exploit_finder.cpython-313.pyc: bytes are not valid utf8
+
+2026-06-14 12:08:25.344 [error] [LS Main stderr] E0614 12:08:25.337658 21835 log.go:398] failed to check terminal shell support: internal: internal error
+E0614 12:08:25.342738 21835 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-14 12:08:31.927 [error] [LS Main stderr] I0614 12:08:31.927194 21835 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaa49a34a53e370df
+
+2026-06-14 12:08:37.873 [error] [LS Main stderr] I0614 12:08:37.873157 21835 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x358c5369753f7a27
+

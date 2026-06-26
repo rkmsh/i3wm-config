@@ -1,0 +1,58 @@
+2026-04-12 11:42:26.932 [info] [main] Log level: Info
+2026-04-12 11:42:26.932 [info] [main] Validating found git in: "git"
+2026-04-12 11:42:26.933 [info] [main] Using git "2.51.0" from "git"
+2026-04-12 11:42:26.933 [info] [Model][doInitialScan] Initial repository scan started
+2026-04-12 11:42:26.933 [info] > git rev-parse --show-toplevel [20ms]
+2026-04-12 11:42:26.933 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [10ms]
+2026-04-12 11:42:26.933 [info] [Model][openRepository] Opened repository (path): /home/beast/BB/Damn-Vulnerable-GraphQL-Application
+2026-04-12 11:42:26.933 [info] [Model][openRepository] Opened repository (real path): /home/beast/BB/Damn-Vulnerable-GraphQL-Application
+2026-04-12 11:42:26.933 [info] [Model][openRepository] Opened repository (kind): repository
+2026-04-12 11:42:26.933 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-12 11:42:26.933 [info] > git config --get commit.template [7ms]
+2026-04-12 11:42:26.933 [info] > git rev-parse --show-toplevel [19ms]
+2026-04-12 11:42:26.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2026-04-12 11:42:26.933 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/BB/Damn-Vulnerable-GraphQL-Application/.git/refs/remotes/origin/master'
+2026-04-12 11:42:26.933 [info] > git rev-parse --show-toplevel [6ms]
+2026-04-12 11:42:26.933 [info] > git rev-parse refs/remotes/origin/master [42ms]
+2026-04-12 11:42:26.933 [info] > git rev-parse --show-toplevel [51ms]
+2026-04-12 11:42:26.941 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-04-12 11:42:26.949 [info] > git rev-parse --show-toplevel [11ms]
+2026-04-12 11:42:26.960 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-12 11:42:26.964 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-04-12 11:42:27.124 [info] > git status -z -uall [201ms]
+2026-04-12 11:42:27.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2026-04-12 11:42:27.180 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2026-04-12 11:42:27.186 [info] > git config --get commit.template [16ms]
+2026-04-12 11:42:27.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2026-04-12 11:42:27.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-04-12 11:42:27.207 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2026-04-12 11:42:27.236 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/beast/BB/Damn-Vulnerable-GraphQL-Application/.git/refs/remotes/origin/master'
+2026-04-12 11:42:27.237 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% a961308c02d1fb462b192681c336b0739e432da7...refs/remotes/origin/master -- [16ms]
+2026-04-12 11:42:27.247 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2026-04-12 11:42:27.268 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-12 11:42:27.281 [info] > git status -z -uall [29ms]
+2026-04-12 11:42:27.557 [info] > git check-ignore -v -z --stdin [19ms]
+2026-04-12 11:42:43.345 [info] [main] Log level: Info
+2026-04-12 11:42:43.345 [info] [main] Validating found git in: "git"
+2026-04-12 11:42:43.345 [info] [main] Using git "2.51.0" from "git"
+2026-04-12 11:42:43.345 [info] [Model][doInitialScan] Initial repository scan started
+2026-04-12 11:42:43.345 [info] > git rev-parse --show-toplevel [6ms]
+2026-04-12 11:42:43.345 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-12 11:42:43.345 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-04-12 11:42:46.090 [info] > git rev-parse --show-toplevel [4ms]
+2026-04-12 11:42:46.090 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-12 11:42:47.708 [info] > git rev-parse --show-toplevel [129ms]
+2026-04-12 11:42:47.708 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-12 11:42:48.107 [info] > git rev-parse --show-toplevel [6ms]
+2026-04-12 11:42:48.107 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-12 11:43:12.163 [info] [main] Log level: Info
+2026-04-12 11:43:12.163 [info] [main] Validating found git in: "git"
+2026-04-12 11:43:12.163 [info] [main] Using git "2.51.0" from "git"
+2026-04-12 11:43:12.163 [info] [Model][doInitialScan] Initial repository scan started
+2026-04-12 11:43:12.163 [info] > git rev-parse --show-toplevel [43ms]
+2026-04-12 11:43:12.163 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-12 11:43:12.190 [info] > git rev-parse --show-toplevel [20ms]
+2026-04-12 11:43:12.190 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-12 11:43:12.192 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-04-12 11:47:54.837 [info] > git rev-parse --show-toplevel [5ms]
+2026-04-12 11:47:54.837 [info] fatal: not a git repository (or any of the parent directories): .git

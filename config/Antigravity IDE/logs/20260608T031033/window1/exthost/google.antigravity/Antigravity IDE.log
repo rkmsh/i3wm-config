@@ -1,0 +1,163 @@
+2026-06-08 03:10:40.010 [info] I0608 03:10:40.010272  4844 server.go:1293] Starting language server process with pid 4844
+2026-06-08 03:10:40.010 [info] I0608 03:10:40.010425  4844 server.go:330] Setting GOMAXPROCS to 4
+2026-06-08 03:10:40.012 [info] I0608 03:10:40.011717  4844 server.go:473] Language server will attempt to listen on host localhost
+2026-06-08 03:10:40.012 [info] I0608 03:10:40.012136  4844 server.go:487] Language server listening on random port at 37327 for HTTPS (gRPC)
+2026-06-08 03:10:40.012 [info] I0608 03:10:40.012210  4844 server.go:494] Language server listening on random port at 33613 for HTTP
+2026-06-08 03:10:40.832 [info] I0608 03:10:40.830164  4844 server.go:466] Created extension server client at port 43131
+2026-06-08 03:10:40.879 [info] E0608 03:10:40.879055  4844 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.888 [info] W0608 03:10:40.885593  4844 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.888 [info] W0608 03:10:40.885637  4844 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.888 [info] E0608 03:10:40.885675  4844 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.888 [info] I0608 03:10:40.886632  4844 server.go:2234] Auth succeeded, refreshing features and managers
+2026-06-08 03:10:40.888 [info] E0608 03:10:40.886765  4844 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.891 [info] W0608 03:10:40.890756  4844 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.891 [info] W0608 03:10:40.891152  4844 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.891 [info] E0608 03:10:40.891380  4844 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.892 [info] I0608 03:10:40.892108  4844 server.go:2240] State refresh took 5ms
+2026-06-08 03:10:40.923 [info] (Antigravity IDE) 2026-06-08 03:10:40.919 [INFO]: Language server started
+2026-06-08 03:10:40.952 [info] W0608 03:10:40.915373  4844 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.952 [info] W0608 03:10:40.915413  4844 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:10:40.952 [info] E0608 03:10:40.915430  4844 server.go:601] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-06-08 03:10:40.952 [info] W0608 03:10:40.915452  4844 client.go:81] failed to set auth token
+2026-06-08 03:10:40.952 [info] I0608 03:10:40.948973  4844 server.go:1898] initialized server successfully in 938.523328ms
+2026-06-08 03:10:41.003 [info] (Antigravity IDE) 2026-06-08 03:10:41.003 [INFO]: LS lspClient started successfully
+2026-06-08 03:11:40.872 [info] E0608 03:11:40.872568  4844 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:11:40.873 [info] W0608 03:11:40.873061  4844 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:11:40.873 [info] W0608 03:11:40.873161  4844 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:11:40.873 [info] E0608 03:11:40.873208  4844 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:12:40.871 [info] E0608 03:12:40.871236  4844 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:12:40.872 [info] W0608 03:12:40.871616  4844 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:12:40.872 [info] W0608 03:12:40.871637  4844 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:12:40.872 [info] E0608 03:12:40.871673  4844 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:34.389 [info] I0608 03:13:34.388125  4844 server.go:2105] Got signal terminated, shutting down
+2026-06-08 03:13:34.389 [info] I0608 03:13:34.388183  4844 server.go:2146] Language server shutting down
+2026-06-08 03:13:34.416 [info] (Antigravity IDE) 2026-06-08 03:13:34.415 [INFO]: Language server exited with code 0
+2026-06-08 03:13:34.658 [info] I0608 03:13:34.654401  6836 server.go:1293] Starting language server process with pid 6836
+2026-06-08 03:13:34.658 [info] I0608 03:13:34.654567  6836 server.go:330] Setting GOMAXPROCS to 4
+2026-06-08 03:13:34.658 [info] I0608 03:13:34.655799  6836 server.go:473] Language server will attempt to listen on host localhost
+2026-06-08 03:13:34.658 [info] I0608 03:13:34.656378  6836 server.go:487] Language server listening on fixed port at 37327 for HTTPS (gRPC)
+2026-06-08 03:13:34.658 [info] I0608 03:13:34.656463  6836 server.go:494] Language server listening on fixed port at 37889 for HTTP
+2026-06-08 03:13:35.346 [info] I0608 03:13:35.346366  6836 server.go:466] Created extension server client at port 43131
+2026-06-08 03:13:35.453 [info] E0608 03:13:35.452532  6836 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.470 [info] W0608 03:13:35.470540  6836 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.472 [info] W0608 03:13:35.471034  6836 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.472 [info] E0608 03:13:35.471136  6836 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.473 [info] I0608 03:13:35.472789  6836 server.go:2234] Auth succeeded, refreshing features and managers
+2026-06-08 03:13:35.473 [info] E0608 03:13:35.473337  6836 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.474 [info] W0608 03:13:35.474090  6836 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.474 [info] W0608 03:13:35.474494  6836 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.474 [info] E0608 03:13:35.474586  6836 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.476 [info] I0608 03:13:35.475903  6836 server.go:2240] State refresh took 2ms
+2026-06-08 03:13:35.497 [info] (Antigravity IDE) 2026-06-08 03:13:35.496 [INFO]: Language server started
+2026-06-08 03:13:35.503 [info] W0608 03:13:35.494096  6836 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.504 [info] W0608 03:13:35.494157  6836 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:35.504 [info] E0608 03:13:35.494175  6836 server.go:601] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-06-08 03:13:35.504 [info] W0608 03:13:35.494206  6836 client.go:81] failed to set auth token
+2026-06-08 03:13:35.504 [info] I0608 03:13:35.502737  6836 server.go:1898] initialized server successfully in 848.151878ms
+2026-06-08 03:13:35.513 [info] (Antigravity IDE) 2026-06-08 03:13:35.513 [INFO]: LS lspClient started successfully
+2026-06-08 03:13:42.378 [info] I0608 03:13:42.378425  6836 server.go:2105] Got signal terminated, shutting down
+2026-06-08 03:13:42.378 [info] I0608 03:13:42.378478  6836 server.go:2146] Language server shutting down
+2026-06-08 03:13:42.393 [info] (Antigravity IDE) 2026-06-08 03:13:42.393 [INFO]: Language server exited with code 0
+2026-06-08 03:13:42.550 [info] I0608 03:13:42.546875  6923 server.go:1293] Starting language server process with pid 6923
+2026-06-08 03:13:42.550 [info] I0608 03:13:42.547029  6923 server.go:330] Setting GOMAXPROCS to 4
+2026-06-08 03:13:42.550 [info] I0608 03:13:42.548264  6923 server.go:473] Language server will attempt to listen on host localhost
+2026-06-08 03:13:42.550 [info] I0608 03:13:42.548670  6923 server.go:487] Language server listening on fixed port at 37327 for HTTPS (gRPC)
+2026-06-08 03:13:42.550 [info] I0608 03:13:42.548751  6923 server.go:494] Language server listening on fixed port at 36627 for HTTP
+2026-06-08 03:13:43.206 [info] I0608 03:13:43.199741  6923 server.go:466] Created extension server client at port 43131
+2026-06-08 03:13:43.258 [info] E0608 03:13:43.255496  6923 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.267 [info] W0608 03:13:43.264305  6923 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.267 [info] W0608 03:13:43.264393  6923 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.267 [info] E0608 03:13:43.264446  6923 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.273 [info] I0608 03:13:43.270349  6923 server.go:2234] Auth succeeded, refreshing features and managers
+2026-06-08 03:13:43.273 [info] E0608 03:13:43.270704  6923 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.274 [info] W0608 03:13:43.271254  6923 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.276 [info] W0608 03:13:43.274619  6923 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.276 [info] E0608 03:13:43.274719  6923 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.276 [info] I0608 03:13:43.275391  6923 server.go:2240] State refresh took 4ms
+2026-06-08 03:13:43.295 [info] (Antigravity IDE) 2026-06-08 03:13:43.294 [INFO]: Language server started
+2026-06-08 03:13:43.301 [info] W0608 03:13:43.292496  6923 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.301 [info] W0608 03:13:43.292856  6923 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-06-08 03:13:43.301 [info] E0608 03:13:43.292896  6923 server.go:601] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-06-08 03:13:43.301 [info] W0608 03:13:43.292933  6923 client.go:81] failed to set auth token
+2026-06-08 03:13:43.301 [info] I0608 03:13:43.299261  6923 server.go:1898] initialized server successfully in 752.222021ms
+2026-06-08 03:13:43.305 [info] (Antigravity IDE) 2026-06-08 03:13:43.305 [INFO]: LS lspClient started successfully
+2026-06-08 03:14:30.216 [info] I0608 03:14:30.100931  7879 server.go:1293] Starting language server process with pid 7879
+2026-06-08 03:14:30.216 [info] I0608 03:14:30.101050  7879 server.go:330] Setting GOMAXPROCS to 4
+2026-06-08 03:14:30.216 [info] I0608 03:14:30.101892  7879 server.go:473] Language server will attempt to listen on host localhost
+2026-06-08 03:14:30.216 [info] I0608 03:14:30.102357  7879 server.go:487] Language server listening on random port at 39327 for HTTPS (gRPC)
+2026-06-08 03:14:30.216 [info] I0608 03:14:30.102454  7879 server.go:494] Language server listening on random port at 38325 for HTTP
+2026-06-08 03:14:30.838 [info] I0608 03:14:30.834117  7879 server.go:466] Created extension server client at port 45525
+2026-06-08 03:14:33.878 [info] E0608 03:14:33.877873  7879 log.go:398] WaitForReady failed: context deadline exceeded
+2026-06-08 03:14:33.879 [info] I0608 03:14:33.879316  7879 server.go:2234] Auth succeeded, refreshing features and managers
+2026-06-08 03:14:34.487 [info] I0608 03:14:34.486728  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa0c1ceabddbe3e85
+2026-06-08 03:14:35.535 [info] I0608 03:14:35.534638  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4ff891ccba4f683
+2026-06-08 03:14:35.563 [info] I0608 03:14:35.562960  7879 server.go:2240] State refresh took 1683ms
+2026-06-08 03:14:35.594 [info] (Antigravity IDE) 2026-06-08 03:14:35.585 [INFO]: Language server started
+2026-06-08 03:14:35.627 [info] I0608 03:14:35.623033  7879 server.go:1898] initialized server successfully in 5.521925471s
+2026-06-08 03:14:35.661 [info] (Antigravity IDE) 2026-06-08 03:14:35.661 [INFO]: LS lspClient started successfully
+2026-06-08 03:20:33.341 [info] I0608 03:20:33.340796  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1ea83148fe9cf93d
+2026-06-08 03:20:35.324 [info] I0608 03:20:35.324222  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6efd230565e00c24
+2026-06-08 03:26:32.949 [info] I0608 03:26:32.948749  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbcd9b6343a900f31
+2026-06-08 03:26:34.875 [info] I0608 03:26:34.875349  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x228190fce27537a6
+2026-06-08 03:32:32.741 [info] I0608 03:32:32.740661  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf641a6d515120072
+2026-06-08 03:32:34.473 [info] I0608 03:32:34.473630  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x782eae2c3cb7f30d
+2026-06-08 03:38:32.296 [info] I0608 03:38:32.296644  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x55d029e86b6cd2b4
+2026-06-08 03:38:34.006 [info] I0608 03:38:34.005590  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x63325bb9949582ed
+2026-06-08 03:39:44.668 [info] E0608 03:39:44.667766  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 03:40:03.480 [info] E0608 03:40:03.480137  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 03:44:32.968 [info] I0608 03:44:32.968134  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcf70a96e41d3ad81
+2026-06-08 03:44:34.877 [info] I0608 03:44:34.876939  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcb4c7823a17933c8
+2026-06-08 03:50:19.564 [info] E0608 03:50:19.564516  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 03:50:32.093 [info] I0608 03:50:32.093158  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1adfac605dbecd20
+2026-06-08 03:50:32.437 [info] E0608 03:50:32.436700  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 03:50:34.797 [info] I0608 03:50:34.797388  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3b8db6873c8c851
+2026-06-08 03:51:48.523 [info] E0608 03:51:48.523352  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 03:51:54.788 [info] E0608 03:51:54.788151  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 03:56:32.432 [info] I0608 03:56:32.432166  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcb06d1f9541eb4d9
+2026-06-08 03:56:34.198 [info] I0608 03:56:34.198543  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb3d4977cf395fb27
+2026-06-08 04:00:34.504 [info] E0608 04:00:34.504007  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:00:41.653 [info] E0608 04:00:41.653270  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:01:13.159 [info] E0608 04:01:13.159439  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:01:31.423 [info] E0608 04:01:31.422226  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:01:47.642 [info] E0608 04:01:47.642100  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:01:57.931 [info] E0608 04:01:57.931186  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:02:32.725 [info] I0608 04:02:32.724681  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd5425db1f722f8f8
+2026-06-08 04:02:34.741 [info] I0608 04:02:34.741236  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcfc37ecbe3b1b982
+2026-06-08 04:05:15.114 [info] E0608 04:05:15.113731  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:05:20.625 [info] E0608 04:05:20.625591  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:08:32.600 [info] I0608 04:08:32.600050  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xffe41223bf60a5e6
+2026-06-08 04:08:34.437 [info] I0608 04:08:34.437157  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb6014c4de41e19c1
+2026-06-08 04:09:33.633 [info] I0608 04:09:33.633112  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf6be45876f216ef8
+2026-06-08 04:09:34.827 [info] I0608 04:09:34.827369  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8565cb0bed80bfdc
+2026-06-08 04:10:36.128 [info] E0608 04:10:36.128045  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:10:51.759 [info] E0608 04:10:51.758954  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:15:32.185 [info] I0608 04:15:32.185661  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb8a2cc8bd13043b8
+2026-06-08 04:15:34.314 [info] I0608 04:15:34.314341  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc7ad5e1f993754f4
+2026-06-08 04:17:26.845 [info] E0608 04:17:26.844623  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:17:31.614 [info] E0608 04:17:31.614131  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:21:06.259 [info] E0608 04:21:06.259648  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:21:08.847 [info] E0608 04:21:08.845234  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:21:19.179 [info] E0608 04:21:19.178895  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:21:32.268 [info] I0608 04:21:32.267997  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x942be53ef36a86a0
+2026-06-08 04:21:34.634 [info] I0608 04:21:34.634319  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3dde057f2fc0bd56
+2026-06-08 04:26:09.960 [info] E0608 04:26:09.960612  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:26:18.711 [info] E0608 04:26:18.710814  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:27:32.560 [info] I0608 04:27:32.560369  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc86852368ace2534
+2026-06-08 04:27:34.277 [info] I0608 04:27:34.277471  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x28b3c1c94eab39f2
+2026-06-08 04:29:32.931 [info] E0608 04:29:32.931099  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:30:27.254 [info] E0608 04:30:27.253795  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:33:27.878 [info] E0608 04:33:27.878175  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:33:32.997 [info] I0608 04:33:32.996991  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf45203c183722e48
+2026-06-08 04:33:36.609 [info] I0608 04:33:36.609049  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x896161271015d1f1
+2026-06-08 04:36:33.002 [info] E0608 04:36:33.002746  7879 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-06-08 04:39:32.780 [info] I0608 04:39:32.780408  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdf4dc90c6df37aaf
+2026-06-08 04:39:34.994 [info] I0608 04:39:34.994510  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5fd549c54391837f
+2026-06-08 04:45:32.798 [info] I0608 04:45:32.797866  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfa1a92c6cfe6cb21
+2026-06-08 04:45:34.688 [info] I0608 04:45:34.687788  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4dcf5333bf57f2cc
+2026-06-08 04:51:32.689 [info] I0608 04:51:32.689214  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb55533c98c38728b
+2026-06-08 04:51:34.557 [info] I0608 04:51:34.556697  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfe00537da28bea1b
+2026-06-08 04:55:53.827 [info] E0608 04:55:53.827310  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:56:41.802 [info] E0608 04:56:41.801190  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:57:07.304 [info] E0608 04:57:07.303250  7879 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-08 04:57:32.324 [info] I0608 04:57:32.324436  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x35b108cb5f0581c8
+2026-06-08 04:57:35.227 [info] I0608 04:57:35.227074  7879 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x68830a4e3a40bc47

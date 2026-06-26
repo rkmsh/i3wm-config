@@ -1,0 +1,120 @@
+starting generic LSP server
+ INFO Reading messages
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (1)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.35s (0.01s waiting)
+ INFO We should cancel request RequestId(I32(3))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.05s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.35s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (2)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.22s (0.35s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.57s waiting)
+ INFO Client configuration applied to workspace: Some(Url { scheme: "file", cannot_be_a_base: false, username: "", password: None, host: None, port: None, path: "/home/beast/dev/my-zsh-aliases", query: None, fragment: None })
+ INFO Client configuration applied to workspace: None
+ INFO Language server processed event `LspResponse` in 0.00s (0.56s waiting)
+ INFO Request textDocument/codeAction (3) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.43s waiting)
+ INFO Request textDocument/inlayHint (4) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.43s waiting)
+ INFO Request textDocument/codeAction (5) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.27s waiting)
+ INFO Request textDocument/foldingRange (6) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.27s waiting)
+ INFO Request textDocument/documentSymbol (7) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.15s waiting)
+ INFO Request textDocument/codeLens (8) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.15s waiting)
+ INFO Request textDocument/semanticTokens/full (9) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.15s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.13s waiting)
+ INFO Invalidated config, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.21
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.21, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.21, task time: 0.00
+ INFO Populating up to 2000 files in the workspace ("/home/beast/dev/my-zsh-aliases").
+ INFO Published 4 diagnostics for file:///home/beast/dev/my-zsh-aliases/ad_enum1.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.02s (0.00s waiting)
+ INFO Prepare to check 0 files.
+ INFO Populated all files in the workspace, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.21, task time: 0.03
+ INFO Published 4 diagnostics for file:///home/beast/dev/my-zsh-aliases/ad_enum1.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO We should cancel request RequestId(I32(5))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(10))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(11))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO Request textDocument/codeAction (10) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Request textDocument/codeAction (11) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/range (12)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/range)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (13)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (14)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (15)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (16)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (17)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (18)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (19)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (20)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (21)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.04s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (22)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (23)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO File /home/beast/dev/my-zsh-aliases/exploit_finder.py opened, prepare to validate open files.
+ INFO Published 18 diagnostics for file:///home/beast/dev/my-zsh-aliases/exploit_finder.py
+ INFO Published 4 diagnostics for file:///home/beast/dev/my-zsh-aliases/ad_enum1.py
+ INFO Validated open files and committed transaction.
+ INFO Cleared 1 dropped configs from config cache
+ INFO Language server processed event `DidOpenTextDocument` in 0.30s (0.00s waiting)
+ INFO File /home/beast/dev/my-zsh-aliases/ad_enum.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 1 diagnostics for file:///home/beast/dev/my-zsh-aliases/ad_enum.py
+ INFO Published 18 diagnostics for file:///home/beast/dev/my-zsh-aliases/exploit_finder.py
+ INFO Published 4 diagnostics for file:///home/beast/dev/my-zsh-aliases/ad_enum1.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (0.30s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (24)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (25)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (26)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (27)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (28)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(28))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (29)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (30)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (31)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)

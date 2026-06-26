@@ -1,0 +1,18 @@
+2026-04-12 11:48:04.508 [info] resolveDebugConfigurationWithSubstitutedVariables: resolving interpreter for program='/home/beast/HTB/Silentium/exploit/exploit.py'
+2026-04-12 11:48:04.509 [info] legacyGetInterpreterDetails: executable='/usr/bin/python' resource='/home/beast/HTB/Silentium/exploit/exploit.py'
+2026-04-12 11:48:04.510 [info] resolveDebugConfigurationWithSubstitutedVariables: setting debugConfiguration.python='/usr/bin/python'
+2026-04-12 11:48:04.510 [info] Resolving launch configuration with substituted variables
+2026-04-12 11:48:04.519 [info] createDebugAdapterDescriptor: request='launch' name='Python Debugger: Python File'
+2026-04-12 11:48:04.520 [info] legacyGetInterpreterDetails: executable='/usr/bin/python' resource='/home/beast/HTB/Silentium/exploit'
+2026-04-12 11:48:04.521 [info] legacyResolveEnvironment: Resolving environment '/usr/bin/python'
+2026-04-12 11:48:04.522 [info] legacyResolveEnvironment: Resolved executable='/usr/bin/python'
+2026-04-12 11:48:04.522 [info] resolveEnvironment: legacy resolved executable='/usr/bin/python' version='3.13.11'
+2026-04-12 11:48:04.522 [info] getExecutableCommand: executable='/usr/bin/python' version='3.13.11'
+2026-04-12 11:48:04.523 [info] createDebugAdapterDescriptor: python command parts='/usr/bin/python'
+2026-04-12 11:48:04.523 [info] DAP Server launched with command: /usr/bin/python /home/beast/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter
+2026-04-12 11:48:05.567 [info] Received 'debugpySockets' event from debugpy.
+2026-04-12 11:48:05.572 [info] Received 'debugpySockets' event from debugpy.
+2026-04-12 11:48:05.573 [info] Received 'debugpySockets' event from debugpy.
+2026-04-12 11:48:12.421 [info] Received 'debugpySockets' event from debugpy.
+2026-04-12 11:48:33.955 [info] Received 'debugpySockets' event from debugpy.
+2026-04-12 11:48:33.979 [info] Received 'debugpySockets' event from debugpy.

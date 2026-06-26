@@ -1,0 +1,25 @@
+2026-06-16 03:39:42.543 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-06-16 03:39:42.544 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:42163
+2026-06-16 03:39:42.544 [info] update#setState idle
+2026-06-16 03:40:12.606 [info] update#setState checking for updates
+2026-06-16 03:40:13.052 [info] update#setState idle
+2026-06-16 03:52:09.328 [warning] [perf] profiling STARTED 7337c0e7-dda4-42d9-9ddc-71aee4abcdae
+2026-06-16 03:52:14.363 [warning] [perf] profiling DONE 7337c0e7-dda4-42d9-9ddc-71aee4abcdae
+2026-06-16 03:52:29.651 [warning] [perf] profiling STARTED 7337c0e7-dda4-42d9-9ddc-71aee4abcdae
+2026-06-16 03:52:34.681 [warning] [perf] profiling DONE 7337c0e7-dda4-42d9-9ddc-71aee4abcdae
+2026-06-16 03:52:49.955 [warning] [perf] profiling STARTED 7337c0e7-dda4-42d9-9ddc-71aee4abcdae
+2026-06-16 03:52:54.985 [warning] [perf] profiling DONE 7337c0e7-dda4-42d9-9ddc-71aee4abcdae
+2026-06-16 04:05:50.255 [warning] [perf] profiling STARTED 4af32324-2a63-4f1c-9d1e-5da15b069acd
+2026-06-16 04:05:55.294 [warning] [perf] profiling DONE 4af32324-2a63-4f1c-9d1e-5da15b069acd
+2026-06-16 04:06:10.616 [warning] [perf] profiling STARTED 4af32324-2a63-4f1c-9d1e-5da15b069acd
+2026-06-16 04:06:15.652 [warning] [perf] profiling DONE 4af32324-2a63-4f1c-9d1e-5da15b069acd
+2026-06-16 04:06:30.969 [warning] [perf] profiling STARTED 4af32324-2a63-4f1c-9d1e-5da15b069acd
+2026-06-16 04:06:35.999 [warning] [perf] profiling DONE 4af32324-2a63-4f1c-9d1e-5da15b069acd
+2026-06-16 04:08:22.626 [info] [BrowserLauncherMain] Launching browser...
+2026-06-16 04:08:22.649 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-06-16 04:08:22.650 [info] [BrowserLauncherMain] Launching browser with command: "/usr/bin/chromium" --remote-debugging-port=9222 --user-data-dir=/home/beast/.gemini/antigravity-browser-profile --disable-fre --no-default-browser-check --no-first-run --auto-accept-browser-signin-for-tests --ash-no-nudges --disable-features=OfferMigrationToDiceUsers,OptGuideOnDeviceModel
+2026-06-16 04:08:22.670 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-06-16 04:08:23.232 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-06-16 04:08:24.221 [info] [BrowserLauncherMain] Chrome with CDP is already running on port 9222.
+2026-06-16 04:08:24.222 [info] [BrowserLauncherMain] Successfully launched browser.
+2026-06-16 04:35:47.754 [info] Extension host with pid 30964 exited with code: 0, signal: unknown.

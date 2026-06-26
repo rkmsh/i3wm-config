@@ -1,0 +1,23 @@
+info:
+  name: get-token
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: 10.49.179.96/api/v1.0/example7
+  body:
+    type: json
+    data: |-
+      {
+        "username": "user",
+        "password": "password7",
+        "application": "appB"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,80 @@
+2026-06-16 03:39:44.167 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.168 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.168 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.169 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.169 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.170 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.170 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.171 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.171 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.171 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.172 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.172 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.172 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.173 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.173 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-06-16 03:39:44.375 [error] [createInstance] oae depends on UNKNOWN service agentSessions.: Error: [createInstance] oae depends on UNKNOWN service agentSessions.
+    at Jcr._throwIfStrict (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:5510)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1818)
+    at Jcr.createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1611)
+    at new Mni (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:6510:9884)
+    at new ZOn (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:6510:18977)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:2181)
+    at Jcr.createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1611)
+    at new Oni (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:6510:22191)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:2181)
+    at Jcr.createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1611)
+2026-06-16 03:39:45.158 [info] Started local extension host with pid 30964.
+2026-06-16 03:39:46.061 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-06-16 03:39:46.061 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-06-16 03:39:46.067 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-06-16 03:39:46.068 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-06-16 03:39:46.068 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-06-16 03:39:49.092 [error] [Extension Host] No LS client info found for local authority
+2026-06-16 03:39:52.116 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541275
+	at async UC._executeContributedCommand (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:52301)
+2026-06-16 03:39:52.121 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async kR.value (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541355)
+2026-06-16 03:39:56.872 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541275
+	at async UC._executeContributedCommand (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:52301)
+2026-06-16 03:39:56.873 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async kR.value (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541355)
+2026-06-16 03:39:59.367 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541275
+	at async UC._executeContributedCommand (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:52301)
+2026-06-16 03:39:59.369 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:942395)
+	at file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:943853
+	at h (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:944180)
+	at async kR.value (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:541355)
+2026-06-16 03:54:04.976 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-16 04:05:48.222 [error] [3b6] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at OPa.create (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:2802:13067)
+    at Bm._event [as onDidLayoutChange] (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:2804:1649)
+    at new fir (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:8354:697)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:2181)
+    at Jcr.createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:1611)
+    at zgi._paint (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:8354:14546)
+    at n.value (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:4191:3501)
+    at zgi.render (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:8354:13808)
+    at new zgi (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:8354:13143)
+    at Jcr._createInstance (vscode-file://vscode-app/home/beast/Downloads/Antigravity%20IDE/resources/app/out/vs/workbench/workbench.desktop.main.js:5841:2181)
+2026-06-16 04:05:52.714 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-16 04:23:08.500 [error] An unknown error occurred. Please consult the log for more details.

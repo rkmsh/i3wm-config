@@ -1,0 +1,51 @@
+2026-06-07 22:06:43.286 [info] Started local extension host with pid 10261.
+2026-06-07 22:06:43.877 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-07 22:06:43.906 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-07 22:06:44.064 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-07 22:06:44.385 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-07 22:06:46.947 [info] MCP Registry configured: https://api.mcp.github.com
+2026-06-07 22:06:48.312 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-07 22:06:49.190 [info] [perf] Render performance baseline is 68ms
+2026-06-07 22:06:53.350 [warning] [backup tracker] suspended, ignoring unregister event file:///home/beast/nodejs-goof/package.json 
+2026-06-07 22:06:54.177 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-06-07 22:06:54.410 [info] Started local extension host with pid 10673.
+2026-06-07 22:06:54.663 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-07 22:06:54.964 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-07 22:06:55.505 [info] MCP Registry configured: https://api.mcp.github.com
+2026-06-07 22:06:55.819 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-07 22:06:57.034 [info] [perf] Render performance baseline is 27ms
+2026-06-07 22:06:57.451 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-07 22:06:57.453 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-07 22:07:11.339 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-06-07 22:07:12.933 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)
+2026-06-07 22:21:26.695 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-07 22:23:00.864 [error] Extension 'ms-python.vscode-python-envs' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal
+product.json (WINS): terminalShellEnv, terminalDataWriteEvent
+2026-06-07 22:23:01.002 [info] Started local extension host with pid 19793.
+2026-06-07 22:23:01.362 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///usr/share/code/resources/app/out/main.js:30:64420)
+    at new ld (file:///usr/share/code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///usr/share/code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///usr/share/code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///usr/share/code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///usr/share/code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///usr/share/code/resources/app/out/main.js:31:14405)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:31:13807)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2615)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5389)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5577)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at N (file:///usr/share/code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-06-07 23:16:34.587 [error] [Extension Host] (node:19793) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

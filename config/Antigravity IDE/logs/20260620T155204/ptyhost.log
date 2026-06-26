@@ -1,0 +1,1 @@
+2026-06-20 15:52:15.148 [error] Failed to set sticky bit on /tmp/beast-antigravity-ide-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/beast-antigravity-ide-zsh'

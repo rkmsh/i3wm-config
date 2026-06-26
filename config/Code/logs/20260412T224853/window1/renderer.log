@@ -1,0 +1,16 @@
+2026-04-12 22:48:55.114 [info] Started local extension host with pid 86375.
+2026-04-12 22:48:55.917 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-04-12 22:48:56.085 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-12 22:48:56.401 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-12 22:48:59.805 [info] MCP Registry configured: https://api.mcp.github.com
+2026-04-12 22:49:00.570 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-12 22:58:39.613 [info] Extension host (LocalProcess pid: 86375) is unresponsive.
+2026-04-12 22:58:39.625 [info] Extension host (LocalProcess pid: 86375) is responsive.
+2026-04-12 22:58:41.482 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-04-12 22:58:41.706 [info] Started local extension host with pid 88830.
+2026-04-12 22:58:41.881 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-12 22:58:42.401 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-12 22:58:42.637 [info] MCP Registry configured: https://api.mcp.github.com
+2026-04-12 22:58:42.717 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-12 22:58:44.776 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-04-12 22:58:44.921 [info] [perf] Render performance baseline is 29ms

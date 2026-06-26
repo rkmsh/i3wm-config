@@ -1,0 +1,46 @@
+2026-06-16 03:39:49.308 [info] I0616 03:39:49.308176 31487 server.go:1293] Starting language server process with pid 31487
+2026-06-16 03:39:49.308 [info] I0616 03:39:49.308343 31487 server.go:330] Setting GOMAXPROCS to 4
+2026-06-16 03:39:49.311 [info] I0616 03:39:49.309739 31487 server.go:473] Language server will attempt to listen on host localhost
+2026-06-16 03:39:49.311 [info] I0616 03:39:49.310522 31487 server.go:487] Language server listening on random port at 39425 for HTTPS (gRPC)
+2026-06-16 03:39:49.311 [info] I0616 03:39:49.310718 31487 server.go:494] Language server listening on random port at 37395 for HTTP
+2026-06-16 03:39:50.014 [info] I0616 03:39:50.013044 31487 server.go:466] Created extension server client at port 44841
+2026-06-16 03:39:53.049 [info] E0616 03:39:53.049109 31487 log.go:398] WaitForReady failed: context deadline exceeded
+2026-06-16 03:39:53.050 [info] I0616 03:39:53.049734 31487 server.go:2234] Auth succeeded, refreshing features and managers
+2026-06-16 03:39:58.483 [info] I0616 03:39:58.483102 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2ec8fa9988db8b1f
+2026-06-16 03:40:01.093 [info] I0616 03:40:01.093437 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x35ef096f2143d9ce
+2026-06-16 03:40:01.095 [info] I0616 03:40:01.095444 31487 server.go:2240] State refresh took 8045ms
+2026-06-16 03:40:01.106 [info] (Antigravity IDE) 2026-06-16 03:40:01.105 [INFO]: Language server started
+2026-06-16 03:40:01.120 [info] I0616 03:40:01.117692 31487 server.go:1898] initialized server successfully in 11.809320817s
+2026-06-16 03:40:01.139 [info] (Antigravity IDE) 2026-06-16 03:40:01.139 [INFO]: LS lspClient started successfully
+2026-06-16 03:40:02.660 [info] I0616 03:40:02.660126 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x91e9565f9bd0ee5
+2026-06-16 03:40:06.730 [info] I0616 03:40:06.730501 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x57e5f3939cdde456
+2026-06-16 03:40:08.651 [info] I0616 03:40:08.651223 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x434a48c23888df4d
+2026-06-16 03:43:49.809 [info] E0616 03:43:49.808701 31487 server.go:601] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": read tcp 192.168.224.164:50940 -> 192.178.158.95:443: read: connection reset by peer
+2026-06-16 03:43:49.810 [info] W0616 03:43:49.808852 31487 client.go:81] failed to set auth token
+2026-06-16 03:43:50.951 [info] E0616 03:43:50.951513 31487 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:58028->216.239.36.223:443: read: connection reset by peer
+2026-06-16 03:43:51.555 [info] E0616 03:43:51.555522 31487 client.go:58] Post "https://play.googleapis.com/log": read tcp 192.168.224.164:48434->216.239.34.223:443: read: connection reset by peer
+2026-06-16 03:44:50.528 [info] E0616 03:44:50.527733 31487 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:45804->216.239.38.223:443: read: connection reset by peer
+2026-06-16 03:44:54.148 [info] I0616 03:44:54.147669 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3ffa126ad86a029b
+2026-06-16 03:44:55.828 [info] I0616 03:44:55.827935 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe0153360e4becc68
+2026-06-16 03:50:52.944 [info] I0616 03:50:52.944352 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9765e19db45bfdd8
+2026-06-16 03:50:54.181 [info] I0616 03:50:54.181116 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcca2c70e95f62d55
+2026-06-16 03:54:03.965 [info] E0616 03:54:03.965338 31487 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-16 03:56:52.349 [info] I0616 03:56:52.348619 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x517b9f5a92a58528
+2026-06-16 03:56:54.022 [info] I0616 03:56:54.022589 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8b2e525d531195e9
+2026-06-16 04:02:52.405 [info] I0616 04:02:52.405381 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xabe7f70fcde7310d
+2026-06-16 04:02:54.112 [info] I0616 04:02:54.111858 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3b9e7877e53b7834
+2026-06-16 04:05:51.706 [info] E0616 04:05:51.705336 31487 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-16 04:07:09.637 [info] E0616 04:07:09.636980 31487 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:57318->216.239.34.223:443: read: connection reset by peer
+2026-06-16 04:08:52.252 [info] I0616 04:08:52.252071 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x702c4e48715adaf3
+2026-06-16 04:08:54.070 [info] I0616 04:08:54.070016 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc7210083df5ea63d
+2026-06-16 04:13:54.366 [info] I0616 04:13:54.365945 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc03a4f2262abac70
+2026-06-16 04:15:00.135 [info] E0616 04:15:00.135574 31487 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:46740->216.239.32.223:443: read: connection reset by peer
+2026-06-16 04:20:02.011 [info] I0616 04:20:02.011214 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3c15064bcbd8dd3c
+2026-06-16 04:20:04.630 [info] I0616 04:20:04.630380 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x33b96f6aa895a9c
+2026-06-16 04:23:07.495 [info] E0616 04:23:07.491588 31487 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-06-16 04:25:53.150 [info] I0616 04:25:53.149717 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x91ae30768060d07c
+2026-06-16 04:25:55.242 [info] I0616 04:25:55.242091 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x25e09c0af5bf2067
+2026-06-16 04:31:53.420 [info] I0616 04:31:53.419501 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5d1300cfb45751bb
+2026-06-16 04:31:55.378 [info] I0616 04:31:55.377929 31487 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9ed8fbb1d4890113
+2026-06-16 04:35:47.724 [info] I0616 04:35:47.722838 31487 server.go:2208] Exit requested on language server process 31487
+2026-06-16 04:35:47.724 [info] I0616 04:35:47.723435 31487 server.go:2146] Language server shutting down

@@ -1,0 +1,23 @@
+2026-06-20 12:54:30.634 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-06-20 12:54:31.398 [info] (75221): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-06-20 12:54:31.399 [info] (75221): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-06-20 12:54:31.406 [info] (75221): Starting service instance "my-zsh-aliases" for workspace "/home/beast/dev/my-zsh-aliases"
+2026-06-20 12:54:32.444 [info] (75221): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///home/beast/dev/my-zsh-aliases...
+2026-06-20 12:54:32.711 [info] (75221): Starting Mcp server id:43903 ...
+2026-06-20 12:54:32.751 [info] (75221): FG(my-zsh-aliases): Setting environmentName for service "my-zsh-aliases": ".venv (3.13.11)"
+2026-06-20 12:54:32.753 [info] (75221): FG(my-zsh-aliases): Setting pythonPath for service "my-zsh-aliases": "/home/beast/dev/my-zsh-aliases/.venv/bin/python"
+2026-06-20 12:54:32.754 [info] (75221): FG(my-zsh-aliases): No include entries specified; assuming /home/beast/dev/my-zsh-aliases
+2026-06-20 12:54:32.755 [info] (75221): FG(my-zsh-aliases): Auto-excluding **/node_modules
+2026-06-20 12:54:32.755 [info] (75221): FG(my-zsh-aliases): Auto-excluding **/__pycache__
+2026-06-20 12:54:32.755 [info] (75221): FG(my-zsh-aliases): Auto-excluding **/.*
+2026-06-20 12:54:32.804 [info] (75221): FG(my-zsh-aliases): Assuming Python version 3.13.11.final.0
+2026-06-20 12:54:33.115 [info] (75221): [Editable Installs] Starting dynamic pth file resolution for Python: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:33.142 [info] (75221): [Editable Installs] No sandbox available for Python /home/beast/dev/my-zsh-aliases/.venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-06-20 12:54:33.176 [info] (75221): FG(my-zsh-aliases): Found 4 source files
+2026-06-20 12:54:33.206 [info] (75221): Settings have not changed. Skipping update.
+2026-06-20 12:54:33.216 [info] (75221): Settings have not changed. Skipping update.
+2026-06-20 12:54:33.220 [info] (75221): Settings have not changed. Skipping update.
+2026-06-20 12:54:33.225 [info] (75221): Settings have not changed. Skipping update.
+2026-06-20 12:54:33.236 [info] (75221): Settings have not changed. Skipping update.
+2026-06-20 12:54:33.305 [info] (75221): PQ(my-zsh-aliases): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-06-20 12:54:33.305 [info] (75221): PQ(my-zsh-aliases): Priority queue background worker(2) started

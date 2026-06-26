@@ -1,0 +1,15 @@
+2026-05-31 15:34:00.062 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-05-31 15:34:00.628 [info] [test-by-project] Activating project-based testing mode
+2026-05-31 15:34:00.628 [info] [test-by-project] Discovering projects for workspace: /home/beast/HTB/Silentium
+2026-05-31 15:34:00.628 [info] Native locator: Refresh started
+2026-05-31 15:34:00.628 [info] [test-by-project] Found 1 total Python projects from API
+2026-05-31 15:34:00.628 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-05-31 15:34:00.628 [info] [test-by-project] Creating adapter for: Silentium at file:///home/beast/HTB/Silentium
+2026-05-31 15:34:01.018 [info] > ~/.pyenv/bin/pyenv which python
+2026-05-31 15:34:01.018 [info] cwd: .
+2026-05-31 15:34:02.828 [info] Active interpreter [/home/beast/HTB/Silentium]:  /home/beast/HTB/Silentium/CVE-2025-8110/.venv/bin/python
+2026-05-31 15:34:02.828 [info] [test-by-project] Registered 1 project(s) for /home/beast/HTB/Silentium
+2026-05-31 15:34:02.852 [info] [test-by-project] Activated 1 project(s) for /home/beast/HTB/Silentium
+2026-05-31 15:34:02.853 [info] [test-by-project] Subscribed to Python project changes
+2026-05-31 15:34:03.639 [info] Native locator: Refresh finished in 3011 ms
+2026-05-31 15:34:05.449 [info] Starting Pylance language server.

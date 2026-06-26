@@ -1,0 +1,44 @@
+2026-06-16 03:39:46.421 [info] Extension host with pid 30964 started
+2026-06-16 03:39:46.421 [info] Skipping acquiring lock for /home/beast/.config/Antigravity IDE/User/workspaceStorage/92b6de106a16d13f60501cafde3c15b1.
+2026-06-16 03:39:46.571 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-16 03:39:46.614 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-06-16 03:39:46.812 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-06-16 03:39:46.870 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-06-16 03:39:47.017 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-06-16 03:39:47.142 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: '*'
+2026-06-16 03:39:47.978 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-16 03:39:57.723 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-06-16 03:39:57.734 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-16 03:39:57.739 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-16 03:40:01.179 [info] Eager extensions activated
+2026-06-16 03:54:04.969 [error] ConnectError: [unknown] run state not found
+	at d (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1709000)
+	at u (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1709396)
+	at next (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1396915)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1299715
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1299574
+	at async Object.unary (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1395886)
+	at async Object.acknowledgeCodeActionStep (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1737774)
+2026-06-16 04:05:52.712 [error] ConnectError: [unknown] run state not found
+	at d (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1709000)
+	at u (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1709396)
+	at next (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1396915)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1299715
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1299574
+	at async Object.unary (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1395886)
+	at async Object.acknowledgeCodeActionStep (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1737774)
+2026-06-16 04:12:00.279 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-06-16 04:12:00.300 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-06-16 04:23:08.497 [error] ConnectError: [unknown] run state not found
+	at d (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1709000)
+	at u (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1709396)
+	at next (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1396915)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1299715
+	at async file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1299574
+	at async Object.unary (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1395886)
+	at async Object.acknowledgeCodeActionStep (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/extensions/antigravity/dist/extension.js:2:1737774)
+2026-06-16 04:35:47.617 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-16 04:35:47.751 [info] Extension host with pid 30964 exiting with code 0

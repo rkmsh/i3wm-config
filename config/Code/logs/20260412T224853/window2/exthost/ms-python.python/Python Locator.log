@@ -1,0 +1,31 @@
+2026-04-12 22:59:09.169 [info] Starting Python Locator /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python-env-tools/bin/pet server
+2026-04-12 22:59:09.169 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:59:09.169 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:59:09.169 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-12 22:59:09.169 [info] Discovered env: /usr/bin/python
+2026-04-12 22:59:09.180 [info] Discovered env: /usr/bin/python2
+2026-04-12 22:59:09.182 [info] Refresh completed in 241ms
+2026-04-12 22:59:09.274 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:59:09.279 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-12 22:59:09.363 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:59:09.407 [info] Discovered env: /usr/bin/python
+2026-04-12 22:59:09.415 [info] Discovered env: /usr/bin/python2
+2026-04-12 22:59:09.518 [info] Refresh completed in 248ms
+2026-04-12 22:59:09.634 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:05:53.552 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:07:12.068 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:07:43.380 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:08:14.611 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:09:10.825 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:12:53.366 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:13:33.952 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:14:13.608 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:14:48.630 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:25:42.600 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:28:02.250 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:28:33.615 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:29:11.818 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:30:01.952 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:30:57.472 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:31:45.309 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 23:32:22.851 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python

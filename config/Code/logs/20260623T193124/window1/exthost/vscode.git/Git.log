@@ -1,0 +1,101 @@
+2026-06-23 19:31:28.145 [info] [main] Log level: Info
+2026-06-23 19:31:28.145 [info] [main] Validating found git in: "git"
+2026-06-23 19:31:28.145 [info] [main] Using git "2.53.0" from "git"
+2026-06-23 19:31:28.145 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-23 19:31:28.145 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-23 19:31:44.764 [info] [main] Log level: Info
+2026-06-23 19:31:44.764 [info] [main] Validating found git in: "git"
+2026-06-23 19:31:44.764 [info] [main] Using git "2.53.0" from "git"
+2026-06-23 19:31:44.764 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-23 19:31:44.764 [info] > git rev-parse --show-toplevel [8ms]
+2026-06-23 19:31:44.764 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 19:31:44.764 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-23 19:32:26.220 [info] [main] Log level: Info
+2026-06-23 19:32:26.220 [info] [main] Validating found git in: "git"
+2026-06-23 19:32:26.220 [info] [main] Using git "2.53.0" from "git"
+2026-06-23 19:32:26.220 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-23 19:32:26.220 [info] > git rev-parse --show-toplevel [7ms]
+2026-06-23 19:32:26.220 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 19:32:26.228 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-23 19:32:26.242 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [10ms]
+2026-06-23 19:32:26.256 [info] [Model][openRepository] Opened repository (path): /thm/web-app/jwt_tool
+2026-06-23 19:32:26.256 [info] [Model][openRepository] Opened repository (real path): /thm/web-app/jwt_tool
+2026-06-23 19:32:26.256 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-23 19:32:26.269 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-23 19:32:26.269 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 19:32:26.269 [info] > git config --get commit.template [7ms]
+2026-06-23 19:32:26.281 [info] > git rev-parse --show-toplevel [6ms]
+2026-06-23 19:32:26.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2026-06-23 19:32:26.293 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-23 19:32:26.293 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [6ms]
+2026-06-23 19:32:26.300 [info] [Model][openRepository] Opened repository (path): /thm/web-app/waybackurls
+2026-06-23 19:32:26.300 [info] [Model][openRepository] Opened repository (real path): /thm/web-app/waybackurls
+2026-06-23 19:32:26.300 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-23 19:32:26.304 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-23 19:32:26.309 [info] > git rev-parse refs/remotes/origin/master [16ms]
+2026-06-23 19:32:26.321 [info] > git config --get commit.template [12ms]
+2026-06-23 19:32:26.324 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-06-23 19:32:26.331 [info] > git status -z -uall [17ms]
+2026-06-23 19:32:26.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2026-06-23 19:32:26.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2026-06-23 19:32:26.367 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-23 19:32:26.367 [info] > git config --get commit.template [12ms]
+2026-06-23 19:32:26.368 [info] > git config --get --local branch.master.vscode-merge-base [7ms]
+2026-06-23 19:32:26.368 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-23 19:32:27.213 [info] > git rev-parse refs/remotes/origin/master [846ms]
+2026-06-23 19:32:27.226 [info] > git status -z -uall [7ms]
+2026-06-23 19:32:27.226 [info] > git reflog master --grep-reflog=branch: Created from *. [854ms]
+2026-06-23 19:32:27.287 [info] > git check-ignore -v -z --stdin [47ms]
+2026-06-23 19:32:27.288 [info] > git check-ignore -v -z --stdin [42ms]
+2026-06-23 19:32:27.288 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [56ms]
+2026-06-23 19:32:27.294 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [69ms]
+2026-06-23 19:32:27.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [108ms]
+2026-06-23 19:32:27.318 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-23 19:32:27.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2026-06-23 19:32:27.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [32ms]
+2026-06-23 19:32:27.334 [info] > git rev-parse --show-toplevel [59ms]
+2026-06-23 19:32:27.334 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 19:32:27.336 [info] > git config --get --local branch.master.vscode-merge-base [9ms]
+2026-06-23 19:32:27.336 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-23 19:32:27.347 [info] > git rev-parse refs/remotes/origin/master [29ms]
+2026-06-23 19:32:27.359 [info] > git config --get commit.template [45ms]
+2026-06-23 19:32:27.363 [info] > git status -z -uall [11ms]
+2026-06-23 19:32:27.363 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-06-23 19:32:27.369 [info] > git reflog master --grep-reflog=branch: Created from *. [22ms]
+2026-06-23 19:32:27.378 [info] > git config --add --local branch.master.vscode-merge-base origin/master [44ms]
+2026-06-23 19:32:27.399 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [22ms]
+2026-06-23 19:32:27.407 [info] > git config --get commit.template [9ms]
+2026-06-23 19:32:27.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2026-06-23 19:32:27.413 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-23 19:32:27.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [8ms]
+2026-06-23 19:32:27.427 [info] > git config --add --local branch.master.vscode-merge-base origin/master [8ms]
+2026-06-23 19:32:27.427 [info] > git rev-parse refs/remotes/origin/master [14ms]
+2026-06-23 19:32:27.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-06-23 19:32:27.449 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-23 19:32:27.450 [info] > git config --get commit.template [16ms]
+2026-06-23 19:32:27.460 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2026-06-23 19:32:27.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2026-06-23 19:32:27.479 [info] > git status -z -uall [8ms]
+2026-06-23 19:32:28.061 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/waybackurls/.git/refs/remotes/origin/master'
+2026-06-23 19:32:28.062 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [585ms]
+2026-06-23 19:32:28.150 [info] > git check-ignore -v -z --stdin [67ms]
+2026-06-23 19:32:28.150 [info] > git check-ignore -v -z --stdin [63ms]
+2026-06-23 19:32:28.151 [info] > git merge-base refs/heads/master refs/remotes/origin/master [74ms]
+2026-06-23 19:32:28.156 [info] > git merge-base refs/heads/master refs/remotes/origin/master [86ms]
+2026-06-23 19:32:28.162 [info] > git rev-parse refs/remotes/origin/master [101ms]
+2026-06-23 19:32:28.221 [info] > git status -z -uall [53ms]
+2026-06-23 19:32:28.221 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [48ms]
+2026-06-23 19:32:28.236 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3bc7407cf2222d6a821dcc19c776e5a1b1cb9a9b...refs/remotes/origin/master -- [74ms]
+2026-06-23 19:32:28.237 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3bc7407cf2222d6a821dcc19c776e5a1b1cb9a9b...refs/remotes/origin/master -- [81ms]
+2026-06-23 19:32:28.246 [info] > git merge-base refs/heads/master refs/remotes/origin/master [10ms]
+2026-06-23 19:32:28.251 [info] > git merge-base refs/heads/master refs/remotes/origin/master [21ms]
+2026-06-23 19:32:28.305 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 8d27cf3e3031de01179e8ba9127e968eb01008e9...refs/remotes/origin/master -- [48ms]
+2026-06-23 19:32:28.306 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 8d27cf3e3031de01179e8ba9127e968eb01008e9...refs/remotes/origin/master -- [55ms]
+2026-06-23 19:32:28.424 [info] > git rev-parse --show-toplevel [6ms]
+2026-06-23 19:32:28.424 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 19:32:29.119 [info] > git config --get commit.template [9ms]
+2026-06-23 19:32:29.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2026-06-23 19:32:29.127 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/thm/web-app/jwt_tool/.git/refs/remotes/origin/master'
+2026-06-23 19:32:29.127 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2026-06-23 19:32:29.147 [info] > git status -z -uall [8ms]
+2026-06-23 19:32:29.150 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]

@@ -1,0 +1,25 @@
+2026-05-31 15:34:03.546 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-05-31 15:34:04.216 [info] (12644): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-05-31 15:34:04.219 [info] (12644): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-05-31 15:34:04.227 [info] (12644): Starting service instance "Silentium" for workspace "/home/beast/HTB/Silentium"
+2026-05-31 15:34:05.431 [info] (12644): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///home/beast/HTB/Silentium...
+2026-05-31 15:34:05.550 [info] (12644): Starting Mcp server id:41377 ...
+2026-05-31 15:34:05.578 [info] (12644): FG(Silentium): Setting environmentName for service "Silentium": ".venv (3.13.11)"
+2026-05-31 15:34:05.578 [info] (12644): FG(Silentium): Setting pythonPath for service "Silentium": "/home/beast/HTB/Silentium/CVE-2025-8110/.venv/bin/python"
+2026-05-31 15:34:05.579 [info] (12644): FG(Silentium): No include entries specified; assuming /home/beast/HTB/Silentium
+2026-05-31 15:34:05.579 [info] (12644): FG(Silentium): Auto-excluding **/node_modules
+2026-05-31 15:34:05.579 [info] (12644): FG(Silentium): Auto-excluding **/__pycache__
+2026-05-31 15:34:05.579 [info] (12644): FG(Silentium): Auto-excluding **/.*
+2026-05-31 15:34:05.610 [info] (12644): FG(Silentium): Assuming Python version 3.13.11.final.0
+2026-05-31 15:34:05.979 [info] (12644): [Editable Installs] Starting dynamic pth file resolution for Python: /home/beast/HTB/Silentium/CVE-2025-8110/.venv/bin/python
+2026-05-31 15:34:06.005 [info] (12644): [Editable Installs] No sandbox available for Python /home/beast/HTB/Silentium/CVE-2025-8110/.venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-05-31 15:34:06.163 [info] (12644): FG(Silentium): Found 156 source files
+2026-05-31 15:34:06.192 [info] (12644): Settings have not changed. Skipping update.
+2026-05-31 15:34:06.217 [info] (12644): Settings have not changed. Skipping update.
+2026-05-31 15:34:06.227 [info] (12644): Settings have not changed. Skipping update.
+2026-05-31 15:34:06.229 [info] (12644): Settings have not changed. Skipping update.
+2026-05-31 15:34:06.248 [info] (12644): Settings have not changed. Skipping update.
+2026-05-31 15:34:06.702 [info] (12644): PQ(Silentium): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-05-31 15:34:06.702 [info] (12644): PQ(Silentium): Priority queue background worker(2) started
+2026-05-31 15:34:07.001 [info] (12644): FG(Silentium): IDX(Silentium): Indexer background runner(3) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (index)
+2026-05-31 15:34:07.003 [info] (12644): FG(Silentium): IDX(Silentium): Indexing(3) started

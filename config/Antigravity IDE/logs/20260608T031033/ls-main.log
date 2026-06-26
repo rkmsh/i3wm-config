@@ -1,0 +1,619 @@
+2026-06-08 03:10:33.699 [info] [LS Main] Starting language server from: /home/beast/Downloads/Antigravity IDE/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-06-08 03:10:33.746 [info] [LS Main] Args: --csrf_token ef21da8a-8dfe-4ccc-ae97-50b15f3cecfa --extension_server_port 44373 --extension_server_csrf_token 21765197-05c1-4eb4-b98c-ad77f1cad9fd --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-06-08 03:10:33.988 [info] [LS Main] Process spawned with PID: 4629
+2026-06-08 03:10:34.324 [error] [LS Main stderr] I0608 03:10:34.324306  4629 server.go:1293] Starting language server process with pid 4629
+I0608 03:10:34.324401  4629 server.go:330] Setting GOMAXPROCS to 4
+
+2026-06-08 03:10:34.325 [error] [LS Main stderr] I0608 03:10:34.325204  4629 server.go:473] Language server will attempt to listen on host localhost
+
+2026-06-08 03:10:34.325 [error] [LS Main stderr] I0608 03:10:34.325664  4629 server.go:487] Language server listening on random port at 45473 for HTTPS (gRPC)
+I0608 03:10:34.325755  4629 server.go:494] Language server listening on random port at 35033 for HTTP
+
+2026-06-08 03:10:35.189 [error] [LS Main stderr] I0608 03:10:35.189411  4629 server.go:466] Created extension server client at port 44373
+
+2026-06-08 03:10:35.212 [error] [LS Main stderr] I0608 03:10:35.209780  4629 migrate.go:40] Migration marker /home/beast/.gemini/config/.migrated does not exist. Attempting migration from AppDataDir /home/beast/.gemini/antigravity-ide.
+I0608 03:10:35.209889  4629 migrate.go:148] Migration complete, marked with /home/beast/.gemini/config/.migrated
+
+2026-06-08 03:10:35.215 [error] [LS Main stderr] E0608 03:10:35.215202  4629 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+
+2026-06-08 03:10:35.219 [error] [LS Main stderr] W0608 03:10:35.219386  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:10:35.219420  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0608 03:10:35.219458  4629 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-06-08 03:10:35.222 [error] [LS Main stderr] I0608 03:10:35.220392  4629 server.go:2234] Auth succeeded, refreshing features and managers
+E0608 03:10:35.220472  4629 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+W0608 03:10:35.220895  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:10:35.220909  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0608 03:10:35.220938  4629 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+I0608 03:10:35.221387  4629 server.go:2240] State refresh took 0ms
+
+2026-06-08 03:10:35.231 [error] [LS Main stderr] W0608 03:10:35.230824  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:10:35.230883  4629 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0608 03:10:35.230903  4629 server.go:601] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+W0608 03:10:35.230927  4629 client.go:81] failed to set auth token
+
+2026-06-08 03:10:35.235 [info] [LS Main] LS started on port 45473
+2026-06-08 03:10:35.248 [error] [LS Main stderr] I0608 03:10:35.246994  4629 server.go:1898] initialized server successfully in 922.566872ms
+
+2026-06-08 03:10:35.260 [error] [LS Main stderr] W0608 03:10:35.256070  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:10:35.256119  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:10:35.256126  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:10:35.256177  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:10:35.256187  4629 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:10:35.256192  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:10:35.256216  4629 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:10:35.256231  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0608 03:10:35.256238  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:10:35.256367  4629 log_context.go:117] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:10:35.256375  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:10:35.256366  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+
+2026-06-08 03:11:35.211 [error] [LS Main stderr] E0608 03:11:35.210760  4629 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+
+2026-06-08 03:11:35.211 [error] [LS Main stderr] W0608 03:11:35.211072  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:11:35.211088  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0608 03:11:35.211113  4629 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-06-08 03:12:35.211 [error] [LS Main stderr] E0608 03:12:35.211359  4629 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+
+2026-06-08 03:12:35.211 [error] [LS Main stderr] W0608 03:12:35.211672  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:12:35.211688  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0608 03:12:35.211720  4629 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-06-08 03:13:30.018 [error] [LS Main stderr] W0608 03:13:30.018355  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:30.018388  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:30.018393  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:30.018434  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:30.018446  4629 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:30.018449  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:30.018467  4629 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:30.018476  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0608 03:13:30.018503  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:30.018510  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+
+2026-06-08 03:13:30.019 [error] [LS Main stderr] W0608 03:13:30.019166  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:30.019214  4629 log_context.go:117] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:30.019221  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-06-08 03:13:33.649 [error] [LS Main stderr] W0608 03:13:33.646752  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:33.646791  4629 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:33.646797  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:33.646840  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:33.646849  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:33.646855  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:33.646874  4629 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:33.646880  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0608 03:13:33.646906  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:33.646913  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0608 03:13:33.646958  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:33.646972  4629 log_context.go:117] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:33.646976  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-06-08 03:13:35.212 [error] [LS Main stderr] E0608 03:13:35.211989  4629 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+
+2026-06-08 03:13:35.212 [error] [LS Main stderr] W0608 03:13:35.212534  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:35.212560  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0608 03:13:35.212611  4629 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-06-08 03:13:40.043 [error] [LS Main stderr] W0608 03:13:40.041738  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:40.041780  4629 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:40.041786  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:40.041838  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:40.041848  4629 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:40.041855  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:40.041881  4629 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:40.041892  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0608 03:13:40.041931  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:40.041941  4629 log_context.go:117] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0608 03:13:40.041999  4629 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0608 03:13:40.042013  4629 log_context.go:117] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0608 03:13:40.042017  4629 log_context.go:117] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-06-08 03:13:58.845 [error] [LS Main stderr] I0608 03:13:58.844941  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x48a518c4b5b3fce3
+
+2026-06-08 03:14:00.325 [error] [LS Main stderr] I0608 03:14:00.321397  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7b2906ffb0b45c8f
+
+2026-06-08 03:15:39.659 [error] [LS Main stderr] I0608 03:15:39.658910  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe1bf5f2bab7f69b8
+
+2026-06-08 03:15:40.998 [error] [LS Main stderr] I0608 03:15:40.998504  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xba80e8c8c74fedee
+
+2026-06-08 03:20:39.117 [error] [LS Main stderr] I0608 03:20:39.117388  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2bae0e06bb8cc3e0
+
+2026-06-08 03:20:40.523 [error] [LS Main stderr] I0608 03:20:40.523067  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc6530d4c8e3be047
+
+2026-06-08 03:21:21.482 [error] [LS Main stderr] I0608 03:21:21.481877  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x231f85205062a152
+
+2026-06-08 03:21:33.094 [error] [LS Main stderr] I0608 03:21:33.094614  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x842e4d08c73e7762
+
+2026-06-08 03:21:33.360 [error] [LS Main stderr] I0608 03:21:33.360031  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x90dbda7bd0f7acfa
+
+2026-06-08 03:21:35.233 [error] [LS Main stderr] I0608 03:21:35.231975  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1321805e5e606ad
+
+2026-06-08 03:25:39.192 [error] [LS Main stderr] I0608 03:25:39.192684  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x33d89f811bcbc1e1
+
+2026-06-08 03:25:40.932 [error] [LS Main stderr] I0608 03:25:40.931725  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7baf300590a54bf3
+
+2026-06-08 03:30:38.856 [error] [LS Main stderr] I0608 03:30:38.856362  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb3788eaf11a98365
+
+2026-06-08 03:30:40.677 [error] [LS Main stderr] I0608 03:30:40.677421  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcfb51135eb91ce0e
+
+2026-06-08 03:35:39.106 [error] [LS Main stderr] I0608 03:35:39.105756  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa01e5cdf243e1e16
+
+2026-06-08 03:35:40.233 [error] [LS Main stderr] I0608 03:35:40.233545  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdd0a290bed15ec7a
+
+2026-06-08 03:37:39.039 [error] [LS Main stderr] E0608 03:37:39.038198  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 03:37:39.047 [error] [LS Main stderr] E0608 03:37:39.047195  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 03:37:42.042 [error] [LS Main stderr] I0608 03:37:42.042575  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2b007449431ba2be
+
+2026-06-08 03:37:46.173 [error] [LS Main stderr] I0608 03:37:46.173695  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5b10438264d0de8f
+
+2026-06-08 03:37:48.975 [error] [LS Main stderr] I0608 03:37:48.975037  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc66e546e0f9f719c
+
+2026-06-08 03:37:53.036 [error] [LS Main stderr] I0608 03:37:53.035892  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x47d1d21ced3c6c46
+
+2026-06-08 03:38:00.134 [error] [LS Main stderr] I0608 03:38:00.133671  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7b737e8a1c1108dc
+
+2026-06-08 03:39:40.088 [error] [LS Main stderr] I0608 03:39:40.087889  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8a658bc7e0d3ac6c
+
+2026-06-08 03:39:43.051 [error] [LS Main stderr] I0608 03:39:43.051361  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5cf58ca719489b75
+
+2026-06-08 03:39:43.166 [error] [LS Main stderr] I0608 03:39:43.166539  4629 log_context.go:117] Model output error: trying to unmarshal args to {AbsolutePath:/home/beast/dev/my-zsh-aliases/exploit_finder.py StartLine:104 EndLine:0 IsSkillFile:false}: json: cannot unmarshal string into Go struct field viewFileArgs.EndLine of type uint32
+E0608 03:39:43.166615  4629 log.go:398] model output error: invalid tool call error (invalid_signature) trying to unmarshal args to {AbsolutePath:/home/beast/dev/my-zsh-aliases/exploit_finder.py StartLine:104 EndLine:0 IsSkillFile:false}: json: cannot unmarshal string into Go struct field viewFileArgs.EndLine of type uint32
+
+2026-06-08 03:39:43.810 [error] [LS Main stderr] I0608 03:39:43.809786  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf5fbedf515d43a3e
+
+2026-06-08 03:39:48.489 [error] [LS Main stderr] I0608 03:39:48.488725  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x390cc7a7db46fb76
+
+2026-06-08 03:39:52.399 [error] [LS Main stderr] I0608 03:39:52.399632  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe427474f07abed54
+
+2026-06-08 03:40:06.948 [error] [LS Main stderr] I0608 03:40:06.948473  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x24cb84ba278e88b0
+
+2026-06-08 03:40:39.441 [error] [LS Main stderr] I0608 03:40:39.441116  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa01fd866b981ee88
+
+2026-06-08 03:40:40.080 [error] [LS Main stderr] I0608 03:40:40.080378  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc17cd9689ad502f9
+
+2026-06-08 03:45:39.175 [error] [LS Main stderr] I0608 03:45:39.175555  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5703d8d23b10b52f
+
+2026-06-08 03:45:40.963 [error] [LS Main stderr] I0608 03:45:40.963004  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb7c523ef1f2e809c
+
+2026-06-08 03:46:11.568 [error] [LS Main stderr] E0608 03:46:11.567625  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 03:46:11.570 [error] [LS Main stderr] E0608 03:46:11.570148  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 03:46:13.879 [error] [LS Main stderr] I0608 03:46:13.879094  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd30e66902e5eca06
+
+2026-06-08 03:47:21.261 [error] [LS Main stderr] I0608 03:47:21.261146  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4b3a46d1cf835356
+
+2026-06-08 03:47:56.955 [error] [LS Main stderr] I0608 03:47:56.954804  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa21e97d8d77309fb
+
+2026-06-08 03:48:03.994 [error] [LS Main stderr] I0608 03:48:03.994565  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5cc80d86016f2503
+
+2026-06-08 03:48:09.129 [error] [LS Main stderr] I0608 03:48:09.129257  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x409cd87e8b91af35
+
+2026-06-08 03:48:13.345 [error] [LS Main stderr] I0608 03:48:13.344752  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x46e750409df1e96c
+
+2026-06-08 03:50:17.809 [error] [LS Main stderr] I0608 03:50:17.809356  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x922f2e3b9e2c6c97
+
+2026-06-08 03:50:19.003 [error] [LS Main stderr] I0608 03:50:19.003289  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeb0d68571406c5ff
+
+2026-06-08 03:50:37.560 [error] [LS Main stderr] I0608 03:50:37.559961  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3ed8b41cc24080a4
+
+2026-06-08 03:50:39.164 [error] [LS Main stderr] I0608 03:50:39.164373  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x67cee364e81859f8
+
+2026-06-08 03:50:40.668 [error] [LS Main stderr] I0608 03:50:40.667948  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xda72fb8d47828c4f
+
+2026-06-08 03:50:53.464 [error] [LS Main stderr] I0608 03:50:53.463832  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ca174caa2f30f21
+
+2026-06-08 03:51:08.066 [error] [LS Main stderr] I0608 03:51:08.066463  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe85df152f7694da5
+
+2026-06-08 03:51:27.404 [error] [LS Main stderr] I0608 03:51:27.403657  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9019c9778664b6ea
+
+2026-06-08 03:51:44.175 [error] [LS Main stderr] I0608 03:51:44.174680  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x205e966710b08b20
+
+2026-06-08 03:51:58.987 [error] [LS Main stderr] I0608 03:51:58.987223  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe9e5d628c797836a
+
+2026-06-08 03:55:39.320 [error] [LS Main stderr] I0608 03:55:39.320457  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7f760a0b46c5b741
+
+2026-06-08 03:55:40.647 [error] [LS Main stderr] I0608 03:55:40.647157  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xae0a6f69fe888caf
+
+2026-06-08 03:59:17.483 [error] [LS Main stderr] E0608 03:59:17.482138  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 03:59:17.484 [error] [LS Main stderr] E0608 03:59:17.484272  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 03:59:21.239 [error] [LS Main stderr] I0608 03:59:21.238691  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc08c4bd0ec00eb18
+
+2026-06-08 03:59:28.310 [error] [LS Main stderr] I0608 03:59:28.310321  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x23ee04b731ef11c7
+
+2026-06-08 03:59:32.594 [error] [LS Main stderr] I0608 03:59:32.593863  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x50cec775c61fd94a
+
+2026-06-08 03:59:50.768 [error] [LS Main stderr] I0608 03:59:50.767935  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe7f7e462ed030f7f
+
+2026-06-08 04:00:06.963 [error] [LS Main stderr] I0608 04:00:06.963665  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9ac8149fe9c8702
+
+2026-06-08 04:00:11.577 [error] [LS Main stderr] I0608 04:00:11.576871  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x98898fb06d907ca2
+
+2026-06-08 04:00:21.421 [error] [LS Main stderr] I0608 04:00:21.420695  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7d7f5464477132b2
+
+2026-06-08 04:00:39.112 [error] [LS Main stderr] I0608 04:00:39.112080  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x40a7437494841f0c
+
+2026-06-08 04:00:40.454 [error] [LS Main stderr] I0608 04:00:40.453778  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6852bebefc851a42
+
+2026-06-08 04:00:43.918 [error] [LS Main stderr] I0608 04:00:43.918367  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1b03950b9721b575
+
+2026-06-08 04:00:59.367 [error] [LS Main stderr] I0608 04:00:59.366949  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb6927780de25f876
+
+2026-06-08 04:01:15.126 [error] [LS Main stderr] I0608 04:01:15.126299  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe78d0558e0961bb1
+
+2026-06-08 04:01:19.003 [error] [LS Main stderr] I0608 04:01:19.003275  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdd6979f395288791
+
+2026-06-08 04:01:31.445 [error] [LS Main stderr] I0608 04:01:31.445119  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x54261ac4246ddf6f
+
+2026-06-08 04:01:49.474 [error] [LS Main stderr] I0608 04:01:49.474413  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4b05849765ad8847
+
+2026-06-08 04:02:01.695 [error] [LS Main stderr] I0608 04:02:01.695568  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc80c84eb3f168763
+
+2026-06-08 04:04:46.065 [error] [LS Main stderr] E0608 04:04:46.064482  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:04:46.069 [error] [LS Main stderr] E0608 04:04:46.069014  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:04:50.067 [error] [LS Main stderr] I0608 04:04:50.067497  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdaf7dfbdbb421769
+
+2026-06-08 04:05:05.576 [error] [LS Main stderr] I0608 04:05:05.576314  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xffe449c9bccf19c1
+
+2026-06-08 04:05:14.126 [error] [LS Main stderr] I0608 04:05:14.125745  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe5d586403544a497
+
+2026-06-08 04:05:23.146 [error] [LS Main stderr] I0608 04:05:23.146420  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2bdc18f1e723488b
+
+2026-06-08 04:05:39.225 [error] [LS Main stderr] I0608 04:05:39.225166  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x538bc1f4347c542b
+
+2026-06-08 04:05:39.922 [error] [LS Main stderr] I0608 04:05:39.922187  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xee1aa4eee27389e2
+
+2026-06-08 04:08:59.005 [error] [LS Main stderr] I0608 04:08:59.005389  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x61adb50f8b8c1218
+
+2026-06-08 04:09:00.647 [error] [LS Main stderr] I0608 04:09:00.647088  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8da0493756901632
+
+2026-06-08 04:09:00.656 [error] [LS Main stderr] E0608 04:09:00.656414  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:09:00.660 [error] [LS Main stderr] E0608 04:09:00.660229  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:09:05.581 [error] [LS Main stderr] I0608 04:09:05.581637  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a850530e0541833
+
+2026-06-08 04:10:09.851 [error] [LS Main stderr] I0608 04:10:09.851280  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x48f1eb82e0519ea1
+
+2026-06-08 04:10:15.365 [error] [LS Main stderr] I0608 04:10:15.365514  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfcc472297f434b3a
+
+2026-06-08 04:10:34.547 [error] [LS Main stderr] I0608 04:10:34.547070  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x893ea12f46e42e78
+
+2026-06-08 04:10:34.547 [error] [LS Main stderr] I0608 04:10:34.547368  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8c57a188bb50c024
+
+2026-06-08 04:10:35.907 [error] [LS Main stderr] I0608 04:10:35.907257  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1de9fdc29bcaaf21
+
+2026-06-08 04:10:39.120 [error] [LS Main stderr] I0608 04:10:39.120394  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7f9d5d3e24254606
+
+2026-06-08 04:10:40.465 [error] [LS Main stderr] I0608 04:10:40.465631  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbfa2eabc4e1fd307
+
+2026-06-08 04:10:54.727 [error] [LS Main stderr] I0608 04:10:54.726737  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x52a519d61a09a2
+
+2026-06-08 04:11:10.595 [error] [LS Main stderr] I0608 04:11:10.595585  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf291114987d05791
+
+2026-06-08 04:14:35.055 [error] [LS Main stderr] E0608 04:14:35.055616  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:14:35.062 [error] [LS Main stderr] E0608 04:14:35.062626  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:14:40.675 [error] [LS Main stderr] I0608 04:14:40.674910  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb55e888ad9d4459a
+
+2026-06-08 04:15:09.855 [error] [LS Main stderr] I0608 04:15:09.855053  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1dbc470e3b4d8d3b
+
+2026-06-08 04:15:14.913 [error] [LS Main stderr] I0608 04:15:14.913246  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf075dcd46c27250c
+
+2026-06-08 04:15:19.469 [error] [LS Main stderr] I0608 04:15:19.469086  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1e9c862f0b9f805d
+
+2026-06-08 04:15:39.137 [error] [LS Main stderr] I0608 04:15:39.136642  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf6f7a530ba1ec58a
+
+2026-06-08 04:15:39.470 [error] [LS Main stderr] I0608 04:15:39.470119  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9b2a322c0f6e9d1c
+
+2026-06-08 04:15:41.092 [error] [LS Main stderr] I0608 04:15:41.092454  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc02812086a5d5bbc
+
+2026-06-08 04:16:19.695 [error] [LS Main stderr] I0608 04:16:19.694700  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd2e3cfc2e2b8393c
+
+2026-06-08 04:16:20.875 [error] [LS Main stderr] I0608 04:16:20.875191  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x83512ebfb1d6cd1f
+
+2026-06-08 04:16:23.573 [error] [LS Main stderr] I0608 04:16:23.572641  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x65b250459fbac75a
+
+2026-06-08 04:16:29.763 [error] [LS Main stderr] I0608 04:16:29.763312  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb2fbde01a432dd8e
+
+2026-06-08 04:16:34.679 [error] [LS Main stderr] I0608 04:16:34.679450  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8e8193f7874d982d
+
+2026-06-08 04:16:38.656 [error] [LS Main stderr] I0608 04:16:38.655727  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfeaefc1d9174f1cf
+
+2026-06-08 04:16:47.845 [error] [LS Main stderr] I0608 04:16:47.844701  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6e9c962876c04f02
+
+2026-06-08 04:17:06.582 [error] [LS Main stderr] I0608 04:17:06.581722  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x402c2823e03b972d
+
+2026-06-08 04:17:10.810 [error] [LS Main stderr] I0608 04:17:10.810020  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x307045ce0f1ff903
+
+2026-06-08 04:17:22.376 [error] [LS Main stderr] I0608 04:17:22.376275  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbbc52fe375a3fe38
+
+2026-06-08 04:17:22.378 [error] [LS Main stderr] I0608 04:17:22.378223  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd5e997c14d8a1747
+
+2026-06-08 04:17:22.603 [error] [LS Main stderr] I0608 04:17:22.603326  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x24a9aa4f34a94cd8
+
+2026-06-08 04:17:39.016 [error] [LS Main stderr] I0608 04:17:39.016077  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x56344517512722f1
+
+2026-06-08 04:19:46.894 [error] [LS Main stderr] E0608 04:19:46.893242  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:19:46.900 [error] [LS Main stderr] E0608 04:19:46.900022  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:20:07.010 [error] [LS Main stderr] I0608 04:20:07.010506  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x10d6640dd25a16ea
+
+2026-06-08 04:20:29.709 [error] [LS Main stderr] I0608 04:20:29.708989  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x94ecc643f8b30960
+
+2026-06-08 04:20:34.336 [error] [LS Main stderr] I0608 04:20:34.336230  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xda54a1b8ba64ebed
+
+2026-06-08 04:20:39.079 [error] [LS Main stderr] I0608 04:20:39.078904  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x72bf9f1d29eb98e0
+
+2026-06-08 04:20:39.798 [error] [LS Main stderr] I0608 04:20:39.798658  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5acfa2b09d69982c
+
+2026-06-08 04:20:42.023 [error] [LS Main stderr] I0608 04:20:42.023520  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8925c9385d9160b0
+
+2026-06-08 04:20:43.561 [error] [LS Main stderr] I0608 04:20:43.561474  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xadacc61e876f4534
+
+2026-06-08 04:20:47.439 [error] [LS Main stderr] I0608 04:20:47.438734  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x520262e8440fc46c
+
+2026-06-08 04:21:03.844 [error] [LS Main stderr] I0608 04:21:03.844485  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x83dcc4700a903e4d
+
+2026-06-08 04:21:04.463 [error] [LS Main stderr] I0608 04:21:04.463211  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8a978928a0abbe9e
+
+2026-06-08 04:21:06.477 [error] [LS Main stderr] I0608 04:21:06.476788  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x24cd9bb509574260
+
+2026-06-08 04:21:28.730 [error] [LS Main stderr] I0608 04:21:28.730147  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x25c4c16869e20dde
+
+2026-06-08 04:24:49.318 [error] [LS Main stderr] E0608 04:24:49.315883  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:24:49.319 [error] [LS Main stderr] E0608 04:24:49.319607  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:24:57.806 [error] [LS Main stderr] I0608 04:24:57.805942  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6bf5ac3aed9f2009
+
+2026-06-08 04:25:05.724 [error] [LS Main stderr] I0608 04:25:05.724521  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x45db0a4fc783367a
+
+2026-06-08 04:25:10.085 [error] [LS Main stderr] I0608 04:25:10.084812  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6cc5b8f875f1da6a
+
+2026-06-08 04:25:15.370 [error] [LS Main stderr] I0608 04:25:15.370026  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc7e75dbc92ca8d9a
+
+2026-06-08 04:25:18.044 [error] [LS Main stderr] I0608 04:25:18.043817  4629 log_context.go:117] Model output error: AbsolutePath is a required parameter. Follow the function call schema exactly.
+E0608 04:25:18.043880  4629 log.go:398] model output error: invalid tool call error (invalid_signature) AbsolutePath is a required parameter. Follow the function call schema exactly.
+
+2026-06-08 04:25:21.033 [error] [LS Main stderr] I0608 04:25:21.033215  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3caed3f38f0d33ff
+
+2026-06-08 04:25:25.076 [error] [LS Main stderr] I0608 04:25:25.076363  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf4d4d970e3f46af7
+
+2026-06-08 04:25:39.053 [error] [LS Main stderr] I0608 04:25:39.052751  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1957cb7a895d8005
+
+2026-06-08 04:25:39.153 [error] [LS Main stderr] I0608 04:25:39.152635  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb48277bfd6d79cc3
+
+2026-06-08 04:25:40.184 [error] [LS Main stderr] I0608 04:25:40.184027  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2099a39201ea950d
+
+2026-06-08 04:26:08.116 [error] [LS Main stderr] I0608 04:26:08.116339  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcdf05b8e28b8e26e
+
+2026-06-08 04:26:08.520 [error] [LS Main stderr] I0608 04:26:08.519963  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3d470c9c282e084c
+
+2026-06-08 04:26:11.792 [error] [LS Main stderr] I0608 04:26:11.792748  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x84008a353d19777f
+
+2026-06-08 04:26:21.854 [error] [LS Main stderr] I0608 04:26:21.853894  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xce51fe8cba9a982
+
+2026-06-08 04:28:14.331 [error] [LS Main stderr] E0608 04:28:14.331478  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:28:14.334 [error] [LS Main stderr] E0608 04:28:14.334367  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:28:18.949 [error] [LS Main stderr] I0608 04:28:18.948820  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd95d908ef240dc45
+
+2026-06-08 04:28:35.421 [error] [LS Main stderr] E0608 04:28:35.420642  4629 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.224.164:33258->216.239.38.223:443: read: connection reset by peer
+
+2026-06-08 04:29:03.984 [error] [LS Main stderr] I0608 04:29:03.984404  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3fac23c1dd9976e8
+
+2026-06-08 04:29:08.965 [error] [LS Main stderr] I0608 04:29:08.964820  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1237c6ef85a771ec
+
+2026-06-08 04:29:13.625 [error] [LS Main stderr] I0608 04:29:13.625477  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdbb9acbfed785fe
+
+2026-06-08 04:29:30.181 [error] [LS Main stderr] I0608 04:29:30.180728  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x203187d2e2a4eaf5
+
+2026-06-08 04:29:30.497 [error] [LS Main stderr] I0608 04:29:30.497362  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x21deb1741c650279
+
+2026-06-08 04:29:31.954 [error] [LS Main stderr] I0608 04:29:31.953671  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x89b27ad4b446ae59
+
+2026-06-08 04:29:37.888 [error] [LS Main stderr] I0608 04:29:37.888222  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xadb762792abc948a
+
+2026-06-08 04:29:44.610 [error] [LS Main stderr] E0608 04:29:44.609665  4629 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_CODE_ACTION: Could not successfully apply any edits. Please review the file and try smaller edits that you are more confident about.: chunk 0: target content not found in the specified range and not unique in the file
+
+2026-06-08 04:29:48.631 [error] [LS Main stderr] I0608 04:29:48.631306  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6aa92953b5d57a3a
+
+2026-06-08 04:29:53.561 [error] [LS Main stderr] I0608 04:29:53.561679  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2e4d51dcbf46aa6c
+
+2026-06-08 04:29:58.710 [error] [LS Main stderr] E0608 04:29:58.710028  4629 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_CODE_ACTION: Could not successfully apply any edits. Please review the file and try smaller edits that you are more confident about.: chunk 0: target content not found in the specified range and not unique in the file
+
+2026-06-08 04:30:01.157 [error] [LS Main stderr] I0608 04:30:01.157201  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcd976aef81240ffe
+
+2026-06-08 04:30:07.445 [error] [LS Main stderr] I0608 04:30:07.444808  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc33016b37d507948
+
+2026-06-08 04:30:18.761 [error] [LS Main stderr] I0608 04:30:18.760974  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x19f8e1fa8a6e7b83
+
+2026-06-08 04:30:18.925 [error] [LS Main stderr] I0608 04:30:18.925109  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3c5c337eceb112d9
+
+2026-06-08 04:30:20.286 [error] [LS Main stderr] I0608 04:30:20.286295  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf77b8dd12ebbee0e
+
+2026-06-08 04:30:30.105 [error] [LS Main stderr] I0608 04:30:30.105034  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1e9d13be76802790
+
+2026-06-08 04:30:40.029 [error] [LS Main stderr] I0608 04:30:40.029374  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x60bf0d8b754b344f
+
+2026-06-08 04:30:41.344 [error] [LS Main stderr] I0608 04:30:41.343850  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9ca144bf85444d40
+
+2026-06-08 04:30:55.756 [error] [LS Main stderr] I0608 04:30:55.756626  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x774bf603f54df691
+
+2026-06-08 04:32:34.353 [error] [LS Main stderr] E0608 04:32:34.352992  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:32:34.359 [error] [LS Main stderr] E0608 04:32:34.357225  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:32:38.976 [error] [LS Main stderr] I0608 04:32:38.975975  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5b1f3a535efe584e
+
+2026-06-08 04:32:54.013 [error] [LS Main stderr] I0608 04:32:54.013178  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe5f0bb9430350a97
+
+2026-06-08 04:33:11.404 [error] [LS Main stderr] I0608 04:33:11.404203  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3b606e0bd1818357
+
+2026-06-08 04:33:12.153 [error] [LS Main stderr] I0608 04:33:12.153392  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbe4541db449dc47d
+
+2026-06-08 04:33:13.152 [error] [LS Main stderr] I0608 04:33:13.152577  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3041c7a31d6c92d1
+
+2026-06-08 04:33:31.212 [error] [LS Main stderr] I0608 04:33:31.212136  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6ea7fac30b4a03c5
+
+2026-06-08 04:35:35.813 [error] [LS Main stderr] I0608 04:35:35.813203  4629 log_context.go:117] Model output error: trying to unmarshal args to {AbsolutePath:/home/beast/dev/my-zsh-aliases/exploit_finder.py StartLine:0 EndLine:825 IsSkillFile:false}: json: cannot unmarshal string into Go struct field viewFileArgs.StartLine of type uint32
+E0608 04:35:35.813259  4629 log.go:398] model output error: invalid tool call error (invalid_signature) trying to unmarshal args to {AbsolutePath:/home/beast/dev/my-zsh-aliases/exploit_finder.py StartLine:0 EndLine:825 IsSkillFile:false}: json: cannot unmarshal string into Go struct field viewFileArgs.StartLine of type uint32
+
+2026-06-08 04:35:39.642 [error] [LS Main stderr] I0608 04:35:39.641889  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbf47bbbc4648f802
+
+2026-06-08 04:35:41.006 [error] [LS Main stderr] I0608 04:35:41.006472  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe13947b04a966111
+
+2026-06-08 04:35:41.242 [error] [LS Main stderr] I0608 04:35:41.241674  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe0e66debe89f8517
+
+2026-06-08 04:35:44.959 [error] [LS Main stderr] I0608 04:35:44.958705  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x911490425e1eebf7
+
+2026-06-08 04:36:14.435 [error] [LS Main stderr] I0608 04:36:14.434866  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x88fd8fb35f3230c6
+
+2026-06-08 04:36:14.437 [error] [LS Main stderr] I0608 04:36:14.437387  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe6a25e5dbf4006bf
+
+2026-06-08 04:36:14.481 [error] [LS Main stderr] I0608 04:36:14.480659  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8debd042d9575c2b
+
+2026-06-08 04:36:37.138 [error] [LS Main stderr] I0608 04:36:37.138462  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe81e607fd10b8929
+
+2026-06-08 04:37:40.949 [error] [LS Main stderr] I0608 04:37:40.948922  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd96143d391374152
+
+2026-06-08 04:37:41.301 [error] [LS Main stderr] I0608 04:37:41.300943  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcc1dc9f4cadaec71
+
+2026-06-08 04:37:42.133 [error] [LS Main stderr] I0608 04:37:42.133226  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb0f71a6519fb98cf
+
+2026-06-08 04:37:52.769 [error] [LS Main stderr] I0608 04:37:52.769123  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x458b9eeded0c5bd4
+
+2026-06-08 04:37:53.129 [error] [LS Main stderr] I0608 04:37:53.129272  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xecbdd4858456daa9
+
+2026-06-08 04:40:39.159 [error] [LS Main stderr] I0608 04:40:39.158645  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x653df31eefec9e49
+
+2026-06-08 04:40:40.071 [error] [LS Main stderr] I0608 04:40:40.071295  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb292827bfdc15941
+
+2026-06-08 04:41:39.365 [error] [LS Main stderr] I0608 04:41:39.365176  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xebd43ae34b6ec0a
+
+2026-06-08 04:41:39.876 [error] [LS Main stderr] I0608 04:41:39.875105  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb9f933f06e548bc0
+
+2026-06-08 04:41:41.173 [error] [LS Main stderr] I0608 04:41:41.173190  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7209781c3d66ee42
+
+2026-06-08 04:41:42.249 [error] [LS Main stderr] I0608 04:41:42.248345  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x65add077fd5e057f
+
+2026-06-08 04:42:59.351 [error] [LS Main stderr] E0608 04:42:59.350493  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:42:59.354 [error] [LS Main stderr] E0608 04:42:59.354358  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:43:03.466 [error] [LS Main stderr] I0608 04:43:03.465942  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2951ad38463e8b9f
+
+2026-06-08 04:45:39.282 [error] [LS Main stderr] I0608 04:45:39.281593  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd99784f6ba1c088
+
+2026-06-08 04:45:40.367 [error] [LS Main stderr] I0608 04:45:40.367398  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5d329efa3ee09af
+
+2026-06-08 04:47:56.654 [error] [LS Main stderr] E0608 04:47:56.654342  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:47:56.659 [error] [LS Main stderr] E0608 04:47:56.658703  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:48:02.866 [error] [LS Main stderr] I0608 04:48:02.865943  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xde9e0a26efb62e46
+
+2026-06-08 04:48:12.623 [error] [LS Main stderr] I0608 04:48:12.622799  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6949136c27d4447b
+
+2026-06-08 04:48:18.293 [error] [LS Main stderr] I0608 04:48:18.293473  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ee04bbc873233ca
+
+2026-06-08 04:48:48.374 [error] [LS Main stderr] I0608 04:48:48.373538  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x53224c3d695abb20
+
+2026-06-08 04:49:15.094 [error] [LS Main stderr] I0608 04:49:15.094036  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ad1389e3f16c041
+
+2026-06-08 04:49:46.610 [error] [LS Main stderr] I0608 04:49:46.610097  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9f26795253313555
+
+2026-06-08 04:50:09.363 [error] [LS Main stderr] I0608 04:50:09.363755  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2f2232220bbb0709
+
+2026-06-08 04:50:18.979 [error] [LS Main stderr] I0608 04:50:18.979643  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbefd935db196bd05
+
+2026-06-08 04:50:39.150 [error] [LS Main stderr] I0608 04:50:39.150329  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf94ef2cb0c78436d
+
+2026-06-08 04:50:40.380 [error] [LS Main stderr] I0608 04:50:40.380208  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x894a06f80024ff47
+
+2026-06-08 04:50:43.801 [error] [LS Main stderr] I0608 04:50:43.801119  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x76832b60c6ee793e
+
+2026-06-08 04:51:11.337 [error] [LS Main stderr] I0608 04:51:11.337045  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe96168e1e090e6e5
+
+2026-06-08 04:51:58.022 [error] [LS Main stderr] I0608 04:51:58.021745  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2deb093261a09d0f
+
+2026-06-08 04:51:59.894 [error] [LS Main stderr] I0608 04:51:59.894157  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xda45fb3addc0afbc
+
+2026-06-08 04:52:31.234 [error] [LS Main stderr] I0608 04:52:31.234542  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4a1560652c2fa9c8
+
+2026-06-08 04:53:02.690 [error] [LS Main stderr] I0608 04:53:02.690066  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd16026afe8eb77ca
+
+2026-06-08 04:53:09.180 [error] [LS Main stderr] I0608 04:53:09.180205  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc9e5f68134c3aaff
+
+2026-06-08 04:53:41.488 [error] [LS Main stderr] I0608 04:53:41.488714  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x96fab7aa7c1732d0
+
+2026-06-08 04:54:09.372 [error] [LS Main stderr] I0608 04:54:09.372684  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa6c2c3cf68b9219c
+
+2026-06-08 04:54:14.078 [error] [LS Main stderr] I0608 04:54:14.078523  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1f73d56a1d28cde
+I0608 04:54:14.078523  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc276f7874d11ed7
+
+2026-06-08 04:54:21.834 [error] [LS Main stderr] I0608 04:54:21.834617  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa4c3576760631fd2
+
+2026-06-08 04:54:47.436 [error] [LS Main stderr] I0608 04:54:47.435678  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3dceaa177a224ce8
+
+2026-06-08 04:54:57.535 [error] [LS Main stderr] I0608 04:54:57.534768  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe23fa128ca8b4f8d
+
+2026-06-08 04:55:05.635 [error] [LS Main stderr] I0608 04:55:05.634728  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc6468c46b0b44e23
+
+2026-06-08 04:55:11.215 [error] [LS Main stderr] I0608 04:55:11.215563  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22c1966c529cde21
+
+2026-06-08 04:55:18.179 [error] [LS Main stderr] I0608 04:55:18.179039  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x17e0e189846e027e
+
+2026-06-08 04:55:39.342 [error] [LS Main stderr] I0608 04:55:39.341874  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc8e9f60433010c5d
+
+2026-06-08 04:55:41.285 [error] [LS Main stderr] I0608 04:55:41.285243  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x92b464bf3931c2a3
+
+2026-06-08 04:55:54.744 [error] [LS Main stderr] I0608 04:55:54.743990  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3573d6136fd0ef9a
+
+2026-06-08 04:56:03.630 [error] [LS Main stderr] I0608 04:56:03.630078  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1b14a2e25aa3533
+
+2026-06-08 04:56:08.927 [error] [LS Main stderr] I0608 04:56:08.927205  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe499f0b61f3118a4
+
+2026-06-08 04:56:17.867 [error] [LS Main stderr] I0608 04:56:17.866989  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcc3b736f07962a32
+
+2026-06-08 04:56:39.212 [error] [LS Main stderr] I0608 04:56:39.211612  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdcffc612914c57a3
+
+2026-06-08 04:56:40.079 [error] [LS Main stderr] I0608 04:56:40.078904  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3ae50582cb7b279f
+
+2026-06-08 04:56:42.601 [error] [LS Main stderr] I0608 04:56:42.601031  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7d816dc4897a3feb
+
+2026-06-08 04:56:49.387 [error] [LS Main stderr] I0608 04:56:49.387052  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6e77bb1f5bec956
+
+2026-06-08 04:56:54.459 [error] [LS Main stderr] I0608 04:56:54.459542  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9687ffc0c81b437b
+
+2026-06-08 04:57:06.324 [error] [LS Main stderr] I0608 04:57:06.323007  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6ac41a8211d5ae1
+
+2026-06-08 04:57:06.359 [error] [LS Main stderr] I0608 04:57:06.359426  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x697d858fff0d12c
+
+2026-06-08 04:57:07.470 [error] [LS Main stderr] E0608 04:57:07.470471  4629 log.go:398] agent executor error: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h13m37s.: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h13m37s.
+
+2026-06-08 04:57:07.473 [error] [LS Main stderr] E0608 04:57:07.473639  4629 log.go:398] RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h13m37s.: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h13m37s.
+
+2026-06-08 04:59:15.283 [error] [LS Main stderr] E0608 04:59:15.283467  4629 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-06-08 04:59:15.286 [error] [LS Main stderr] E0608 04:59:15.286518  4629 discovery.go:335] Failed to load JSON config file /home/beast/.gemini/config/mcp_config.json: unexpected end of JSON input
+
+2026-06-08 04:59:16.826 [error] [LS Main stderr] E0608 04:59:16.826328  4629 log.go:398] agent executor error: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h11m28s.: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h11m28s.
+
+2026-06-08 04:59:16.829 [error] [LS Main stderr] E0608 04:59:16.828657  4629 log.go:398] RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h11m28s.: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Contact your administrator to enable overages. Resets in 4h11m28s.
+
+2026-06-08 05:00:41.775 [error] [LS Main stderr] I0608 05:00:41.775454  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa8aca6a9878abf41
+
+2026-06-08 05:00:43.554 [error] [LS Main stderr] I0608 05:00:43.553914  4629 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4ddad57dbcee775d
+

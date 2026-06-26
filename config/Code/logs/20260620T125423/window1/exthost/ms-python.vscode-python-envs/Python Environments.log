@@ -1,0 +1,94 @@
+2026-06-20 12:54:28.262 [info] Python-envs extension version: 1.20.1
+2026-06-20 12:54:28.262 [info] 
+=== Python Envs Configuration Levels ===
+2026-06-20 12:54:28.262 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-06-20 12:54:28.262 [info] [pet] Starting Python Locator /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/python-env-tools/bin/pet server
+2026-06-20 12:54:28.397 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/beast/dev/my-zsh-aliases"],"environmentDirectories":["/home/beast/dev/my-zsh-aliases/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/beast/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-06-20 12:54:28.696 [info] Refreshing Pyenv Environments
+2026-06-20 12:54:28.696 [info] Refreshing pyenv environments
+2026-06-20 12:54:28.809 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-20 12:54:29.222 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-20 12:54:29.356 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-20 12:54:29.370 [info] Discovered env: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:29.391 [info] Discovered env: /usr/bin/python
+2026-06-20 12:54:29.393 [info] Discovered env: /usr/bin/python2
+2026-06-20 12:54:29.412 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at F (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578361)
+	at async L (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578486)
+	at async t.registerCondaFeatures (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:596321)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:717155)]
+2026-06-20 12:54:29.449 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":489,"breakdown":{"GlobalVirtualEnvs":152,"Locators":488,"Path":471,"Workspaces":245},"locators":{"Conda":487,"Homebrew":0,"LinuxGlobal":340,"PipEnv":1,"Pixi":0,"Poetry":1,"PyEnv":71,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-20 12:54:29.583 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-20 12:54:29.592 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-20 12:54:29.626 [info] Discovered env: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:29.627 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-20 12:54:29.633 [info] Discovered env: /usr/bin/python
+2026-06-20 12:54:29.633 [info] Discovered env: /usr/bin/python2
+2026-06-20 12:54:29.634 [info] Pipenv not found
+2026-06-20 12:54:29.634 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting.
+2026-06-20 12:54:29.635 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":164,"breakdown":{"GlobalVirtualEnvs":33,"Locators":114,"Path":162,"Workspaces":33},"locators":{"Conda":83,"Homebrew":0,"LinuxGlobal":90,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":22,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-20 12:54:29.640 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-20 12:54:29.664 [info] Discovered env: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:29.670 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-20 12:54:29.670 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-20 12:54:29.678 [info] Discovered env: /usr/bin/python
+2026-06-20 12:54:29.707 [info] Discovered env: /usr/bin/python2
+2026-06-20 12:54:29.781 [info] Poetry not found, turning off poetry features.
+2026-06-20 12:54:29.782 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-06-20 12:54:29.782 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":138,"breakdown":{"GlobalVirtualEnvs":7,"Locators":72,"Path":137,"Workspaces":17},"locators":{"Conda":68,"Homebrew":0,"LinuxGlobal":62,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":12,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-20 12:54:29.785 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-20 12:54:29.785 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-20 12:54:29.785 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-20 12:54:29.788 [info] Discovered env: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:29.851 [info] Discovered env: /usr/bin/python
+2026-06-20 12:54:29.857 [info] Discovered env: /usr/bin/python2
+2026-06-20 12:54:29.921 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":129,"breakdown":{"GlobalVirtualEnvs":5,"Locators":72,"Path":129,"Workspaces":9},"locators":{"Conda":64,"Homebrew":0,"LinuxGlobal":68,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-20 12:54:29.928 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-20 12:54:29.934 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-20 12:54:29.934 [info] Discovered env: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:29.936 [info] Found venv environment: .venv (3.13.11)
+2026-06-20 12:54:29.962 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-20 12:54:30.047 [info] Python API: Changed environment from undefined to .venv (3.13.11) for: /home/beast/dev/my-zsh-aliases
+2026-06-20 12:54:30.047 [info] Internal: Changed environment from undefined to .venv (3.13.11) for: /home/beast/dev/my-zsh-aliases
+2026-06-20 12:54:30.156 [info] [interpreterSelection] my-zsh-aliases: .venv (3.13.11) (source: autoDiscovery)
+2026-06-20 12:54:30.203 [info] Discovered env: /usr/bin/python
+2026-06-20 12:54:30.282 [info] Discovered env: /usr/bin/python2
+2026-06-20 12:54:30.440 [info] [interpreterSelection] global: Python 3.13.11 (source: autoDiscovery)
+2026-06-20 12:54:30.448 [info] Terminal is activated: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:30.494 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":150,"breakdown":{"GlobalVirtualEnvs":23,"Locators":92,"Path":150,"Workspaces":10},"locators":{"Conda":65,"Homebrew":0,"LinuxGlobal":83,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":3,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-20 12:54:30.499 [info] Python API: Changed environment from undefined to Python 3.13.11 for: global
+2026-06-20 12:54:30.499 [info] Internal: Changed environment from undefined to Python 3.13.11 for: global
+2026-06-20 12:54:30.519 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-20 12:54:30.533 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-20 12:54:30.536 [info] Discovered env: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:30.579 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-20 12:54:30.795 [info] Discovered env: /usr/bin/python
+2026-06-20 12:54:30.838 [info] Discovered env: /usr/bin/python2
+2026-06-20 12:54:30.929 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":426,"breakdown":{"GlobalVirtualEnvs":52,"Locators":341,"Path":421,"Workspaces":78},"locators":{"Conda":131,"Homebrew":0,"LinuxGlobal":287,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":53,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-20 12:54:30.943 [info] Found venv environment: .venv (3.13.11)
+2026-06-20 12:54:30.956 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-20 12:54:30.967 [info] Python API: Changed environment from .venv (3.13.11) to .venv (3.13.11) for: /home/beast/dev/my-zsh-aliases
+2026-06-20 12:54:30.967 [info] Internal: Changed environment from .venv (3.13.11) to .venv (3.13.11) for: /home/beast/dev/my-zsh-aliases
+2026-06-20 12:54:30.967 [info] Discovered env: /home/beast/dev/my-zsh-aliases/.venv/bin/python
+2026-06-20 12:54:30.969 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-20 12:54:30.969 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-20 12:54:31.013 [info] Discovered env: /usr/bin/python
+2026-06-20 12:54:31.074 [info] Discovered env: /usr/bin/python2
+2026-06-20 12:54:31.158 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":226,"breakdown":{"GlobalVirtualEnvs":36,"Locators":185,"Path":226,"Workspaces":32},"locators":{"Conda":178,"Homebrew":0,"LinuxGlobal":136,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":28,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-20 12:54:32.517 [info] Python API: Changed environment from Python 3.13.11 to Python 3.13.11 for: global
+2026-06-20 12:54:32.517 [info] Internal: Changed environment from Python 3.13.11 to Python 3.13.11 for: global

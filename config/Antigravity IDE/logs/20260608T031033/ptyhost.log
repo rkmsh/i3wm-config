@@ -1,0 +1,2 @@
+2026-06-08 03:10:39.722 [error] Failed to set sticky bit on /tmp/beast-antigravity-ide-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/beast-antigravity-ide-zsh'
+2026-06-08 03:15:23.628 [info] Persistent process "2": The reconnection grace time of 1m has expired, shutting down pid "7389"

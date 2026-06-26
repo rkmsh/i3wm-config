@@ -1,0 +1,174 @@
+2026-04-12 11:42:23.810 [info] Extension host with pid 18640 started
+2026-04-12 11:42:23.810 [info] Skipping acquiring lock for /home/beast/.config/Code/User/workspaceStorage/fad14ed297635108b7557a4a190c024d.
+2026-04-12 11:42:24.109 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-12 11:42:24.160 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-12 11:42:24.185 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-04-12 11:42:24.436 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:42:25.283 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:42:25.650 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-12 11:42:26.125 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-12 11:42:26.480 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-12 11:42:26.648 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-12 11:42:27.521 [info] Eager extensions activated
+2026-04-12 11:42:27.869 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:42:28.047 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-12 11:42:28.051 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-12 11:42:31.842 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-04-12 11:42:31.866 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-04-12 11:42:37.323 [info] Extension host terminating: renderer closed the MessagePort
+2026-04-12 11:42:37.351 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.16.0-linux-x64/dist/extension.js:2:689273)
+	at HX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-04-12 11:42:37.389 [info] Extension host with pid 18640 exiting with code 0
+2026-04-12 11:42:39.752 [info] Extension host with pid 19469 started
+2026-04-12 11:42:39.752 [info] Skipping acquiring lock for /home/beast/.config/Code/User/workspaceStorage/bd79932438cc0bcbaa33e7783946ca7d.
+2026-04-12 11:42:39.832 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-12 11:42:39.886 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-12 11:42:40.007 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-04-12 11:42:40.063 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-12 11:42:40.186 [info] Eager extensions activated
+2026-04-12 11:42:40.241 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-12 11:42:40.246 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-12 11:42:43.083 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-04-12 11:42:46.158 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-04-12 11:42:46.453 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:42:47.001 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:42:47.595 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:42:47.937 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-12 11:42:51.006 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-04-12 11:42:51.048 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-04-12 11:43:09.552 [info] Extension host terminating: renderer closed the MessagePort
+2026-04-12 11:43:09.619 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-04-12 11:43:09.619 [error] Error: Channel has been closed
+	at n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:2816)
+	at Object.error (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:3250)
+	at Object.dispose (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:539542)
+	at /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:538310
+	at Array.forEach (<anonymous>)
+	at S.dispose (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:538297)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+	at oL.b (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15172)
+	at oL.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1227)
+	at HX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12045)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-04-12 11:43:09.623 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:706516)
+	at HX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-04-12 11:43:09.623 [info] Extension host with pid 19469 exiting with code 0
+2026-04-12 11:43:10.508 [info] Extension host with pid 20284 started
+2026-04-12 11:43:10.509 [info] Skipping acquiring lock for /home/beast/.config/Code/User/workspaceStorage/bd79932438cc0bcbaa33e7783946ca7d.
+2026-04-12 11:43:10.541 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-12 11:43:10.644 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-12 11:43:10.669 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-12 11:43:10.689 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-04-12 11:43:10.847 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:43:11.187 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:43:11.626 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-12 11:43:11.731 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-12 11:43:11.832 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-12 11:43:11.864 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-04-12 11:43:12.279 [info] Eager extensions activated
+2026-04-12 11:43:12.298 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-12 11:43:12.301 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-12 11:43:15.102 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-04-12 11:43:15.162 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-04-12 11:47:30.611 [error] Error: illegal state - object is disposed
+	at TN.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:112519)
+	at TN.delete (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:112037)
+	at DiagnosticRequestor.forgetDocument (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:39:73655)
+	at DiagnosticFeatureProviderImpl.cleanUpDocument (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:39:88126)
+	at _d.value (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:39:87297)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.D (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2398)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2615)
+	at updateVisibleDocuments (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:34:39301)
+	at /home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:34:39670
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:100325)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.D (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2398)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2615)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:63851)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at ZA.acceptDocumentsAndEditorsDelta (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:11891)
+	at ZA.$acceptDocumentsAndEditorsDelta (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:10425)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123017)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-04-12 11:47:30.612 [error] Error: illegal state - object is disposed
+	at TN.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:112519)
+	at TN.delete (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:112037)
+	at DiagnosticRequestor.forgetDocument (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:39:73655)
+	at DiagnosticFeatureProviderImpl.cleanUpDocument (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:39:88126)
+	at _d.value (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:39:87297)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.D (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2398)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2615)
+	at updateVisibleDocuments (/home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:34:39301)
+	at /home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/vendor.bundle.js:34:39670
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:100325)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.D (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2398)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2615)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:63851)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at ZA.acceptDocumentsAndEditorsDelta (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:11891)
+	at ZA.$acceptDocumentsAndEditorsDelta (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:10425)
+	at l5.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123912)
+	at l5.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123017)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-04-12 11:47:36.402 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugDynamicConfigurations'
+2026-04-12 11:47:40.410 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2026-04-12 11:48:34.059 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-04-12 21:00:01.262 [info] Extension host terminating: renderer closed the MessagePort

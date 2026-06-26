@@ -1,0 +1,16 @@
+2026-04-12 22:48:58.759 [info] Starting Python Locator /home/beast/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/python-env-tools/bin/pet server
+2026-04-12 22:48:58.759 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:48:58.759 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:48:58.759 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-12 22:48:58.886 [info] Discovered env: /usr/bin/python
+2026-04-12 22:48:58.906 [info] Discovered env: /usr/bin/python2
+2026-04-12 22:48:59.092 [info] Refresh completed in 501ms
+2026-04-12 22:49:00.001 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-04-12 22:49:00.015 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-04-12 22:49:00.018 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:49:00.199 [info] Discovered env: /usr/bin/python
+2026-04-12 22:49:00.206 [info] Discovered env: /usr/bin/python2
+2026-04-12 22:49:00.206 [info] Resolved Python Environment /usr/bin/python
+2026-04-12 22:49:00.237 [info] Refresh completed in 247ms
+2026-04-12 22:49:00.526 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-04-12 22:50:38.080 [info] Resolved Python Environment /home/beast/.pyenv/versions/3.11.0/bin/python

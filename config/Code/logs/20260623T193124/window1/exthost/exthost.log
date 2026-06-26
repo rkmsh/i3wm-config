@@ -1,0 +1,77 @@
+2026-06-23 19:31:26.859 [info] Extension host with pid 22423 started
+2026-06-23 19:31:26.886 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-23 19:31:26.914 [info] ExtensionService#_doActivateExtension bruno-api-client.bruno, startup: false, activationEvent: 'onCustomEditor:bruno.requestEditor'
+2026-06-23 19:31:27.706 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-23 19:31:27.753 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-23 19:31:27.780 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-23 19:31:27.834 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-23 19:31:28.098 [info] Eager extensions activated
+2026-06-23 19:31:28.102 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:31:28.110 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:31:40.752 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-23 19:31:40.783 [info] Extension host with pid 22423 exiting with code 0
+2026-06-23 19:31:42.108 [info] Extension host with pid 22842 started
+2026-06-23 19:31:42.108 [info] Skipping acquiring lock for /home/beast/.config/Code/User/workspaceStorage/7763c8cbb0d19c0c3c1495cd5fbb4de3.
+2026-06-23 19:31:42.310 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-23 19:31:42.359 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-23 19:31:42.440 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-06-23 19:31:42.453 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-23 19:31:42.579 [info] Eager extensions activated
+2026-06-23 19:31:42.604 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:31:42.638 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:31:44.616 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-06-23 19:31:44.802 [info] ExtensionService#_doActivateExtension bruno-api-client.bruno, startup: false, activationEvent: 'workspaceContains:**/bruno.json,**/opencollection.yaml,**/opencollection.yml'
+2026-06-23 19:32:22.359 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-23 19:32:22.388 [info] Extension host with pid 22842 exiting with code 0
+2026-06-23 19:32:23.737 [info] Extension host with pid 23277 started
+2026-06-23 19:32:23.737 [info] Skipping acquiring lock for /home/beast/.config/Code/User/workspaceStorage/a3738bb3a76c01d03142ac0f41822ae8.
+2026-06-23 19:32:23.802 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-23 19:32:23.828 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-23 19:32:23.913 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-06-23 19:32:23.928 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-23 19:32:24.025 [info] Eager extensions activated
+2026-06-23 19:32:24.028 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:32:24.031 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:32:26.068 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-06-23 19:32:26.372 [info] ExtensionService#_doActivateExtension bruno-api-client.bruno, startup: false, activationEvent: 'workspaceContains:**/bruno.json,**/opencollection.yaml,**/opencollection.yml'
+2026-06-23 19:32:27.482 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-06-23 19:32:27.672 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-06-23 19:32:28.018 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-06-23 19:32:28.447 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-06-23 19:32:31.946 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-06-23 19:32:32.063 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-06-23 19:36:34.300 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-23 19:36:34.322 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-06-23 19:36:34.322 [error] Error: Channel has been closed
+	at n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:2816)
+	at Object.error (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:3250)
+	at Object.dispose (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:539542)
+	at /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:538310
+	at Array.forEach (<anonymous>)
+	at S.dispose (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:538297)
+	at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+	at oL.b (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15172)
+	at oL.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1227)
+	at HX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12045)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-23 19:36:34.325 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:706516)
+	at HX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-06-23 19:36:34.326 [info] Extension host with pid 23277 exiting with code 0

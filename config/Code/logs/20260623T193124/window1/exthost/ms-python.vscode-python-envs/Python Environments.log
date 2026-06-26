@@ -1,0 +1,96 @@
+2026-06-23 19:32:28.345 [info] Python-envs extension version: 1.20.1
+2026-06-23 19:32:28.345 [info] 
+=== Python Envs Configuration Levels ===
+2026-06-23 19:32:28.345 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-06-23 19:32:28.345 [info] [pet] Starting Python Locator /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/python-env-tools/bin/pet server
+2026-06-23 19:32:28.351 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/thm/web-app"],"environmentDirectories":["/thm/web-app/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/beast/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-06-23 19:32:28.402 [info] Refreshing Pyenv Environments
+2026-06-23 19:32:28.402 [info] Refreshing pyenv environments
+2026-06-23 19:32:28.435 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-23 19:32:28.567 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-23 19:32:28.583 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-23 19:32:28.584 [info] Discovered env: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:28.601 [info] Discovered env: /usr/bin/python
+2026-06-23 19:32:28.619 [info] Discovered env: /usr/bin/python2
+2026-06-23 19:32:28.695 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at F (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578361)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:453:9)
+	at async L (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578486)
+	at async t.registerCondaFeatures (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:596321)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:717155)]
+2026-06-23 19:32:28.695 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":269,"breakdown":{"GlobalVirtualEnvs":76,"Locators":232,"Path":269,"Workspaces":18},"locators":{"Conda":231,"Homebrew":0,"LinuxGlobal":179,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":46,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-23 19:32:28.698 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-23 19:32:28.710 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-23 19:32:28.713 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-23 19:32:28.747 [info] Discovered env: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:28.767 [info] Discovered env: /usr/bin/python
+2026-06-23 19:32:28.777 [info] Discovered env: /usr/bin/python2
+2026-06-23 19:32:28.818 [info] Pipenv not found
+2026-06-23 19:32:28.818 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting.
+2026-06-23 19:32:28.819 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":118,"breakdown":{"GlobalVirtualEnvs":42,"Locators":78,"Path":118,"Workspaces":25},"locators":{"Conda":57,"Homebrew":1,"LinuxGlobal":71,"PipEnv":5,"Pixi":0,"Poetry":2,"PyEnv":8,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-23 19:32:28.821 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-23 19:32:28.829 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-23 19:32:28.831 [info] Discovered env: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:28.832 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-23 19:32:28.857 [info] Discovered env: /usr/bin/python
+2026-06-23 19:32:28.872 [info] Discovered env: /usr/bin/python2
+2026-06-23 19:32:28.908 [info] Poetry not found, turning off poetry features.
+2026-06-23 19:32:28.909 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-06-23 19:32:28.909 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":86,"breakdown":{"GlobalVirtualEnvs":11,"Locators":54,"Path":85,"Workspaces":15},"locators":{"Conda":52,"Homebrew":2,"LinuxGlobal":48,"PipEnv":0,"Pixi":0,"Poetry":1,"PyEnv":11,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-23 19:32:28.912 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-23 19:32:28.915 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-23 19:32:28.915 [info] Discovered env: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:28.915 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-23 19:32:28.978 [info] Discovered env: /usr/bin/python
+2026-06-23 19:32:28.989 [info] Discovered env: /usr/bin/python2
+2026-06-23 19:32:29.035 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":120,"breakdown":{"GlobalVirtualEnvs":5,"Locators":74,"Path":120,"Workspaces":12},"locators":{"Conda":67,"Homebrew":0,"LinuxGlobal":69,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":3,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-23 19:32:29.046 [info] Discovered env: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:29.046 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-23 19:32:29.047 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-23 19:32:29.049 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-23 19:32:29.049 [info] Found venv environment: .venv (3.13.11)
+2026-06-23 19:32:29.076 [info] Python API: Changed environment from undefined to .venv (3.13.11) for: /thm/web-app
+2026-06-23 19:32:29.076 [info] Internal: Changed environment from undefined to .venv (3.13.11) for: /thm/web-app
+2026-06-23 19:32:29.078 [info] [interpreterSelection] web-app: .venv (3.13.11) (source: autoDiscovery)
+2026-06-23 19:32:29.087 [info] Discovered env: /usr/bin/python
+2026-06-23 19:32:29.088 [info] [interpreterSelection] global: Python 3.13.11 (source: autoDiscovery)
+2026-06-23 19:32:29.093 [info] Terminal is activated: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:29.101 [info] Python API: Changed environment from undefined to Python 3.13.11 for: global
+2026-06-23 19:32:29.101 [info] Internal: Changed environment from undefined to Python 3.13.11 for: global
+2026-06-23 19:32:29.110 [info] Discovered env: /usr/bin/python2
+2026-06-23 19:32:29.164 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":122,"breakdown":{"GlobalVirtualEnvs":14,"Locators":61,"Path":121,"Workspaces":18},"locators":{"Conda":49,"Homebrew":0,"LinuxGlobal":60,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":5,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-23 19:32:29.175 [info] Discovered env: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:29.177 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-23 19:32:29.179 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-23 19:32:29.179 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-23 19:32:29.228 [info] Discovered env: /usr/bin/python
+2026-06-23 19:32:29.241 [info] Discovered env: /usr/bin/python2
+2026-06-23 19:32:29.278 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":109,"breakdown":{"GlobalVirtualEnvs":4,"Locators":69,"Path":108,"Workspaces":7},"locators":{"Conda":58,"Homebrew":0,"LinuxGlobal":61,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":6,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-23 19:32:29.280 [info] Discovered manager: (Pyenv) /home/beast/.pyenv/bin/pyenv
+2026-06-23 19:32:29.281 [info] Discovered env: /home/beast/.pyenv/versions/pwncat-cs/bin/python
+2026-06-23 19:32:29.283 [info] Discovered env: /home/beast/.pyenv/versions/3.11.0/bin/python
+2026-06-23 19:32:29.284 [info] Found venv environment: .venv (3.13.11)
+2026-06-23 19:32:29.285 [info] Discovered env: /thm/web-app/jwt_tool/.venv/bin/python
+2026-06-23 19:32:29.290 [info] Python API: Changed environment from .venv (3.13.11) to .venv (3.13.11) for: /thm/web-app
+2026-06-23 19:32:29.290 [info] Internal: Changed environment from .venv (3.13.11) to .venv (3.13.11) for: /thm/web-app
+2026-06-23 19:32:29.323 [info] Discovered env: /usr/bin/python
+2026-06-23 19:32:29.335 [info] Discovered env: /usr/bin/python2
+2026-06-23 19:32:29.373 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":91,"breakdown":{"GlobalVirtualEnvs":3,"Locators":55,"Path":90,"Workspaces":4},"locators":{"Conda":44,"Homebrew":0,"LinuxGlobal":48,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":1,"Uv":1,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-06-23 19:32:31.442 [info] Python API: Changed environment from Python 3.13.11 to Python 3.13.11 for: global
+2026-06-23 19:32:31.442 [info] Internal: Changed environment from Python 3.13.11 to Python 3.13.11 for: global

@@ -1,0 +1,60 @@
+2026-06-16 03:39:47.367 [info] [main] Log level: Info
+2026-06-16 03:39:47.367 [info] [main] Validating found git in: "git"
+2026-06-16 03:39:47.367 [info] [main] Using git "2.53.0" from "git"
+2026-06-16 03:39:47.367 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-16 03:39:47.367 [info] > git rev-parse --show-toplevel [10ms]
+2026-06-16 03:39:47.367 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-16 03:39:47.367 [info] [Model][openRepository] Opened repository (path): /home/beast/dev/my-zsh-aliases
+2026-06-16 03:39:47.367 [info] [Model][openRepository] Opened repository (real path): /home/beast/dev/my-zsh-aliases
+2026-06-16 03:39:47.367 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-16 03:39:47.367 [info] > git config --get commit.template [11ms]
+2026-06-16 03:39:47.367 [info] > git rev-parse --show-toplevel [4ms]
+2026-06-16 03:39:47.367 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-16 03:39:47.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2026-06-16 03:39:47.367 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-16 03:39:47.367 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-16 03:39:47.367 [info] > git status -z -uall [96ms]
+2026-06-16 03:39:47.367 [info] > git rev-parse --show-toplevel [85ms]
+2026-06-16 03:39:47.367 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-16 03:39:47.367 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [93ms]
+2026-06-16 03:39:47.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2026-06-16 03:39:47.384 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2026-06-16 03:39:47.384 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 03:39:47.388 [info] > git config --get commit.template [17ms]
+2026-06-16 03:39:47.745 [info] > git reflog main --grep-reflog=branch: Created from *. [357ms]
+2026-06-16 03:39:47.767 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [17ms]
+2026-06-16 03:39:47.767 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-06-16 03:39:47.767 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-06-16 03:39:47.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2026-06-16 03:39:47.790 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2026-06-16 03:39:47.808 [info] > git check-ignore -v -z --stdin [4ms]
+2026-06-16 03:39:47.809 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 51438de88d22a9d838b4db67738491b200dea57c...refs/remotes/origin/main -- [10ms]
+2026-06-16 03:39:47.828 [info] > git status -z -uall [8ms]
+2026-06-16 03:39:47.828 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 03:39:47.854 [info] > git show --textconv :ad_enum1.py [8ms]
+2026-06-16 03:39:47.854 [info] > git ls-files --stage -- ad_enum1.py [2ms]
+2026-06-16 03:39:47.862 [info] > git cat-file -s be3d4f5c595c33641a66404d424e66de86786e80 [2ms]
+2026-06-16 03:39:48.174 [info] > git blame --root --incremental 51438de88d22a9d838b4db67738491b200dea57c -- ad_enum1.py [14ms]
+2026-06-16 03:39:48.759 [info] > git show --textconv :ad_enum.py [7ms]
+2026-06-16 03:39:48.763 [info] > git ls-files --stage -- ad_enum.py [4ms]
+2026-06-16 03:39:48.773 [info] > git cat-file -s ea7f65eeb83d82339825e228181becf1d4d318ec [4ms]
+2026-06-16 03:39:49.005 [info] > git blame --root --incremental 51438de88d22a9d838b4db67738491b200dea57c -- ad_enum.py [12ms]
+2026-06-16 03:40:01.176 [info] > git check-ignore -v -z --stdin [8ms]
+2026-06-16 03:40:01.176 [info] > git check-ignore -v -z --stdin [4ms]
+2026-06-16 03:52:07.040 [info] > git check-ignore -v -z --stdin [13ms]
+2026-06-16 03:52:07.263 [info] > git check-ignore -v -z --stdin [9ms]
+2026-06-16 03:52:07.443 [info] > git show --textconv :ad_enum.py [9ms]
+2026-06-16 03:52:07.444 [info] > git ls-files --stage -- ad_enum.py [2ms]
+2026-06-16 03:52:07.451 [info] > git cat-file -s ea7f65eeb83d82339825e228181becf1d4d318ec [0ms]
+2026-06-16 03:52:07.975 [info] > git config --get commit.template [2ms]
+2026-06-16 03:52:07.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-16 03:52:07.993 [info] > git status -z -uall [6ms]
+2026-06-16 03:52:07.994 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 04:05:47.474 [info] > git config --get commit.template [2ms]
+2026-06-16 04:05:47.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-06-16 04:05:47.492 [info] > git status -z -uall [6ms]
+2026-06-16 04:05:47.494 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-16 04:22:44.186 [info] > git config --get commit.template [6ms]
+2026-06-16 04:22:44.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-16 04:22:44.198 [info] > git status -z -uall [6ms]
+2026-06-16 04:22:44.199 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

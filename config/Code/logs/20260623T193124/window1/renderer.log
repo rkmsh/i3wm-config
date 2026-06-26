@@ -1,0 +1,40 @@
+2026-06-23 19:31:26.222 [info] Started local extension host with pid 22423.
+2026-06-23 19:31:26.320 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:31:26.322 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:31:26.325 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:31:26.384 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-23 19:31:27.048 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-23 19:31:27.904 [info] MCP Registry configured: https://api.mcp.github.com
+2026-06-23 19:31:28.498 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-23 19:31:28.547 [error] [Extension Host] [Collections] Error adding collection to workspace: Error: EXDEV: cross-device link not permitted, rename '/tmp/workspace-1782257488528-0fa2bca8ba3d788d20688df9f3ffe955.yml' -> '/home/beast/.config/Code/User/globalStorage/bruno-api-client.bruno/default-workspace/workspace.yml'
+	at Object.renameSync (node:fs:1021:11)
+	at J9 (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:31601)
+	at async /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:1019
+	at async fz (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2070:31145)
+	at async sC (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:13967)
+	at async wke (/home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2075:14671)
+	at async /home/beast/.vscode/extensions/bruno-api-client.bruno-5.0.1/dist/extension.js:2127:4297
+2026-06-23 19:31:30.584 [info] [perf] Render performance baseline is 21ms
+2026-06-23 19:31:41.296 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-06-23 19:31:41.484 [info] Started local extension host with pid 22842.
+2026-06-23 19:31:42.089 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-23 19:31:42.140 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-23 19:31:42.537 [info] MCP Registry configured: https://api.mcp.github.com
+2026-06-23 19:31:42.919 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-23 19:31:44.091 [info] [perf] Render performance baseline is 26ms
+2026-06-23 19:31:44.781 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:31:44.782 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:31:44.796 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:31:55.466 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-06-23 19:31:57.712 [error] Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64: ScanningExtension: Cannot read the extension from /home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64
+    at Wh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:75322)
+2026-06-23 19:32:22.888 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-06-23 19:32:23.067 [info] Started local extension host with pid 23277.
+2026-06-23 19:32:23.368 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:32:23.370 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:32:23.371 [error] [/home/beast/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64]: Extension is not compatible with Code 1.107.1. Extension requires: ^1.110.0-20260204.
+2026-06-23 19:32:23.416 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-23 19:32:23.460 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-23 19:32:24.023 [info] MCP Registry configured: https://api.mcp.github.com
+2026-06-23 19:32:24.234 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-23 19:32:25.679 [info] [perf] Render performance baseline is 23ms

@@ -1,0 +1,4 @@
+["INFO" - 2:53:18 AM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 2:53:18 AM] Extension Version: 12.4.0.
+["INFO" - 2:53:20 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 2:53:20 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration

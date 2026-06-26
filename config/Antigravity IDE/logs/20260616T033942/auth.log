@@ -1,0 +1,12 @@
+2026-06-16 03:39:42.686 [info] [Auth] Auth state changed to: uninitialized
+2026-06-16 03:39:42.841 [info] [Auth] Auth state changed to: validatingLogin
+2026-06-16 03:39:42.842 [info] [Auth] Auth state changed to: validatingLogin
+2026-06-16 03:39:52.107 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-16 03:39:56.858 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-16 03:39:59.334 [info] [Auth] Auth state changed to: signedIn
+2026-06-16 03:39:59.334 [info] [Auth] Auth state changed to: signedIn
+2026-06-16 03:39:59.335 [info] [Auth] AntigravityAuthMainService initialized
+2026-06-16 03:39:59.344 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-16 03:44:43.064 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-16 03:44:45.666 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-06-16 04:19:47.322 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: 

@@ -1,0 +1,71 @@
+2026-04-12 11:42:28.794 [info] Client: Pylance client (2025.10.4) started with python extension (2026.0.0)
+2026-04-12 11:42:29.505 [info] (19305): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-04-12 11:42:29.507 [info] (19305): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2026-04-12 11:42:29.513 [info] (19305): Starting service instance "Damn-Vulnerable-GraphQL-Application" for workspace "/home/beast/BB/Damn-Vulnerable-GraphQL-Application"
+2026-04-12 11:42:30.787 [info] (19305): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/beast/BB/Damn-Vulnerable-GraphQL-Application...
+2026-04-12 11:42:30.883 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): Setting environmentName for service "Damn-Vulnerable-GraphQL-Application": "3.13.11 (global)"
+2026-04-12 11:42:30.883 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): Setting pythonPath for service "Damn-Vulnerable-GraphQL-Application": "/bin/python"
+2026-04-12 11:42:30.884 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): No include entries specified; assuming /home/beast/BB/Damn-Vulnerable-GraphQL-Application
+2026-04-12 11:42:30.885 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): Auto-excluding **/node_modules
+2026-04-12 11:42:30.885 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): Auto-excluding **/__pycache__
+2026-04-12 11:42:30.885 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): Auto-excluding **/.*
+2026-04-12 11:42:30.924 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): Assuming Python version 3.13.11.final.0
+2026-04-12 11:42:31.843 [info] (19305): FG(Damn-Vulnerable-GraphQL-Application): Found 35 source files
+2026-04-12 11:42:31.858 [info] (19305): PQ(Damn-Vulnerable-GraphQL-Application): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-04-12 11:42:31.859 [info] (19305): PQ(Damn-Vulnerable-GraphQL-Application): Priority queue background worker(2) started
+2026-04-12 11:42:31.860 [info] (19305): Settings have not changed. Skipping update.
+2026-04-12 11:42:31.866 [info] (19305): Starting Mcp server id:5134 ...
+2026-04-12 11:42:31.936 [info] (19305): BG(Damn-Vulnerable-GraphQL-Application): Loaded external background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-04-12 11:42:48.442 [info] Client: Pylance client (2025.10.4) started with python extension (2026.0.0)
+2026-04-12 11:42:49.053 [info] (20031): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-04-12 11:42:49.054 [info] (20031): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2026-04-12 11:42:49.060 [info] (20031): Starting service instance "exploit" for workspace "/home/beast/HTB/Silentium/exploit"
+2026-04-12 11:42:50.206 [info] (20031): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/beast/HTB/Silentium/exploit...
+2026-04-12 11:42:50.363 [info] (20031): FG(exploit): Setting environmentName for service "exploit": "3.13.11 (global)"
+2026-04-12 11:42:50.363 [info] (20031): FG(exploit): Setting pythonPath for service "exploit": "/usr/bin/python"
+2026-04-12 11:42:50.364 [info] (20031): FG(exploit): No include entries specified; assuming /home/beast/HTB/Silentium/exploit
+2026-04-12 11:42:50.364 [info] (20031): FG(exploit): Auto-excluding **/node_modules
+2026-04-12 11:42:50.365 [info] (20031): FG(exploit): Auto-excluding **/__pycache__
+2026-04-12 11:42:50.366 [info] (20031): FG(exploit): Auto-excluding **/.*
+2026-04-12 11:42:50.402 [info] (20031): FG(exploit): Assuming Python version 3.13.11.final.0
+2026-04-12 11:42:51.013 [info] (20031): FG(exploit): Found 1 source file
+2026-04-12 11:42:51.046 [info] (20031): Settings have not changed. Skipping update.
+2026-04-12 11:42:51.929 [info] (20031): Starting Mcp server id:5156 ...
+2026-04-12 11:42:51.946 [info] (20031): BG(exploit): Loaded external background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-04-12 11:42:51.948 [info] (20031): PQ(exploit): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-04-12 11:42:51.949 [info] (20031): PQ(exploit): Priority queue background worker(2) started
+2026-04-12 11:42:52.229 [info] (20031): IDX(exploit): Indexer background runner(3) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2026-04-12 11:42:52.232 [info] (20031): IDX(exploit): Indexing(3) started
+2026-04-12 11:42:57.105 [info] (20031): IDX(exploit): Long operation: scan packages file:///home/beast/HTB/Silentium/exploit (4060ms)
+2026-04-12 11:42:57.105 [info] (20031): IDX(exploit): scanned(3) 808 files over 1 exec env
+2026-04-12 11:43:06.962 [info] (20031): IDX(exploit): Long operation: index execution environment file:///home/beast/HTB/Silentium/exploit (9069ms)
+2026-04-12 11:43:07.022 [info] (20031): IDX(exploit): Long operation: index packages file:///home/beast/HTB/Silentium/exploit (9442ms)
+2026-04-12 11:43:07.022 [info] (20031): IDX(exploit): indexed(3) 808 files over 1 exec env
+2026-04-12 11:43:07.550 [info] (20031): IDX(exploit): Indexing finished(3).
+2026-04-12 11:43:12.800 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-04-12 11:43:13.273 [info] (20705): Server root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-12 11:43:13.274 [info] (20705): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-04-12 11:43:13.285 [info] (20705): Starting service instance "exploit" for workspace "/home/beast/HTB/Silentium/exploit"
+2026-04-12 11:43:14.362 [info] (20705): Loading background bundle file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///home/beast/HTB/Silentium/exploit...
+2026-04-12 11:43:14.512 [info] (20705): FG(exploit): Setting environmentName for service "exploit": "3.13.11 (global)"
+2026-04-12 11:43:14.513 [info] (20705): FG(exploit): Setting pythonPath for service "exploit": "/usr/bin/python"
+2026-04-12 11:43:14.513 [info] (20705): FG(exploit): No include entries specified; assuming /home/beast/HTB/Silentium/exploit
+2026-04-12 11:43:14.517 [info] (20705): FG(exploit): Auto-excluding **/node_modules
+2026-04-12 11:43:14.518 [info] (20705): FG(exploit): Auto-excluding **/__pycache__
+2026-04-12 11:43:14.518 [info] (20705): FG(exploit): Auto-excluding **/.*
+2026-04-12 11:43:14.549 [info] (20705): FG(exploit): Assuming Python version 3.13.11.final.0
+2026-04-12 11:43:15.074 [info] (20705): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-04-12 11:43:15.097 [info] (20705): [Editable Installs] No sandbox available for Python /usr/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-04-12 11:43:15.123 [info] (20705): FG(exploit): Found 1 source file
+2026-04-12 11:43:15.145 [info] (20705): PQ(exploit): Priority queue background worker(2) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-12 11:43:15.146 [info] (20705): PQ(exploit): Priority queue background worker(2) started
+2026-04-12 11:43:15.149 [info] (20705): Settings have not changed. Skipping update.
+2026-04-12 11:43:16.443 [info] (20705): Starting Mcp server id:35452 ...
+2026-04-12 11:43:16.460 [info] (20705): FG(exploit): IDX(exploit): Indexer background runner(3) root directory: file:///home/beast/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (index)
+2026-04-12 11:43:16.461 [info] (20705): FG(exploit): IDX(exploit): Indexing(3) started
+2026-04-12 11:43:19.724 [info] (20705): FG(exploit): IDX(exploit): Long operation: scan packages file:///home/beast/HTB/Silentium/exploit (2615ms)
+2026-04-12 11:43:19.725 [info] (20705): FG(exploit): IDX(exploit): scanned(3) 829 files over 1 exec env
+2026-04-12 11:43:31.986 [info] (20705): FG(exploit): IDX(exploit): Long operation: index execution environment file:///home/beast/HTB/Silentium/exploit (11848ms)
+2026-04-12 11:43:32.085 [info] (20705): FG(exploit): IDX(exploit): Long operation: index packages file:///home/beast/HTB/Silentium/exploit (12052ms)
+2026-04-12 11:43:32.085 [info] (20705): FG(exploit): IDX(exploit): indexed(3) 829 files over 1 exec env
+2026-04-12 11:43:32.741 [info] (20705): FG(exploit): IDX(exploit): Indexing finished(3).

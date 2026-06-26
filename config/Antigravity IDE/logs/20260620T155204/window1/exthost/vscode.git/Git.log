@@ -1,0 +1,38 @@
+2026-06-20 15:52:13.739 [info] [main] Log level: Info
+2026-06-20 15:52:13.739 [info] [main] Validating found git in: "git"
+2026-06-20 15:52:13.739 [info] [main] Using git "2.53.0" from "git"
+2026-06-20 15:52:13.739 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-20 15:52:13.739 [info] > git rev-parse --show-toplevel [79ms]
+2026-06-20 15:52:13.739 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [282ms]
+2026-06-20 15:52:13.739 [info] [Model][openRepository] Opened repository (path): /home/beast/dev/my-zsh-aliases
+2026-06-20 15:52:13.739 [info] [Model][openRepository] Opened repository (real path): /home/beast/dev/my-zsh-aliases
+2026-06-20 15:52:13.739 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-20 15:52:13.746 [info] > git rev-parse --show-toplevel [24ms]
+2026-06-20 15:52:13.748 [info] > git config --get commit.template [32ms]
+2026-06-20 15:52:14.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [493ms]
+2026-06-20 15:52:14.276 [info] > git rev-parse --show-toplevel [501ms]
+2026-06-20 15:52:14.295 [info] > git rev-parse --show-toplevel [8ms]
+2026-06-20 15:52:14.323 [info] > git status -z -uall [14ms]
+2026-06-20 15:52:14.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-06-20 15:52:14.349 [info] > git rev-parse --show-toplevel [47ms]
+2026-06-20 15:52:14.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2026-06-20 15:52:14.371 [info] > git rev-parse --show-toplevel [11ms]
+2026-06-20 15:52:14.373 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-20 15:52:14.374 [info] > git config --get commit.template [19ms]
+2026-06-20 15:52:14.375 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2026-06-20 15:52:14.376 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-20 15:52:14.405 [info] > git show --textconv :ad_enum.py [14ms]
+2026-06-20 15:52:14.408 [info] > git reflog main --grep-reflog=branch: Created from *. [24ms]
+2026-06-20 15:52:14.416 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2026-06-20 15:52:14.416 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-06-20 15:52:14.416 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-06-20 15:52:14.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2026-06-20 15:52:14.424 [info] > git ls-files --stage -- ad_enum.py [26ms]
+2026-06-20 15:52:14.432 [info] > git cat-file -s 660b3d4cd42da8bc28b8b37ccfefc687fac9f679 [3ms]
+2026-06-20 15:52:14.433 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2026-06-20 15:52:14.442 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% a50ce9bde6e3f309d4ed18a1d9dfef8f98f75fa3...refs/remotes/origin/main -- [3ms]
+2026-06-20 15:52:14.456 [info] > git status -z -uall [7ms]
+2026-06-20 15:52:14.462 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-06-20 15:52:14.743 [info] > git blame --root --incremental a50ce9bde6e3f309d4ed18a1d9dfef8f98f75fa3 -- ad_enum.py [8ms]
+2026-06-20 15:52:14.768 [info] > git check-ignore -v -z --stdin [3ms]
+2026-06-20 15:52:21.106 [info] > git check-ignore -v -z --stdin [9ms]

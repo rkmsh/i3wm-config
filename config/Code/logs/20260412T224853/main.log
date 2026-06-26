@@ -1,0 +1,66 @@
+2026-04-12 22:48:54.022 [info] update#setState idle
+2026-04-12 22:50:26.322 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:50:26.484 [info] update#setState checking for updates
+2026-04-12 22:50:39.359 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:51:06.552 [error] CodeWindow: detected unresponsive
+2026-04-12 22:51:38.810 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:52:21.122 [error] CodeWindow: detected unresponsive
+2026-04-12 22:52:25.906 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:54:20.616 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:54:23.022 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/994fd12f8d3a5aa16f17d42c041e5809167e845a?bg=true - error undefined net::ERR_SOCKET_NOT_CONNECTED
+2026-04-12 22:54:23.220 [error] Error: net::ERR_SOCKET_NOT_CONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124681)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-12 22:54:23.286 [info] update#setState idle
+2026-04-12 22:54:49.824 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:55:08.548 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:55:27.282 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:55:34.728 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:56:08.517 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:56:20.389 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:57:00.879 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:57:49.808 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-12 22:58:39.580 [error] CodeWindow: recovered from unresponsive
+2026-04-12 22:58:39.584 [error] CodeWindow unresponsive samples:
+<2> 
+    at HTMLDivElement.<anonymous> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:75:18621)
+<1> 
+    at HTMLDivElement.<anonymous> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:75:18564)
+<1> 
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1388:4134
+Total Samples: 4
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2026-04-12 22:58:40.140 [info] Extension host with pid 86375 exited with code: 0, signal: unknown.
+2026-04-12 22:58:49.649 [error] CodeWindow unresponsive samples:
+<1> 
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1388:4134
+<1> 
+    at <static_initializer> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:251:21428)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:251:21418
+<1> 
+    at zXe.update (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1359:3864)
+    at _Xe.eb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1359:2075)
+    at _Xe.cb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1359:1119)
+    at async Promise.all (index 1)
+<1> 
+    at l.onmessage (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3905:12070)
+<1> 
+    at Array.includes (<anonymous>)
+    at L2.k (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3851:12387)
+    at L2.getOverrideValue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3851:10892)
+    at XFi.inspect (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3851:18658)
+    at XFi.inspect (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3853:1362)
+    at _Cn.inspect (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3853:31683)
+    at obe.g (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:24626)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:24583
+    at Array.map (<anonymous>)
+    at obe.f (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:24571)
+<1> 
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73597
+<1> 
+    at ai.g (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:78988)
+Total Samples: 7
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2026-04-12 22:58:49.831 [info] Extension host with pid 88830 exited with code: 0, signal: unknown.
+2026-04-12 23:34:01.564 [info] Extension host with pid 88955 exited with code: 0, signal: unknown.
+2026-04-12 23:34:01.767 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 88941]: crashed with code 15 and reason 'killed'

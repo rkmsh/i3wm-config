@@ -1,0 +1,4 @@
+[Warn  - 10:23:03 PM] 02:23:03.985 WARNING ⛔️ Environment variable configuration is being deprecated, please use workspace configuration. The following environment variables were used: shfmt
+[Info  - 10:23:04 PM] 02:23:04.058 INFO BackgroundAnalysis: resolving glob "**/*@(.sh|.inc|.bash|.command)" inside "file:///home/beast/dev/my-zsh-aliases"...
+[Info  - 10:23:04 PM] 02:23:04.239 INFO BackgroundAnalysis: Glob resolved with 0 files after 0.181 seconds
+[Info  - 10:23:04 PM] 02:23:04.239 INFO BackgroundAnalysis: Completed after 0.181 seconds.

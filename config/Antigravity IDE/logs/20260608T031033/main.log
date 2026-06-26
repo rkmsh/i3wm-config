@@ -1,0 +1,40 @@
+2026-06-08 03:10:33.388 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-06-08 03:10:33.531 [info] update#setState idle
+2026-06-08 03:10:33.537 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:33945
+2026-06-08 03:10:33.740 [info] [OverrideStoreLifecycle] Migrating secure mode from agent preferences to override store
+2026-06-08 03:10:33.741 [info] [OAuthTokenLifecycle] Starting one-time OAuth token migration from legacy state sync
+2026-06-08 03:10:33.741 [info] [OAuthTokenLifecycle] No agent manager init state found, skipping migration
+2026-06-08 03:10:33.741 [info] [BrowserPreferencesLifecycle] Running one-time migration from browserAllowlist.txt
+2026-06-08 03:10:34.056 [info] Started initializing default profile extensions in extensions installation folder. file:///home/beast/.antigravity-ide/extensions
+2026-06-08 03:10:34.070 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/beast/.antigravity-ide/extensions
+2026-06-08 03:10:35.878 [info] [SidebarWorkspacesLifecycle] Running one-time migration from agent manager init state
+2026-06-08 03:10:35.878 [info] [SidebarWorkspacesLifecycle] No agent manager init state found, skipping migration
+2026-06-08 03:10:35.878 [info] [SidebarWorkspacesLifecycle] Running scratch workspace cleanup migration
+2026-06-08 03:10:35.878 [info] [SidebarWorkspacesLifecycle] No empty scratch workspaces to clean up
+2026-06-08 03:10:37.728 [info] [ArtifactReviewLifecycle] Running one-time migration from agent manager init state
+2026-06-08 03:10:37.728 [info] [ArtifactReviewLifecycle] No agent manager init state found, skipping migration
+2026-06-08 03:11:03.533 [info] update#setState checking for updates
+2026-06-08 03:11:03.907 [error] Error: Server returned 500
+    at BY (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/main.js:77:13536)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-06-08 03:11:03.909 [info] update#setState idle
+2026-06-08 03:13:35.432 [warning] [perf] profiling STARTED 650e0b63-908a-4e37-b372-67eb4e9de20a
+2026-06-08 03:13:40.484 [warning] [perf] profiling DONE 650e0b63-908a-4e37-b372-67eb4e9de20a
+2026-06-08 03:13:55.881 [warning] [perf] profiling STARTED 650e0b63-908a-4e37-b372-67eb4e9de20a
+2026-06-08 03:14:00.924 [warning] [perf] profiling DONE 650e0b63-908a-4e37-b372-67eb4e9de20a
+2026-06-08 03:14:15.761 [info] Extension host with pid 4703 exited with code: 0, signal: unknown.
+2026-06-08 03:14:15.874 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 4676]: crashed with code 11 and reason 'crashed'
+2026-06-08 03:14:23.523 [info] Extension host with pid 7297 exited with code: 0, signal: unknown.
+2026-06-08 03:14:23.962 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 7284]: crashed with code 5 and reason 'crashed'
+2026-06-08 03:39:42.752 [warning] [perf] profiling STARTED 080e9111-335b-4ce1-bc6c-6b069822e336
+2026-06-08 03:39:47.795 [warning] [perf] profiling DONE 080e9111-335b-4ce1-bc6c-6b069822e336
+2026-06-08 03:40:03.084 [warning] [perf] profiling STARTED 080e9111-335b-4ce1-bc6c-6b069822e336
+2026-06-08 03:40:08.123 [warning] [perf] profiling DONE 080e9111-335b-4ce1-bc6c-6b069822e336
+2026-06-08 03:40:23.404 [warning] [perf] profiling STARTED 080e9111-335b-4ce1-bc6c-6b069822e336
+2026-06-08 03:40:28.434 [warning] [perf] profiling DONE 080e9111-335b-4ce1-bc6c-6b069822e336
+2026-06-08 04:11:03.537 [info] update#setState checking for updates
+2026-06-08 04:11:03.978 [error] Error: Server returned 500
+    at BY (file:///home/beast/Downloads/Antigravity%20IDE/resources/app/out/main.js:77:13536)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-06-08 04:11:03.980 [info] update#setState idle
+2026-06-08 05:01:27.706 [info] Extension host with pid 7699 exited with code: 0, signal: unknown.
